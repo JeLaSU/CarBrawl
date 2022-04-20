@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 637847552456312235
     m_Hash: 1082240786
+=======
+      ticks: 637860513015283795
+    m_Hash: 3492893130
+>>>>>>> Stashed changes
   m_LockFileStatus:
     m_FilePath: C:/Users/lovis/OneDrive/Dokument/GitHub/CarBrawl/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 637847552456312235
     m_Hash: 407264249
+=======
+      ticks: 637860513015293813
+    m_Hash: 17166110
+>>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -25,7 +35,11 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 5.1.1
       source: 1
+<<<<<<< Updated upstream
       resolvedPath: C:\Users\lovis\OneDrive\Dokument\GitHub\CarBrawl\Library\PackageCache\com.unity.2d.animation@5.1.1
+=======
+      resolvedPath: C:\Users\lovis\OneDrive\Dokument\GitHub\CarBrawl\Library\PackageCache\com.unity.2d.animation@5.1.0
+>>>>>>> Stashed changes
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
       displayName: 2D Animation
