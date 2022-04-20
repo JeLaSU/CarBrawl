@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637860512623845396
+      ticks: 637860540366755692
     m_Hash: 3492893130
   m_LockFileStatus:
     m_FilePath: C:/Users/admin/Documents/GitHub/CarBrawl/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637860512623855377
+      ticks: 637860540366765665
     m_Hash: 17166110
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

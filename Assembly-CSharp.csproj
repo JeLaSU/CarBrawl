@@ -57,11 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CarInputHandler.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\CarSfxHandler.cs" />
     <Compile Include="Assets\Scripts\TopDownCarController.cs" />
     <Compile Include="Assets\Scripts\WheelParticleHandler.cs" />
     <Compile Include="Assets\Scripts\WheelTrailRendererHandler.cs" />
-    <Compile Include="Assets\Scripts\CameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
