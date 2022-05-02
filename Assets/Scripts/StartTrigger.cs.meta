@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: d7e9a3002024bfb4b876bab7ba428f9f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - lapStartTrigger: {instanceID: 0}
+  - lapEndTrigger: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
