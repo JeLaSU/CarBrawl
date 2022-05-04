@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19042) 64bit Education' Language: 'en' Physical Memory: 16240 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16314 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,114 +11,114 @@ C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/admin/Documents/GitHub/CarBrawl
+C:/Users/oscar/Documents/GitHub/CarBrawl
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59545
-Successfully changed project path to: C:/Users/admin/Documents/GitHub/CarBrawl
-C:/Users/admin/Documents/GitHub/CarBrawl
+64841
+Successfully changed project path to: C:/Users/oscar/Documents/GitHub/CarBrawl
+C:/Users/oscar/Documents/GitHub/CarBrawl
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 39.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/admin/Documents/GitHub/CarBrawl/Assets
+[Subsystems] Discovering subsystems at path C:/Users/oscar/Documents/GitHub/CarBrawl/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA Quadro P600 (ID=0x1cbc)
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
     Vendor:   
-    VRAM:     4024 MB
-    Driver:   26.21.14.4283
+    VRAM:     5991 MB
+    Driver:   30.0.14.9676
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001404 seconds.
+Registered in 0.001938 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 38.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.543 seconds
+- Completed reload, in  0.486 seconds
 Domain Reload Profiling:
-	ReloadAssembly (543ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (486ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (418ms)
-			LoadAssemblies (56ms)
+		EndReloadAssembly (368ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
+			SetupTypeCache (128ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (163ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (135ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (47ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (72ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002637 seconds.
+Registered in 0.003468 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\admin\Documents\GitHub\CarBrawl\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\oscar\Documents\GitHub\CarBrawl\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 36.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.000 seconds
+- Completed reload, in  0.893 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1000ms)
-		BeginReloadAssembly (137ms)
+	ReloadAssembly (893ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (806ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (722ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (264ms)
+			SetupTypeCache (239ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (305ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (271ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (169ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (145ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2208 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.8 MB.
-System memory in use after: 168.9 MB.
+Unloading 2358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.1 MB.
+System memory in use after: 173.3 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2651.
-Total: 2.616800 ms (FindLiveObjects: 0.141800 ms CreateObjectMapping: 0.077800 ms MarkObjects: 2.300000 ms  DeleteObjects: 0.096400 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2801.
+Total: 2.418900 ms (FindLiveObjects: 0.163000 ms CreateObjectMapping: 0.096600 ms MarkObjects: 2.105000 ms  DeleteObjects: 0.053500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -127,204 +127,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/Tilesheets/Palettes/roads
-  artifactKey: Guid(563778fe46dd29b439995a79f5b438c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilesheets/Palettes/roads using Guid(563778fe46dd29b439995a79f5b438c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3892d448c039fc81442e41ab736c12b6') in 0.008282 seconds 
+  path: Assets/SuperTiled2Unity/Import/Roads.tmx
+  artifactKey: Guid(51dea2f4f3b3db249bde391ef3ec852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/Roads.tmx using Guid(51dea2f4f3b3db249bde391ef3ec852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25df381709197c6695b9b2eabf689faa') in 0.091744 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Sprites/Tilesheets/Palettes/RoadTiles.prefab
-  artifactKey: Guid(354774d27aaf7e542b440b1aaf807da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilesheets/Palettes/RoadTiles.prefab using Guid(354774d27aaf7e542b440b1aaf807da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42499e602523661e97a8e3724755e6e7') in 0.189953 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003024 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\admin\Documents\GitHub\CarBrawl\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.282 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1283ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1102ms)
-			LoadAssemblies (115ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (396ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (390ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2198 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.6 MB.
-System memory in use after: 171.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2661.
-Total: 3.424200 ms (FindLiveObjects: 0.178300 ms CreateObjectMapping: 0.122100 ms MarkObjects: 3.097400 ms  DeleteObjects: 0.025600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 11.883929 seconds.
+  path: Assets/SuperTiled2Unity/Import/Roads.tmx
+  artifactKey: Guid(51dea2f4f3b3db249bde391ef3ec852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/Roads.tmx using Guid(51dea2f4f3b3db249bde391ef3ec852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526ed208bc4ccab280ef12cefcb49cf2') in 0.012561 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 77.452527 seconds.
-  path: Assets/Sprites/Tilesheets/spritesheet_tiles.png
-  artifactKey: Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilesheets/spritesheet_tiles.png using Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02e47acd1e5c3ccf750e1971c04c5dd') in 1.291783 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002540 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\admin\Documents\GitHub\CarBrawl\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.011 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1011ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (811ms)
-			LoadAssemblies (123ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (267ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2198 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 171.8 MB.
-System memory in use after: 171.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2668.
-Total: 2.812400 ms (FindLiveObjects: 0.144500 ms CreateObjectMapping: 0.083300 ms MarkObjects: 2.565400 ms  DeleteObjects: 0.018400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 8.221649 seconds.
+  path: Assets/SuperTiled2Unity/Import/spritesheet_tiles.tsx
+  artifactKey: Guid(ceac5eab0d487b549a556bf0e7110d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/spritesheet_tiles.tsx using Guid(ceac5eab0d487b549a556bf0e7110d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc001975e7e77c627c90c6807231cff4') in 0.005556 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1250.644809 seconds.
-  path: Assets/Sprites/Tilesheets/spritesheet_tiles - Copy.png
-  artifactKey: Guid(a74b4b0a18cd0b54aa1f7d61d1185118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilesheets/spritesheet_tiles - Copy.png using Guid(a74b4b0a18cd0b54aa1f7d61d1185118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912c0a8ab33c44c8778b1de8dd6bcbaf') in 0.058012 seconds 
+  Time since last request: 19.131167 seconds.
+  path: Assets/SuperTiled2Unity/Import/spritesheet_tiles.png
+  artifactKey: Guid(b78d597a219b19f4a9508365e0d56585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/spritesheet_tiles.png using Guid(b78d597a219b19f4a9508365e0d56585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e6935ac5334e94f4ef5497ab41095a') in 0.083938 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.033553 seconds.
-  path: Assets/Sprites/Tilesheets/spritesheet_tiles - Copy.png
-  artifactKey: Guid(a74b4b0a18cd0b54aa1f7d61d1185118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilesheets/spritesheet_tiles - Copy.png using Guid(a74b4b0a18cd0b54aa1f7d61d1185118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f12edbc4764467702d3d42333b67a79') in 0.030851 seconds 
+  Time since last request: 13.170414 seconds.
+  path: Assets/SuperTiled2Unity/Import/Roads.tmx
+  artifactKey: Guid(51dea2f4f3b3db249bde391ef3ec852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/Roads.tmx using Guid(51dea2f4f3b3db249bde391ef3ec852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7527e0f8360643e1e897b59001db001c') in 0.013060 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 576.767918 seconds.
-  path: Assets/Sprites/Tilesheets/spritesheet_tiles - Copy.png
-  artifactKey: Guid(a74b4b0a18cd0b54aa1f7d61d1185118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilesheets/spritesheet_tiles - Copy.png using Guid(a74b4b0a18cd0b54aa1f7d61d1185118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e92623f51c34d37769aabec2b9f3f80') in 0.033269 seconds 
+  Time since last request: 165.945740 seconds.
+  path: Assets/SuperTiled2Unity/Import/spritesheet_tiles.tsx
+  artifactKey: Guid(ceac5eab0d487b549a556bf0e7110d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/spritesheet_tiles.tsx using Guid(ceac5eab0d487b549a556bf0e7110d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239e54512a954297594dcb9500bf332d') in 0.002468 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.660647 seconds.
-  path: Assets/Sprites/Tilesheets/spritesheet_tiles - Copy.png
-  artifactKey: Guid(a74b4b0a18cd0b54aa1f7d61d1185118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilesheets/spritesheet_tiles - Copy.png using Guid(a74b4b0a18cd0b54aa1f7d61d1185118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af08efc629767d8329259dc442d2b68a') in 0.021582 seconds 
+  Time since last request: 254.940909 seconds.
+  path: Assets/SuperTiled2Unity/Import/Roads.tmx
+  artifactKey: Guid(51dea2f4f3b3db249bde391ef3ec852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/Roads.tmx using Guid(51dea2f4f3b3db249bde391ef3ec852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef05d4350429ebe01df8e5e131f81ea6') in 0.011664 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3335.636500 seconds.
-  path: Assets/Sprites/Tilesheets/spritesheet_tiles.png
-  artifactKey: Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilesheets/spritesheet_tiles.png using Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9797af03e1a4f4c9a339ae46a3ab32b1') in 0.729558 seconds 
+  Time since last request: 22.582752 seconds.
+  path: Assets/SuperTiled2Unity/Import/Road_Tiles.png
+  artifactKey: Guid(b78d597a219b19f4a9508365e0d56585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/Road_Tiles.png using Guid(b78d597a219b19f4a9508365e0d56585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078a46a22edc0b7368f32663302947e6') in 0.084346 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.765532 seconds.
-  path: Assets/Sprites/Tilesheets/spritesheet_tiles.png
-  artifactKey: Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilesheets/spritesheet_tiles.png using Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70e41b651da85c0dbe2f1aa58f425fb') in 0.799026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.851167 seconds.
-  path: Assets/Sprites/Tilesheets/spritesheet_tiles.png
-  artifactKey: Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilesheets/spritesheet_tiles.png using Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee246eb73739e832c1d2d0e9ccc145a8') in 1.037049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.734239 seconds.
-  path: Assets/Sprites/Tilesheets/spritesheet_tiles.png
-  artifactKey: Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilesheets/spritesheet_tiles.png using Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c426e32637e908f5b0d873ea88b94cbf') in 0.712464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.029805 seconds.
-  path: Assets/Sprites/Tilesheets/spritesheet_tiles.png
-  artifactKey: Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilesheets/spritesheet_tiles.png using Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd47f6ca8de17b788ad72b63371fe75') in 0.850786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.622147 seconds.
-  path: Assets/Sprites/Tilesheets/spritesheet_tiles.png
-  artifactKey: Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilesheets/spritesheet_tiles.png using Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e623bde431d4f9019a98b8a926fc88') in 0.839041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 126.212240 seconds.
-  path: Assets/Sprites/Tilesheets/spritesheet_tiles.png
-  artifactKey: Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tilesheets/spritesheet_tiles.png using Guid(4356a242dd0fe9348873361c4439d203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6562a4deeeb57cc07857b1968af55d74') in 0.837551 seconds 
+  Time since last request: 2.374365 seconds.
+  path: Assets/SuperTiled2Unity/Import/spritesheet_tiles.tsx
+  artifactKey: Guid(ceac5eab0d487b549a556bf0e7110d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/spritesheet_tiles.tsx using Guid(ceac5eab0d487b549a556bf0e7110d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6bab5613543300dd0d23b05f7e0e9e') in 0.002690 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
