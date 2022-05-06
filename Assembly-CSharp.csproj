@@ -65,7 +65,6 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\WheelParticleHandler.cs" />
     <Compile Include="Assets\Scripts\WheelTrailRendererHandler.cs" />
-    <Compile Include="Assets\Scripts\GrassActive.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
