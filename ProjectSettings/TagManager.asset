@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DontChangeLayer
   - Car
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - MinimapCar
+  - MinimapGrass
   - 
   - 
   - 
