@@ -8,23 +8,13 @@ public class GameManager : MonoBehaviour
     //Declaring what's needed in unity
     public GameObject needle;  
     public CarController carController;
-    public GameObject speedLabelTemplate;
-    public Text speedText;
-    //
+    //Degrees for the needle
     private float startPosition = 210f, endPosition = -20, desiredPoisiton;
 
     public float vechileSpeed;
 
-    float maxSpeed = 200f;
-    private Transform speedLabelTemplateTransform;
-    int labelAmount = 5;
-
     private void Awake()
     {
-
-        speedLabelTemplateTransform = speedLabelTemplate.transform;
-        speedLabelTemplateTransform.gameObject.SetActive(false);
-        CreateLabel();
     }
 
     // Start is called before the first frame update
@@ -32,33 +22,21 @@ public class GameManager : MonoBehaviour
     {
         
     }
-    void CreateLabel()
-    {
-        
-        desiredPoisiton = startPosition - endPosition;
-
-        for (int i = 0; i <= labelAmount; i++)
-        {
-            Transform speedLabelTransform = Instantiate(speedLabelTemplateTransform, transform);
-            float labelSpeedNormalized = (float)i / labelAmount;
-            float speedLabelAngle = startPosition - labelSpeedNormalized * desiredPoisiton;
-            speedLabelTransform.eulerAngles = new Vector3(0, 0, speedLabelAngle);
-            speedText.GetComponent<Text>().text = Mathf.RoundToInt(labelSpeedNormalized * maxSpeed).ToString();
-            speedLabelTransform.gameObject.SetActive(true);
-        }
-    }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        //Incrementing the carspeed to make the needle move as intended
         vechileSpeed = carController.speed*1.4f;
         UpdateNeedle();
         
     }
     private void UpdateNeedle()
-    {
-        desiredPoisiton = startPosition - endPosition;
+    {   //How many degrees the needle can move
+        desiredPoisiton = startPosition - endPosition; 
+        //Temporary angle
         float temp = vechileSpeed / 180;
+        //Rotating the needle in Z-axis
         needle.transform.eulerAngles = new Vector3(0, 0, (startPosition - temp * desiredPoisiton));
     }
 }
