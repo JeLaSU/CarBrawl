@@ -68,6 +68,8 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\WheelParticleHandler.cs" />
     <Compile Include="Assets\Scripts\WheelTrailRendererHandler.cs" />
+    <Compile Include="Assets\Scripts\LeaderboardInfo.cs" />
+    <Compile Include="Assets\Scripts\LeaderboardUIHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

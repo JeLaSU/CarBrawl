@@ -9,6 +9,7 @@ public class CarLapCounter : MonoBehaviour
     int passedCheckPointNumber = 0;
 
     int numberOfPassedCheckpoints = 0;
+    float timeAtLastCheckpoint = 0;
     public int lapsCompleted;
 
     public int lapsToComplete = 3;
@@ -17,14 +18,30 @@ public class CarLapCounter : MonoBehaviour
 
     public bool wrongCheckpoint = false;
 
+    int carPosition = 0;
+
     //c# event
     public event Action<CarLapCounter> onPassCheckpoint;
-    public event Action<CarLapCounter> fakePassCheckPoint;
 
-
-
+    //Sets the car position from positionHandler. If the car is first or second and so on.
+    public void SetCarPosition(int position)
+    {
+        carPosition = position;
+    }
+    //It returns on how many checkpoints every car has driven through.
+    public int GetNumberOfCheckPointsPassed() 
+    {
+        return numberOfPassedCheckpoints;
+    }
+    //It returns the time after the last checkpoint to the newest checkpoint.
+    public float GetTimeAtLastCheckPoint() 
+    {
+        return timeAtLastCheckpoint;
+    }
+    //If triggering in 2D
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
+        //If the car is colliding with a obj with tag checkPoint.
         if (collider2D.CompareTag("CheckPoint"))
         {
             CheckPoint checkPoint = collider2D.GetComponent<CheckPoint>();
@@ -36,8 +53,11 @@ public class CarLapCounter : MonoBehaviour
 
                 numberOfPassedCheckpoints++;
 
+                //Catches the time from the last checkpoint.
+                timeAtLastCheckpoint = Time.time;
 
-                if (checkPoint.isFinishLine) //If all checkpoints are driven through.
+                //If all checkpoints are driven through.
+                if (checkPoint.isFinishLine) 
                 {
                     passedCheckPointNumber = 0;
                     lapsCompleted++;
@@ -56,6 +76,7 @@ public class CarLapCounter : MonoBehaviour
     }
     private void Update()
     {
+        //Change the label of laps, based by the lapscompleted. +1, because we want it to start as 1/3.
         carLapText.GetComponent<Text>().text = lapsCompleted + 1  + " / 3";
     }
 }
