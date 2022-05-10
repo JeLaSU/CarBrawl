@@ -5,11 +5,12 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-
-    public GameObject needle;
+    //Declaring what's needed in unity
+    public GameObject needle;  
     public CarController carController;
     public GameObject speedLabelTemplate;
     public Text speedText;
+    //
     private float startPosition = 210f, endPosition = -20, desiredPoisiton;
 
     public float vechileSpeed;

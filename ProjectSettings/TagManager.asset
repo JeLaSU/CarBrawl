@@ -44,12 +44,15 @@ TagManager:
   - name: Background
     uniqueID: 3431774893
     locked: 0
+  - name: CheckPoints
+    uniqueID: 1721500031
+    locked: 0
+  - name: Particles
+    uniqueID: 1762550891
+    locked: 0
   - name: Skidmarks
     uniqueID: 109791867
     locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Particles
-    uniqueID: 1762550891
     locked: 0
