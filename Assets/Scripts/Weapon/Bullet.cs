@@ -10,20 +10,20 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
-        Destroy(effect, 5f);
-        Destroy(gameObject);
+        GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity); // när effektenspriten ska synas
+        Destroy(effect, 5f); //effektspriten ska försvinna från spelet
+        Destroy(gameObject); // bullet ska försvinna från spelet
 
     }
     public void Update()
     {
         if (timer > 0)
         {
-            timer -= Time.deltaTime;
+            timer -= Time.deltaTime; // timern räknas ner
         }
         else
         {
-            Destroy(gameObject);
+            Destroy(gameObject); // om timern är 0 förstörns bullet
         }
     }
 
