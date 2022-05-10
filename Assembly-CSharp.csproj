@@ -60,7 +60,6 @@
     <Compile Include="Assets\Scripts\CarInputHandler.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\CarSfxHandler.cs" />
-    <Compile Include="Assets\Scripts\PositionHandler.cs" />
     <Compile Include="Assets\Scripts\TimerManager.cs" />
     <Compile Include="Assets\Scripts\CheckPoint.cs" />
     <Compile Include="Assets\Scripts\TopDownCarController.cs" />
