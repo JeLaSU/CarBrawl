@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":-0.553001880645752,"y":2.1382269859313967,"z":-99.55422973632813},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":8.265932083129883,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":2.5041401386260988,"y":-0.5199340581893921,"z":-2.5619211196899416},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":2.897390365600586,"orthographic":true}
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
