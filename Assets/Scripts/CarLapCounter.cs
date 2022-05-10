@@ -50,13 +50,7 @@ public class CarLapCounter : MonoBehaviour
 
                 //Invoke the checkpoint which the car passed
                 onPassCheckpoint?.Invoke(this);
-
-
                 
-            }
-            else if(passedCheckPointNumber != checkPoint.checkPointNumber)
-            {
-                wrongCheckpoint = true;
             }
         }
     }

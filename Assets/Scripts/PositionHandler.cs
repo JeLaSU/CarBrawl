@@ -19,10 +19,7 @@ public class PositionHandler : MonoBehaviour
         //Hookup the passed checkpoint event
         foreach (CarLapCounter lapCounters in carLapCounters)
         {
-            if (lapCounters.wrongCheckpoint)
-            {
-                lapCounters.onPassCheckpoint += OnPassCheckPoint;
-            }
+            lapCounters.onPassCheckpoint += OnPassCheckPoint;
            
         }
             
