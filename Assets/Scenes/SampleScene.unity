@@ -124,6 +124,7 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &43902812
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,6 +289,8 @@ BoxCollider2D:
   m_EdgeRadius: 0
 =======
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &128125741
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,7 +329,10 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &161338661
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,6 +581,9 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
+=======
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &279953674
 GameObject:
@@ -659,7 +668,10 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &348788766
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,6 +920,9 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
+=======
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!850595691 &449740469
 LightingSettings:
@@ -970,6 +985,7 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaDirect: 0.5
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &452673715
 GameObject:
@@ -1223,6 +1239,8 @@ BoxCollider2D:
   m_EdgeRadius: 0
 =======
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!4 &480085458 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6558350185343971732, guid: d017faad03b9aa946ab12ed85bb3607f,
@@ -1410,8 +1428,11 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &519420033
 =======
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &703750328
 GameObject:
   m_ObjectHideFlags: 0
@@ -1590,6 +1611,9 @@ Transform:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
+=======
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &727424910
 GameObject:
@@ -1770,8 +1794,11 @@ Transform:
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &768097731
 =======
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &755761197
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 GameObject:
@@ -1845,6 +1872,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &768097733
 Transform:
   m_ObjectHideFlags: 0
@@ -1899,6 +1927,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 =======
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &769684309
@@ -1980,6 +2010,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 769684309}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &796372647
 GameObject:
@@ -2106,6 +2137,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 =======
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &812346939
@@ -2263,7 +2296,10 @@ CanvasRenderer:
   m_GameObject: {fileID: 815895060}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &861118200
 GameObject:
   m_ObjectHideFlags: 0
@@ -2388,6 +2424,9 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
+=======
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &938922775 stripped
 GameObject:
@@ -2421,12 +2460,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   lapsCompleted: 0
   lapsToComplete: 3
   carLapText: {fileID: 1101427809}
   wrongCheckpoint: 0
 --- !u!1 &963045087
 =======
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &952284949
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 GameObject:
@@ -2500,6 +2542,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &963045089
 Transform:
   m_ObjectHideFlags: 0
@@ -2554,6 +2597,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 =======
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &986040999
@@ -4165,6 +4210,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: -2695619058785784247, guid: 51dea2f4f3b3db249bde391ef3ec852b,
     type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1076729937
 GameObject:
   m_ObjectHideFlags: 0
@@ -4369,6 +4415,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1101427807}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 =======
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &1135194221
@@ -4773,8 +4821,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 1380027346}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1436169039
 =======
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &1480405421
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 GameObject:
@@ -4847,6 +4898,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &1436169041
 Transform:
@@ -5428,6 +5480,8 @@ MonoBehaviour:
   speed: 0
 =======
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &1527531156
 GameObject:
   m_ObjectHideFlags: 0
@@ -5495,8 +5549,11 @@ Transform:
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1629752707
 =======
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &1737372094
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 GameObject:
@@ -5800,6 +5857,9 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
+=======
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &1816979257
 GameObject:
@@ -5951,6 +6011,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1884090530}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1914273727
 GameObject:
@@ -6161,6 +6222,8 @@ BoxCollider2D:
   m_EdgeRadius: 0
 =======
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &2043542348
 GameObject:
   m_ObjectHideFlags: 0
@@ -6237,7 +6300,10 @@ CanvasRenderer:
   m_GameObject: {fileID: 2043542348}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1 &2097662831
 GameObject:
   m_ObjectHideFlags: 0
@@ -6362,6 +6428,9 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+>>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
+=======
 >>>>>>> parent of 62c3a4e4 (Scenery + Collisions)
 --- !u!1001 &6558350183602013187
 PrefabInstance:
