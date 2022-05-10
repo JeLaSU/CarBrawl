@@ -89,9 +89,9 @@ PolygonCollider2D:
       - {x: 1.2444707, y: -1.6670597}
       - {x: 1.250351, y: -1.2661318}
       - {x: 1.2561662, y: -0.84114164}
-      - {x: 0.8536359, y: -0.82415307}
-      - {x: 0.81846446, y: 0.039249834}
-      - {x: 0.44143903, y: 0.17034568}
+      - {x: 0, y: 0}
+      - {x: 0, y: 0}
+      - {x: 0, y: 0}
 --- !u!1 &1053552286
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,7 +732,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+      maxColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 0.7882353}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -5440,7 +5440,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6558350183901354364}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.64299965, y: -0.8399999, z: 0}
+  m_LocalPosition: {x: -2.5, y: 1.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6558350185083141113}
@@ -5495,7 +5495,7 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
+        time: 0.0027999878
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5508,8 +5508,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0, g: 0, b: 0, a: 0.14509805}
-      key1: {r: 0.2627451, g: 0.2627451, b: 0.2627451, a: 0}
+      key0: {r: 0, g: 0, b: 0, a: 0.47058824}
+      key1: {r: 0.2627451, g: 0.2627451, b: 0.2627451, a: 0.47058824}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -5650,8 +5650,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0, g: 0, b: 0, a: 0.14509805}
-      key1: {r: 0.2627451, g: 0.2627451, b: 0.2627451, a: 0}
+      key0: {r: 0, g: 0, b: 0, a: 0.47058824}
+      key1: {r: 0.2627451, g: 0.2627451, b: 0.2627451, a: 0.47058824}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -6109,7 +6109,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+      maxColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 0.8156863}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
