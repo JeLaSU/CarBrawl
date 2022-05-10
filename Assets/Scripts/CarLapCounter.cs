@@ -1,17 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System;
 
 public class CarLapCounter : MonoBehaviour
 {
     int passedCheckPointNumber = 0;
-    float timeAtLastPassedCheckPoint = 0;
 
     int numberOfPassedCheckpoints = 0;
-    
+    public int lapsCompleted;
+
+    public int lapsToComplete = 3;
+
+    public Text carLapText;
+
+    public bool wrongCheckpoint = false;
+
     //c# event
     public event Action<CarLapCounter> onPassCheckpoint;
+    public event Action<CarLapCounter> fakePassCheckPoint;
+
+
 
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
@@ -26,12 +36,32 @@ public class CarLapCounter : MonoBehaviour
 
                 numberOfPassedCheckpoints++;
 
-                //Store the time at the checkpoint
-                timeAtLastPassedCheckPoint = Time.time;
+
+                if (checkPoint.isFinishLine) //If all checkpoints are driven through.
+                {
+                    passedCheckPointNumber = 0;
+                    lapsCompleted++;
+                    
+
+                    //if(lapsCompleted >= lapsToComplete) //Will use for the future
+                    //{
+                    //}
+                }
 
                 //Invoke the checkpoint which the car passed
                 onPassCheckpoint?.Invoke(this);
+
+
+                
+            }
+            else if(passedCheckPointNumber != checkPoint.checkPointNumber)
+            {
+                wrongCheckpoint = true;
             }
         }
+    }
+    private void Update()
+    {
+        carLapText.GetComponent<Text>().text = lapsCompleted + 1  + " / 3";
     }
 }
