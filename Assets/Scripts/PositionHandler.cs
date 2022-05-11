@@ -32,6 +32,7 @@ public class PositionHandler : MonoBehaviour
         }
         //Get the leaderboard UI handler
         leaderboardUIHandler = FindObjectOfType<LeaderboardUIHandler>();
+        //GET the notification manager
         notificationManager = FindObjectOfType<NotificationManager>();
     }
 
@@ -58,6 +59,7 @@ public class PositionHandler : MonoBehaviour
         //Ask the leaderboard handler to update the list
         leaderboardUIHandler.UpdateList(carLapCounters);
 
+        //Notifying about the checkpoint in the notificationmanager
         notificationManager.NotifyCheckpoint(true);
 
     }

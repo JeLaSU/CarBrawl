@@ -25,6 +25,7 @@ public class CarLapCounter : MonoBehaviour
 
     public void Awake()
     {
+        //Calling the notificationManager.
         notificationManager = FindObjectOfType<NotificationManager>();
     }
 
@@ -75,6 +76,7 @@ public class CarLapCounter : MonoBehaviour
                     //}
                 }
 
+                //Based on the laps completed, the following notifications will occur.
                 if(lapsCompleted == 2)
                 {
                     notificationManager.NotifySecondLap(true);
