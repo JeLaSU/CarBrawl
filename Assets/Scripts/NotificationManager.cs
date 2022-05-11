@@ -8,11 +8,10 @@ public class NotificationManager : MonoBehaviour
     public GameObject notifySecondLap;
     public GameObject notifyLastLap;
 
-    float timeToLast1 = 0.5f, timeToLast2, timeToLast3;
+    float timeToLast1 = 0.5f, timeToLast2 = 1f, timeToLast3 = 1f;
 
-    float timeElapsed1, timeElapsed2, timeElapsed3;
-
-    bool checkpointTimerStart = false, secondLapTimerStart = false, lastLapTimerStart = false, repeatLastLap = true, repeatSecondLap = true;
+    bool checkpointTimerStart = false, secondLapTimerStart = false, 
+        lastLapTimerStart = false, repeatLastLap = true, repeatSecondLap = true;
 
     public void Awake()
     {
@@ -33,11 +32,11 @@ public class NotificationManager : MonoBehaviour
         }
 
 
-        if (secondLapTimerStart )
+        if (secondLapTimerStart)
         {
             timeToLast2 -= Time.deltaTime;
 
-            if (timeToLast2<= 0.0f)
+            if (timeToLast2 <= 0.0f)
             {
                 SecondLapTimerEnded();
             }
@@ -48,7 +47,7 @@ public class NotificationManager : MonoBehaviour
         {
             timeToLast3 -= Time.deltaTime;
 
-            if (timeToLast3<= 0.0f)
+            if (timeToLast3 <= 0.0f)
             {
                 LastLapTimerEnded();
             }
