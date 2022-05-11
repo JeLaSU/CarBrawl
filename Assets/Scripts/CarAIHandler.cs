@@ -11,14 +11,17 @@ public class CarAIHandler : MonoBehaviour
     public AIMode aiMode;
     public float maxSpeed = 16;
     public bool isAvoidingCars = true;
+    [Range(0.0f, 1.0f)]
+    public float skillLevel = 1.0f;
 
     Vector3 targetPosition = Vector3.zero;
     Transform targetTransform = null;
+    float originalMaximumSpeed = 0;
 
     Vector2 avoidanceVectorLerped = Vector3.zero;
 
     WaypointNode currentWaypoint = null;
-    //WaypointNode previousWaypoint = null;
+    WaypointNode previousWaypoint = null;
     WaypointNode[] allWayPoints;
 
     
@@ -33,11 +36,13 @@ public class CarAIHandler : MonoBehaviour
         allWayPoints = FindObjectsOfType<WaypointNode>();
 
         polygonCollider2D = GetComponentInChildren<PolygonCollider2D>();
+        originalMaximumSpeed = maxSpeed;
     }
 
 
     void Start()
     {
+        SetMaxSpeedBasedOnSkillLevel(maxSpeed);
     }
 
 
@@ -81,7 +86,7 @@ public class CarAIHandler : MonoBehaviour
         if (currentWaypoint == null)
         {
             currentWaypoint = FindClosestWayPoint();
-            //previousWaypoint = currentWaypoint;
+            previousWaypoint = currentWaypoint;
         }
 
 
@@ -93,16 +98,21 @@ public class CarAIHandler : MonoBehaviour
 
             float distanceToWayPoint = (targetPosition - transform.position).magnitude;
 
-            //Vector3 nearestPointOnTheWayPointLine = FindNearestPointOnLine(previousWaypoint.transform.position, currentWaypoint.transform.position, transform.position);
+            if (distanceToWayPoint > 30)
+            {
+                Vector3 nearestPointOnTheWayPointLine = FindNearestPointOnLine(previousWaypoint.transform.position, currentWaypoint.transform.position, transform.position);
 
-            //targetPosition = nearestPointOnTheWayPointLine;
+                float segments = distanceToWayPoint / 20.0f;
 
+                targetPosition = (targetPosition + nearestPointOnTheWayPointLine * segments) / (segments + 1);
+
+            }
 
             if (distanceToWayPoint <= currentWaypoint.minDistanceToReachWaypoint)
             {
                 if (currentWaypoint.maxSpeed > 0)
-                    maxSpeed = currentWaypoint.maxSpeed;
-                else maxSpeed = 1000;
+                    SetMaxSpeedBasedOnSkillLevel(currentWaypoint.maxSpeed);
+                else SetMaxSpeedBasedOnSkillLevel(1000);
 
                 //previousWaypoint = currentWaypoint;
 
@@ -142,32 +152,43 @@ public class CarAIHandler : MonoBehaviour
         if (topDownCarController.GetVelocityMagnitude() > maxSpeed)
             return 0;
 
-        return 1.05f - Mathf.Abs(inputX) / 1.0f;
+        float reduceSpeedDueToCornering = Mathf.Abs(inputX) / 1.0f;
+
+        return 1.05f - reduceSpeedDueToCornering * skillLevel;
     }
 
+    void SetMaxSpeedBasedOnSkillLevel(float newSpeed)
+    {
+        maxSpeed = Mathf.Clamp(newSpeed, 0, originalMaximumSpeed);
 
-    //Vector2 FindNearestPointOnLine(Vector2 lineStartPosition, Vector2 lineEndPosition, Vector2 point)
-    //{
-    //    Vector2 lineHeadVector = (lineEndPosition - lineStartPosition);
+        float skillbasedMaximumSpeed = Mathf.Clamp(skillLevel, 0.3f, 1.0f);
 
-    //    float maxDistance = lineHeadVector.magnitude;
-    //    lineHeadVector.Normalize();
+        maxSpeed = maxSpeed * skillbasedMaximumSpeed;
 
-    //    Vector2 lineVectorStartToPoint = point - lineStartPosition;
-    //    float dotProduct = Vector2.Dot(lineStartPosition, lineHeadVector);
+    }
 
-    //    dotProduct = Mathf.Clamp(dotProduct, 0f, maxDistance);
+    Vector2 FindNearestPointOnLine(Vector2 lineStartPosition, Vector2 lineEndPosition, Vector2 point)
+    {
+        Vector2 lineHeadVector = (lineEndPosition - lineStartPosition);
 
-    //    return lineStartPosition + lineHeadVector * dotProduct;
+        float maxDistance = lineHeadVector.magnitude;
+        lineHeadVector.Normalize();
 
-    //}
+        Vector2 lineVectorStartToPoint = point - lineStartPosition;
+        float dotProduct = Vector2.Dot(lineStartPosition, lineHeadVector);
+
+        dotProduct = Mathf.Clamp(dotProduct, 0f, maxDistance);
+
+        return lineStartPosition + lineHeadVector * dotProduct;
+
+    }
 
 
     bool IsCarsInFrontOfAICar(out Vector3 position, out Vector3 otherCarRightVector)
     {
         polygonCollider2D.enabled = false;
 
-        RaycastHit2D raycastHit2d = Physics2D.CircleCast(transform.position + transform.up * 0.5f, 1.2f, transform.up, 12, 1 << LayerMask.NameToLayer("Car"));
+        RaycastHit2D raycastHit2d = Physics2D.CircleCast(transform.position + transform.up * 0.5f, 2.0f, transform.up, 12, 1 << LayerMask.NameToLayer("Car"));
 
         polygonCollider2D.enabled = true;
 
@@ -210,10 +231,6 @@ public class CarAIHandler : MonoBehaviour
 
             newVectorToTarget = (vectorToTarget * driveToTargetInfluence + avoidanceVector * avoidanceInfluence);
             newVectorToTarget.Normalize();
-
-            Debug.DrawRay(transform.position, avoidanceVector * 10, Color.green);
-
-            Debug.DrawRay(transform.position, newVectorToTarget * 10, Color.yellow);
 
             return;
         }
