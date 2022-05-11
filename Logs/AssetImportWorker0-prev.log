@@ -1,0 +1,182 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Education' Language: 'en' Physical Memory: 16240 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/admin/Documents/GitHub/CarBrawl
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60141
+Successfully changed project path to: C:/Users/admin/Documents/GitHub/CarBrawl
+C:/Users/admin/Documents/GitHub/CarBrawl
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 142.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/admin/Documents/GitHub/CarBrawl/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P600 (ID=0x1cbc)
+    Vendor:   
+    VRAM:     4024 MB
+    Driver:   26.21.14.4283
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006481 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 143.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.836 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1837ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1360ms)
+			LoadAssemblies (192ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (421ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (507ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (144ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008235 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\admin\Documents\GitHub\CarBrawl\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 122.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.015 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3017ms)
+		BeginReloadAssembly (398ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (2465ms)
+			LoadAssemblies (251ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (803ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (142ms)
+			SetupLoadedEditorAssemblies (917ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (518ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.8 MB.
+System memory in use after: 193.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2826.
+Total: 7.483400 ms (FindLiveObjects: 0.360100 ms CreateObjectMapping: 0.249000 ms MarkObjects: 6.688300 ms  DeleteObjects: 0.183500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/Scenery/Prefabs/barrier_white_race.prefab
+  artifactKey: Guid(60e1646cf34849d44b1d51803bbf45c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenery/Prefabs/barrier_white_race.prefab using Guid(60e1646cf34849d44b1d51803bbf45c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef08ce92a08cddab2066442af885233') in 0.269625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.043556 seconds.
+  path: Assets/Sprites/Scenery/Prefabs/oil.prefab
+  artifactKey: Guid(aba8ac93984c1a84889ea9d71295d443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenery/Prefabs/oil.prefab using Guid(aba8ac93984c1a84889ea9d71295d443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9b5b8c00de084f3e5678c0e60a72d6') in 0.066645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.516825 seconds.
+  path: Assets/Sprites/Scenery/Prefabs/oil.prefab
+  artifactKey: Guid(aba8ac93984c1a84889ea9d71295d443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenery/Prefabs/oil.prefab using Guid(aba8ac93984c1a84889ea9d71295d443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ea0e8bf30dcfd9a543800d64d0a6cb') in 0.034831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.351865 seconds.
+  path: Assets/Sprites/Scenery/Prefabs/barrier_white_race.prefab
+  artifactKey: Guid(60e1646cf34849d44b1d51803bbf45c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenery/Prefabs/barrier_white_race.prefab using Guid(60e1646cf34849d44b1d51803bbf45c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035bbcbc75a1eae9972a004630d3a8fb') in 0.023207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 156.010197 seconds.
+  path: Assets/Sprites/Scenery/tires_red.png
+  artifactKey: Guid(6e5a70269a51c1b40b6ebb149748d1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenery/tires_red.png using Guid(6e5a70269a51c1b40b6ebb149748d1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4895f4a6ac7f02171bc9d016306b2f13') in 0.150103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Sprites/Scenery/tires_red_alt.png
+  artifactKey: Guid(c1c30027c5e138b47b1b16cc7774e04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenery/tires_red_alt.png using Guid(c1c30027c5e138b47b1b16cc7774e04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a7cbd8a67e9fedaba0f1258ebf27ab') in 0.039217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.310436 seconds.
+  path: Assets/Sprites/Scenery/Prefabs/tires_red_alt.prefab
+  artifactKey: Guid(4699c0f1c67effb41ba9a34b66deafe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenery/Prefabs/tires_red_alt.prefab using Guid(4699c0f1c67effb41ba9a34b66deafe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39f28003d59e8289c8a6bb755c39b72') in 0.047731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.326718 seconds.
+  path: Assets/Sprites/Scenery/Prefabs/tires_red_alt.prefab
+  artifactKey: Guid(4699c0f1c67effb41ba9a34b66deafe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenery/Prefabs/tires_red_alt.prefab using Guid(4699c0f1c67effb41ba9a34b66deafe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16960c58e8f3571a3ead817aa2e116d') in 0.020760 seconds 
