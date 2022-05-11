@@ -586,7 +586,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -420, y: -120}
+  m_AnchoredPosition: {x: -798, y: -389}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &144701479 stripped
@@ -7200,7 +7200,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.216, y: 0.813}
   m_AnchorMax: {x: 0.216, y: 0.813}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -160, y: 85}
   m_SizeDelta: {x: 400, y: 129}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &986041001
@@ -10544,7 +10544,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -420, y: -120}
+  m_AnchoredPosition: {x: -795, y: -389}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &1317746907 stripped
@@ -10798,17 +10798,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375503884}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1235316724}
   m_Father: {fileID: 727424914}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 690.83606, y: 0.00011444092}
+  m_AnchoredPosition: {x: 1171, y: -358}
   m_SizeDelta: {x: -200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1380027346
@@ -17583,7 +17583,7 @@ PrefabInstance:
     - target: {fileID: 6558350185343971738, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
       propertyPath: maxSpeed
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6558350185343971738, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
@@ -17593,12 +17593,12 @@ PrefabInstance:
     - target: {fileID: 6558350185343971738, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
       propertyPath: driftFactor
-      value: 0.9
+      value: 0.95
       objectReference: {fileID: 0}
     - target: {fileID: 6558350185343971738, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
       propertyPath: accelerationFactor
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6558350185460239946, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
