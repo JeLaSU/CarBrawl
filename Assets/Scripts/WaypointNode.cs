@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class WaypointNode : MonoBehaviour
 {
-    //what is the max speed allowed when passing this waypoint
     [Header("Speed set once we reach the waypoint")]
     public float maxSpeed = 0;
 

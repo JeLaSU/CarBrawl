@@ -5,26 +5,27 @@ using System.Linq;
 
 public class CarAIHandler : MonoBehaviour
 {
-    public enum AIMode { followPlayer, followWaypoints, followMouse };
+    public enum AIMode { followPlayer, followWaypoints};
 
     [Header("AI settings")]
     public AIMode aiMode;
     public float maxSpeed = 16;
     public bool isAvoidingCars = true;
 
-
     Vector3 targetPosition = Vector3.zero;
     Transform targetTransform = null;
 
     Vector2 avoidanceVectorLerped = Vector3.zero;
 
-
     WaypointNode currentWaypoint = null;
+    //WaypointNode previousWaypoint = null;
     WaypointNode[] allWayPoints;
 
+    
     PolygonCollider2D polygonCollider2D;
 
     TopDownCarController topDownCarController;
+
 
     void Awake()
     {
@@ -34,9 +35,11 @@ public class CarAIHandler : MonoBehaviour
         polygonCollider2D = GetComponentInChildren<PolygonCollider2D>();
     }
 
+
     void Start()
     {
     }
+
 
     void FixedUpdate()
     {
@@ -52,16 +55,15 @@ public class CarAIHandler : MonoBehaviour
                 FollowWaypoints();
                 break;
 
-           // case AIMode.followMouse:
-                //FollowMousePosition();
-                //break;
         }
 
         inputVector.x = TurnTowardTarget();
         inputVector.y = ApplyThrottleOrBrake(inputVector.x);
 
+
         topDownCarController.SetInputVector(inputVector);
     }
+
 
     void FollowPlayer()
     {
@@ -72,16 +74,29 @@ public class CarAIHandler : MonoBehaviour
             targetPosition = targetTransform.position;
     }
 
+
     void FollowWaypoints()
     {
+
         if (currentWaypoint == null)
+        {
             currentWaypoint = FindClosestWayPoint();
+            //previousWaypoint = currentWaypoint;
+        }
+
 
         if (currentWaypoint != null)
         {
+
             targetPosition = currentWaypoint.transform.position;
 
+
             float distanceToWayPoint = (targetPosition - transform.position).magnitude;
+
+            //Vector3 nearestPointOnTheWayPointLine = FindNearestPointOnLine(previousWaypoint.transform.position, currentWaypoint.transform.position, transform.position);
+
+            //targetPosition = nearestPointOnTheWayPointLine;
+
 
             if (distanceToWayPoint <= currentWaypoint.minDistanceToReachWaypoint)
             {
@@ -89,17 +104,13 @@ public class CarAIHandler : MonoBehaviour
                     maxSpeed = currentWaypoint.maxSpeed;
                 else maxSpeed = 1000;
 
+                //previousWaypoint = currentWaypoint;
+
                 currentWaypoint = currentWaypoint.nextWaypointNode[Random.Range(0, currentWaypoint.nextWaypointNode.Length)];
             }
         }
     }
 
-    //void FollowMousePosition()
-   // {
-  //      Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-  //
-   //     targetPosition = worldPosition;
-   // }
 
     WaypointNode FindClosestWayPoint()
     {
@@ -121,7 +132,6 @@ public class CarAIHandler : MonoBehaviour
 
         float steerAmount = angleToTarget / 45.0f;
 
-
         steerAmount = Mathf.Clamp(steerAmount, -1.0f, 1.0f);
 
         return steerAmount;
@@ -129,18 +139,32 @@ public class CarAIHandler : MonoBehaviour
 
     float ApplyThrottleOrBrake(float inputX)
     {
-
         if (topDownCarController.GetVelocityMagnitude() > maxSpeed)
             return 0;
-
 
         return 1.05f - Mathf.Abs(inputX) / 1.0f;
     }
 
 
+    //Vector2 FindNearestPointOnLine(Vector2 lineStartPosition, Vector2 lineEndPosition, Vector2 point)
+    //{
+    //    Vector2 lineHeadVector = (lineEndPosition - lineStartPosition);
+
+    //    float maxDistance = lineHeadVector.magnitude;
+    //    lineHeadVector.Normalize();
+
+    //    Vector2 lineVectorStartToPoint = point - lineStartPosition;
+    //    float dotProduct = Vector2.Dot(lineStartPosition, lineHeadVector);
+
+    //    dotProduct = Mathf.Clamp(dotProduct, 0f, maxDistance);
+
+    //    return lineStartPosition + lineHeadVector * dotProduct;
+
+    //}
+
+
     bool IsCarsInFrontOfAICar(out Vector3 position, out Vector3 otherCarRightVector)
     {
-
         polygonCollider2D.enabled = false;
 
         RaycastHit2D raycastHit2d = Physics2D.CircleCast(transform.position + transform.up * 0.5f, 1.2f, transform.up, 12, 1 << LayerMask.NameToLayer("Car"));
@@ -149,7 +173,6 @@ public class CarAIHandler : MonoBehaviour
 
         if (raycastHit2d.collider != null)
         {
-
             Debug.DrawRay(transform.position, transform.up * 12, Color.red);
 
             position = raycastHit2d.collider.transform.position;
@@ -158,10 +181,8 @@ public class CarAIHandler : MonoBehaviour
         }
         else
         {
-
             Debug.DrawRay(transform.position, transform.up * 12, Color.black);
         }
-
 
         position = Vector3.zero;
         otherCarRightVector = Vector3.zero;
@@ -175,35 +196,27 @@ public class CarAIHandler : MonoBehaviour
         {
             Vector2 avoidanceVector = Vector2.zero;
 
-
             avoidanceVector = Vector2.Reflect((otherCarPosition - transform.position).normalized, otherCarRightVector);
 
             float distanceToTarget = (targetPosition - transform.position).magnitude;
 
-
             float driveToTargetInfluence = 6.0f / distanceToTarget;
-
 
             driveToTargetInfluence = Mathf.Clamp(driveToTargetInfluence, 0.30f, 1.0f);
 
             float avoidanceInfluence = 1.0f - driveToTargetInfluence;
 
-
             avoidanceVectorLerped = Vector2.Lerp(avoidanceVectorLerped, avoidanceVector, Time.fixedDeltaTime * 4);
-
 
             newVectorToTarget = (vectorToTarget * driveToTargetInfluence + avoidanceVector * avoidanceInfluence);
             newVectorToTarget.Normalize();
 
             Debug.DrawRay(transform.position, avoidanceVector * 10, Color.green);
 
-
             Debug.DrawRay(transform.position, newVectorToTarget * 10, Color.yellow);
-
 
             return;
         }
-
 
         newVectorToTarget = vectorToTarget;
     }
