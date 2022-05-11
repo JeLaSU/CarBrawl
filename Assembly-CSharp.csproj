@@ -65,11 +65,12 @@
     <Compile Include="Assets\Scripts\CheckPoint.cs" />
     <Compile Include="Assets\Scripts\TopDownCarController.cs" />
     <Compile Include="Assets\Scripts\CarLapCounter.cs" />
+    <Compile Include="Assets\Scripts\LeaderboardInfo.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\WheelParticleHandler.cs" />
     <Compile Include="Assets\Scripts\WheelTrailRendererHandler.cs" />
-    <Compile Include="Assets\Scripts\LeaderboardInfo.cs" />
     <Compile Include="Assets\Scripts\LeaderboardUIHandler.cs" />
+    <Compile Include="Assets\Scripts\NotificationManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

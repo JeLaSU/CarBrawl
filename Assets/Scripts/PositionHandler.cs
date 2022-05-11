@@ -7,6 +7,10 @@ public class PositionHandler : MonoBehaviour
 {
     
     LeaderboardUIHandler leaderboardUIHandler;
+    NotificationManager notificationManager;
+    float timeToLast = 1;
+    float timeElapsed;
+    bool timerStart = false;
 
     public List<CarLapCounter> carLapCounters = new List<CarLapCounter>();
 
@@ -19,6 +23,7 @@ public class PositionHandler : MonoBehaviour
         carLapCounters = carLapCounterArray.ToList<CarLapCounter>();
 
 
+
         //Hookup the passed checkpoint event
         foreach (CarLapCounter lapCounters in carLapCounters)
         {
@@ -27,6 +32,7 @@ public class PositionHandler : MonoBehaviour
         }
         //Get the leaderboard UI handler
         leaderboardUIHandler = FindObjectOfType<LeaderboardUIHandler>();
+        notificationManager = FindObjectOfType<NotificationManager>();
     }
 
     void Start()
@@ -49,9 +55,11 @@ public class PositionHandler : MonoBehaviour
         //Tells the lapcounter, on which position the car has.
         carLapCounter.SetCarPosition(carPosition);
 
-        Debug.Log($"Event: Car { carLapCounter.gameObject.name} passed a checkpoint");
-
         //Ask the leaderboard handler to update the list
         leaderboardUIHandler.UpdateList(carLapCounters);
+
+        notificationManager.NotifyCheckpoint(true);
+
     }
+
 }
