@@ -205,6 +205,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &3191916 stripped
@@ -287,6 +292,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_blue (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -442,6 +452,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -464,7 +479,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 27208888}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Misc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -576,6 +591,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &31784529 stripped
@@ -666,6 +686,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
 --- !u!4 &33097289 stripped
@@ -685,6 +710,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_blue (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -769,6 +799,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_red (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -952,6 +987,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &76995677
@@ -1040,6 +1080,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_red_alt (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
@@ -1136,6 +1181,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &80995824 stripped
@@ -1161,6 +1211,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -1293,6 +1348,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_blue (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -1524,6 +1584,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_white (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1001 &121411765
@@ -1537,6 +1602,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_red (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -1622,6 +1692,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrier_red_race (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -1695,6 +1770,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_white_alt (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -1962,6 +2042,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &130789109 stripped
@@ -2057,6 +2142,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -2383,6 +2473,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -2407,6 +2502,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -2590,6 +2690,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -2685,6 +2790,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &189159366
@@ -2698,6 +2808,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white_race (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -2854,6 +2969,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_white (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1001 &198031761
@@ -2938,6 +3058,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &198031762 stripped
@@ -3021,6 +3146,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
       propertyPath: m_RootOrder
@@ -3102,7 +3232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 212616029}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3154,6 +3284,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red_race (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -3430,6 +3565,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &231047679
@@ -3518,6 +3658,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_red_alt (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
@@ -3608,6 +3753,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -3767,6 +3917,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &243671744 stripped
@@ -3786,6 +3941,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -3952,6 +4112,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!1001 &253376819
@@ -3965,6 +4130,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tent_blue (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004962190363476024, guid: a1bf0cf0376afe845807c176fdd277cf,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6740909217293097729, guid: a1bf0cf0376afe845807c176fdd277cf,
         type: 3}
@@ -4072,6 +4242,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -4218,6 +4393,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -4318,6 +4498,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &276217085 stripped
@@ -4407,6 +4592,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -4503,6 +4693,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -4636,6 +4831,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
       propertyPath: m_RootOrder
@@ -4756,6 +4956,103 @@ PolygonCollider2D:
       - {x: 0.36499998, y: -0.14}
       - {x: 0.36499998, y: 0.25}
       - {x: 0.285, y: 0.31}
+--- !u!1001 &305274480
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 122286825, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 122286825, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
+      propertyPath: m_Color.g
+      value: 0.003921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 122286825, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127588, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_Name
+      value: AI-Car 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.20000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.20000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543339249675, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e61ae4254ac624649ac6c5532cb2a7ad,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
 --- !u!1001 &318079726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4767,6 +5064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_red (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -4927,6 +5229,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &322243274 stripped
@@ -5022,6 +5329,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &322841082 stripped
@@ -5112,6 +5424,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &333637882
@@ -5196,6 +5513,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
 --- !u!1001 &334434564
@@ -5209,6 +5531,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -5488,6 +5815,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -5588,6 +5920,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!1001 &359547306
@@ -5601,6 +5938,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
@@ -5745,6 +6087,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrel_blue (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
       propertyPath: m_RootOrder
@@ -5828,6 +6175,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_red (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -6135,6 +6487,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!1001 &395860146
@@ -6153,6 +6510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_white_alt (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -6309,6 +6671,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -6333,6 +6700,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
@@ -6506,6 +6878,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: oil (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5738699738182993627, guid: aba8ac93984c1a84889ea9d71295d443,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aba8ac93984c1a84889ea9d71295d443, type: 3}
 --- !u!1001 &434346053
@@ -6519,6 +6896,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white_race (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -6605,6 +6987,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrier_red_race (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -6684,6 +7071,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_white_alt (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -6786,6 +7178,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -6936,6 +7333,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_red_alt (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
@@ -7088,6 +7490,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
 --- !u!1001 &467415580
@@ -7171,6 +7578,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -7260,6 +7672,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_white_alt (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
       propertyPath: m_RootOrder
@@ -7344,6 +7761,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_blue (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -7538,6 +7960,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &481489764 stripped
@@ -7557,6 +7984,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white_race (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -7731,6 +8163,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrier_white (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3414100354367333801, guid: cab89103384bb4e4cbbad8bf745578ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5220725738152874498, guid: cab89103384bb4e4cbbad8bf745578ee,
         type: 3}
       propertyPath: m_RootOrder
@@ -7891,6 +8328,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &517407882 stripped
@@ -8007,6 +8449,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white_race (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -8163,6 +8610,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_white (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1001 &532657486
@@ -8246,6 +8698,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock3 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -8342,6 +8799,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &534181542 stripped
@@ -8436,6 +8898,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_small (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
       propertyPath: m_RootOrder
@@ -8508,7 +8975,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 580885384}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Scenery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8536,7 +9003,7 @@ Transform:
   - {fileID: 2012600677}
   - {fileID: 27208888}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &581789980
 PrefabInstance:
@@ -8619,6 +9086,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cone_straight (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
@@ -8715,6 +9187,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &584411194 stripped
@@ -8740,6 +9217,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock2 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -8877,6 +9359,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -9016,6 +9503,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cone_straight (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
@@ -9170,6 +9662,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!4 &601821067 stripped
@@ -9187,7 +9684,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 608587042}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Barriers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9271,6 +9768,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -9422,6 +9924,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &624192317 stripped
@@ -9441,6 +9948,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_blue (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -9548,6 +10060,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1450832944}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &631368901 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1223631543072127588, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1883843424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &631368902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631368901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 632d01cf1888df14da0a5633b5c5ae1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiMode: 0
+  maxSpeed: 16
+  isAvoidingCars: 1
 --- !u!1001 &635870518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9564,6 +10097,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_white_alt (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -9656,6 +10194,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrier_red (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
       propertyPath: m_RootOrder
@@ -9746,6 +10289,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white_race (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -9907,6 +10455,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &653139907 stripped
@@ -10060,6 +10613,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &661606259 stripped
@@ -10142,6 +10700,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_red (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -10297,6 +10860,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -10326,6 +10894,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -10472,6 +11045,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -10495,6 +11073,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -10575,6 +11158,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_white_alt (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -10689,7 +11277,7 @@ Transform:
   - {fileID: 348788767}
   - {fileID: 952284950}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &713315913
 PrefabInstance:
@@ -10707,6 +11295,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -10846,6 +11439,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -11059,6 +11657,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_small (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
       propertyPath: m_RootOrder
@@ -11210,6 +11813,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -11319,7 +11927,7 @@ RectTransform:
   - {fileID: 128125742}
   - {fileID: 1375503885}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11398,7 +12006,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &729136000 stripped
 Transform:
@@ -11479,6 +12087,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: oil (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5738699738182993627, guid: aba8ac93984c1a84889ea9d71295d443,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aba8ac93984c1a84889ea9d71295d443, type: 3}
 --- !u!4 &740443890 stripped
@@ -11503,6 +12116,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -11583,6 +12201,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_white_alt (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -11738,6 +12361,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_white (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
@@ -11947,6 +12575,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_white (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1001 &768315124
@@ -12030,6 +12663,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -12123,6 +12761,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
@@ -12238,7 +12881,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 779103313}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12406,6 +13049,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock3 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
@@ -12610,6 +13258,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tribune_full (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6078415348594143001, guid: ad9beb536cdd44c44b3f646a35d176db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9beb536cdd44c44b3f646a35d176db, type: 3}
 --- !u!4 &814024367 stripped
@@ -12775,6 +13428,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -12870,6 +13528,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -12899,6 +13562,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -12968,6 +13636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red_race (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -13114,6 +13787,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -13138,6 +13816,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
@@ -13256,6 +13939,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrier_white_race (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
       propertyPath: m_RootOrder
@@ -13346,6 +14034,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_red (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -13750,6 +14443,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -13844,6 +14542,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -13957,6 +14660,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -13979,7 +14687,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 889875504}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14148,6 +14856,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &896613877 stripped
@@ -14231,6 +14944,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrier_red_race (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -14305,6 +15023,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white_race (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -14390,6 +15113,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -14550,6 +15278,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!1001 &920342120
@@ -14563,6 +15296,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_red (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -14746,6 +15484,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrel_red_down (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8764957831767089866, guid: a8fb0a8972e39e84483aa72b1180248f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fb0a8972e39e84483aa72b1180248f, type: 3}
 --- !u!4 &931923932 stripped
@@ -14765,6 +15508,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414100354367333801, guid: cab89103384bb4e4cbbad8bf745578ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5220725738152874498, guid: cab89103384bb4e4cbbad8bf745578ee,
         type: 3}
@@ -14952,6 +15700,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_white (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1001 &947296218
@@ -14970,6 +15723,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -15115,6 +15873,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -15328,6 +16091,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_white_alt (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
       propertyPath: m_RootOrder
@@ -15483,6 +16251,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
 --- !u!1001 &960250400
@@ -15566,6 +16339,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock3 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -15667,6 +16445,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!1001 &968361803
@@ -15750,6 +16533,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock3 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -15836,6 +16624,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_small (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
       propertyPath: m_RootOrder
@@ -15911,6 +16704,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrier_red_race (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -15984,6 +16782,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_white_alt (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -16110,7 +16913,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &993330444
 PrefabInstance:
@@ -16123,6 +16926,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white_race (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -16991,7 +17799,7 @@ PrefabInstance:
     - target: {fileID: 606383078863537343, guid: 51dea2f4f3b3db249bde391ef3ec852b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 606383078863537343, guid: 51dea2f4f3b3db249bde391ef3ec852b,
         type: 3}
@@ -17826,6 +18634,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -17920,6 +18733,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -18074,6 +18892,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -18092,6 +18915,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_red (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -18211,6 +19039,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tent_blue (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1004962190363476024, guid: a1bf0cf0376afe845807c176fdd277cf,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6740909217293097729, guid: a1bf0cf0376afe845807c176fdd277cf,
         type: 3}
       propertyPath: m_RootOrder
@@ -18300,6 +19133,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_small (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
       propertyPath: m_RootOrder
@@ -18363,6 +19201,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1045198783}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1050590100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1223631543072127588, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 305274480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1050590101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050590100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 632d01cf1888df14da0a5633b5c5ae1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiMode: 0
+  maxSpeed: 16
+  isAvoidingCars: 1
 --- !u!4 &1052122615 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5565379461111524405, guid: 4699c0f1c67effb41ba9a34b66deafe0,
@@ -18450,6 +19309,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock3 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -18546,6 +19410,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -18641,6 +19510,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -18729,6 +19603,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock3 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -18825,6 +19704,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1071402575 stripped
@@ -18907,6 +19791,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white_race (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -19068,6 +19957,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &1073690036 stripped
@@ -19157,6 +20051,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -19311,6 +20210,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1075960802 stripped
@@ -19464,6 +20368,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -19526,6 +20435,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -19687,6 +20601,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!4 &1091595842 stripped
@@ -19776,6 +20695,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cone_straight (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
@@ -19910,6 +20834,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!1001 &1132350632
@@ -19998,6 +20927,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_red_alt (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
@@ -20162,6 +21096,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1142725414 stripped
@@ -20256,6 +21195,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_white_alt (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
       propertyPath: m_RootOrder
@@ -20346,6 +21290,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_small (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
       propertyPath: m_RootOrder
@@ -20420,6 +21369,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_blue (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -20603,6 +21557,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tent_red (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7874393024032031869, guid: c26a913a1a85e2e45afcb11ae3152837,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c26a913a1a85e2e45afcb11ae3152837, type: 3}
 --- !u!4 &1187828505 stripped
@@ -20628,6 +21587,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white_race (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -20789,6 +21753,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &1202889420 stripped
@@ -20819,6 +21788,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -20905,6 +21879,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
@@ -21093,6 +22072,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1225078233 stripped
@@ -21175,6 +22159,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -21344,6 +22333,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrier_red (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
       propertyPath: m_RootOrder
@@ -21460,6 +22454,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tent_blue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004962190363476024, guid: a1bf0cf0376afe845807c176fdd277cf,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6740909217293097729, guid: a1bf0cf0376afe845807c176fdd277cf,
         type: 3}
@@ -21633,6 +22632,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1249182654 stripped
@@ -21723,6 +22727,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &1271050225
@@ -21741,6 +22750,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -21881,6 +22895,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_white (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1001 &1272251456
@@ -21894,6 +22913,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red_race (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -22039,6 +23063,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrier_red_race (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -22166,6 +23195,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_white_alt (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -22360,6 +23394,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &1311905173
@@ -22449,6 +23488,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &1312584383 stripped
@@ -22517,6 +23561,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white_race (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -22672,6 +23721,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_white (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1001 &1354226563
@@ -22755,6 +23809,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock3 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -22851,6 +23910,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &1360911775
@@ -22864,6 +23928,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -22955,6 +24024,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrier_red_race (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -23027,7 +24101,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1369920154}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Barrels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23203,6 +24277,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tribune_full (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6078415348594143001, guid: ad9beb536cdd44c44b3f646a35d176db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9beb536cdd44c44b3f646a35d176db, type: 3}
 --- !u!4 &1379125916 stripped
@@ -23308,6 +24387,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -23454,6 +24538,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -23548,6 +24637,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock3 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -23644,6 +24738,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
 --- !u!4 &1400589204 stripped
@@ -23733,6 +24832,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -23886,6 +24990,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
@@ -24041,6 +25150,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1427470325 stripped
@@ -24128,6 +25242,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -24273,6 +25392,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -24433,6 +25557,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -24457,6 +25586,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red_race (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -24532,6 +25666,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_small (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
       propertyPath: m_RootOrder
@@ -24600,6 +25739,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -24808,6 +25952,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!1001 &1462088612
@@ -24821,6 +25970,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_red (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -24906,6 +26060,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrier_red_race (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -24980,6 +26139,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_red (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -25134,6 +26298,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: cone_straight (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
@@ -25349,6 +26518,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -25444,6 +26618,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tent_red (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7874393024032031869, guid: c26a913a1a85e2e45afcb11ae3152837,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c26a913a1a85e2e45afcb11ae3152837, type: 3}
 --- !u!1001 &1492589433
@@ -25457,6 +26636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -25547,6 +26731,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_red (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -25736,6 +26925,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1502217594 stripped
@@ -25871,7 +27065,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1529696932
 PrefabInstance:
@@ -25884,6 +27078,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
@@ -26096,6 +27295,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1573038160 stripped
@@ -26249,6 +27453,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1575670383 stripped
@@ -26331,6 +27540,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_blue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -26514,6 +27728,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_white
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!4 &1588106635 stripped
@@ -26544,6 +27763,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -26695,6 +27919,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -26873,6 +28102,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tribune_full (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6078415348594143001, guid: ad9beb536cdd44c44b3f646a35d176db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9beb536cdd44c44b3f646a35d176db, type: 3}
 --- !u!4 &1640649500 stripped
@@ -26892,6 +28126,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red_race (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -27072,6 +28311,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -27167,6 +28411,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -27196,6 +28445,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -27276,6 +28530,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -27421,6 +28680,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -27580,6 +28844,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &1690273260 stripped
@@ -27604,6 +28873,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -27750,6 +29024,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &1729981155
@@ -27833,6 +29112,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock3 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
@@ -27989,6 +29273,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_white_alt (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
       propertyPath: m_RootOrder
@@ -28144,6 +29433,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tribune_full (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6078415348594143001, guid: ad9beb536cdd44c44b3f646a35d176db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9beb536cdd44c44b3f646a35d176db, type: 3}
 --- !u!4 &1744060129 stripped
@@ -28163,6 +29457,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock2 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -28293,7 +29592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1765297493}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tires
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28394,6 +29693,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_blue (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -28577,6 +29881,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tribune_full (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6078415348594143001, guid: ad9beb536cdd44c44b3f646a35d176db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9beb536cdd44c44b3f646a35d176db, type: 3}
 --- !u!4 &1785373325 stripped
@@ -28667,6 +29976,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -28691,6 +30005,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_blue (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -28803,6 +30122,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -29082,6 +30406,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1811419776 stripped
@@ -29170,6 +30499,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_small (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
       propertyPath: m_RootOrder
@@ -29244,6 +30578,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tent_blue (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004962190363476024, guid: a1bf0cf0376afe845807c176fdd277cf,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6740909217293097729, guid: a1bf0cf0376afe845807c176fdd277cf,
         type: 3}
@@ -29339,6 +30678,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -29571,6 +30915,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &1818062648 stripped
@@ -29590,6 +30939,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_blue (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -29707,6 +31061,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_white_alt (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -29875,6 +31234,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -29970,6 +31334,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_white (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!4 &1859229754 stripped
@@ -29989,6 +31358,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock2 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -30192,6 +31566,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &1869536744
@@ -30276,6 +31655,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!4 &1869536745 stripped
@@ -30295,6 +31679,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red_race (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -30364,6 +31753,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock2 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -30497,6 +31891,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrier_red_race (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -30560,6 +31959,103 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1883611653}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1883843424
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 122286825, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
+      propertyPath: m_Color.b
+      value: 0.003921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 122286825, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 122286825, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127588, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_Name
+      value: AI-Car 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.20000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.20000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543339249675, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 65c9fd5819539ec46bc2e212a2e6a15d,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
 --- !u!1 &1884090530
 GameObject:
   m_ObjectHideFlags: 0
@@ -30717,6 +32213,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -30811,6 +32312,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -30965,6 +32471,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1899436445 stripped
@@ -31054,6 +32565,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrier_red_race (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -31126,7 +32642,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1911145020}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tents
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31220,6 +32736,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white_race (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -31375,6 +32896,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_white (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1001 &1964599474
@@ -31459,6 +32985,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1964599475 stripped
@@ -31541,6 +33072,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white_race (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -31696,6 +33232,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -31855,6 +33396,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &1971619546 stripped
@@ -31945,6 +33491,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tent_red (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7874393024032031869, guid: c26a913a1a85e2e45afcb11ae3152837,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c26a913a1a85e2e45afcb11ae3152837, type: 3}
 --- !u!4 &1972525046 stripped
@@ -31970,6 +33521,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_red (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -32055,6 +33611,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrier_red_race (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -32129,6 +33690,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_red (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -32248,6 +33814,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tent_blue (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1004962190363476024, guid: a1bf0cf0376afe845807c176fdd277cf,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6740909217293097729, guid: a1bf0cf0376afe845807c176fdd277cf,
         type: 3}
       propertyPath: m_RootOrder
@@ -32338,6 +33909,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrier_red (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
       propertyPath: m_RootOrder
@@ -32414,7 +33990,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2012600677}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Audience
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32524,6 +34100,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tribune_full (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6078415348594143001, guid: ad9beb536cdd44c44b3f646a35d176db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8629167473652206431, guid: ad9beb536cdd44c44b3f646a35d176db,
         type: 3}
       propertyPath: m_SortingOrder
@@ -32619,6 +34200,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
 --- !u!4 &2032233954 stripped
@@ -32638,6 +34224,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red_race (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -32783,6 +34374,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043542348}
   m_CullTransparentMesh: 1
+--- !u!1 &2053250611 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1223631543072127588, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5474343982610189931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2053250612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053250611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 632d01cf1888df14da0a5633b5c5ae1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiMode: 0
+  maxSpeed: 16
+  isAvoidingCars: 1
 --- !u!1001 &2069923176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32865,6 +34477,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!4 &2069923177 stripped
@@ -32939,6 +34556,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: oil (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5738699738182993627, guid: aba8ac93984c1a84889ea9d71295d443,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aba8ac93984c1a84889ea9d71295d443, type: 3}
@@ -33036,6 +34658,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &2080686197 stripped
@@ -33123,6 +34750,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_white_alt (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -33279,6 +34911,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!4 &2086221437 stripped
@@ -33373,6 +35010,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_red_alt (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
@@ -33622,6 +35264,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrel_red_down (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8764957831767089866, guid: a8fb0a8972e39e84483aa72b1180248f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fb0a8972e39e84483aa72b1180248f, type: 3}
 --- !u!1001 &2098015719
@@ -33635,6 +35282,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white_race (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -33791,6 +35443,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -33815,6 +35472,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_blue (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -33964,6 +35626,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_large (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -34118,6 +35785,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &2133706514
@@ -34136,6 +35808,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -34282,6 +35959,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_white (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1 &2141695300 stripped
@@ -34323,6 +36005,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red_race (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -34469,6 +36156,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -34498,6 +36190,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_white_alt (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -34583,6 +36280,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -34766,6 +36468,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tent_red
       objectReference: {fileID: 0}
+    - target: {fileID: 7874393024032031869, guid: c26a913a1a85e2e45afcb11ae3152837,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c26a913a1a85e2e45afcb11ae3152837, type: 3}
 --- !u!4 &638040057125682289 stripped
@@ -34841,6 +36548,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrel_blue_down
       objectReference: {fileID: 0}
+    - target: {fileID: 8743857418991226134, guid: ef972b6938be2e64d85c5527ceb021d9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef972b6938be2e64d85c5527ceb021d9, type: 3}
 --- !u!4 &1148360784163126663 stripped
@@ -34860,6 +36572,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414100354367333801, guid: cab89103384bb4e4cbbad8bf745578ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5220725738152874498, guid: cab89103384bb4e4cbbad8bf745578ee,
         type: 3}
@@ -35001,6 +36718,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: oil
       objectReference: {fileID: 0}
+    - target: {fileID: 5738699738182993627, guid: aba8ac93984c1a84889ea9d71295d443,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aba8ac93984c1a84889ea9d71295d443, type: 3}
 --- !u!4 &1949398640605790553 stripped
@@ -35091,6 +36813,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrel_red_down
       objectReference: {fileID: 0}
+    - target: {fileID: 8764957831767089866, guid: a8fb0a8972e39e84483aa72b1180248f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fb0a8972e39e84483aa72b1180248f, type: 3}
 --- !u!4 &2153662067885190680 stripped
@@ -35110,6 +36837,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_white_race
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -35266,6 +36998,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cone_straight
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!4 &2313885109968224459 stripped
@@ -35285,6 +37022,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrel_red
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -35397,6 +37139,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -35547,6 +37294,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_large
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &4704694322628693413 stripped
@@ -35618,6 +37370,75 @@ PolygonCollider2D:
       - {x: 0.28, y: -1.02}
       - {x: 0.64, y: -0.96999997}
       - {x: 0.78, y: -0.89}
+--- !u!1001 &5474343982610189931
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1223631543072127588, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_Name
+      value: AI-Car 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.414999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
 --- !u!1001 &5567554645681448066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35629,6 +37450,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
@@ -35708,6 +37534,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tires_white_alt
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -35798,6 +37629,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tent_blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004962190363476024, guid: a1bf0cf0376afe845807c176fdd277cf,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6740909217293097729, guid: a1bf0cf0376afe845807c176fdd277cf,
         type: 3}
@@ -36206,7 +38042,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c529ac86d10019247973b24bad203385,
+      objectReference: {fileID: 21300000, guid: 30b03afa60cddf441a63d39718584d8b,
         type: 3}
     - target: {fileID: 6558350185083141113, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
@@ -36261,12 +38097,12 @@ PrefabInstance:
     - target: {fileID: 6558350185343971732, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.05
       objectReference: {fileID: 0}
     - target: {fileID: 6558350185343971732, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 3.41
       objectReference: {fileID: 0}
     - target: {fileID: 6558350185343971732, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
@@ -36318,10 +38154,20 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6558350185343971735, guid: d017faad03b9aa946ab12ed85bb3607f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 6558350185343971738, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
       propertyPath: maxSpeed
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558350185343971738, guid: d017faad03b9aa946ab12ed85bb3607f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6558350185343971738, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
@@ -36337,6 +38183,11 @@ PrefabInstance:
         type: 3}
       propertyPath: accelerationFactor
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558350185343971739, guid: d017faad03b9aa946ab12ed85bb3607f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6558350185460239946, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
@@ -36442,6 +38293,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tribune_full
       objectReference: {fileID: 0}
+    - target: {fileID: 6078415348594143001, guid: ad9beb536cdd44c44b3f646a35d176db,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9beb536cdd44c44b3f646a35d176db, type: 3}
 --- !u!1001 &7758746230069882883
@@ -36531,6 +38387,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tires_red_alt
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &7758746230069882884 stripped
@@ -36550,6 +38411,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rock2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -36634,6 +38500,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: barrier_red_race
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -36780,6 +38651,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
 --- !u!1001 &8927744190021182796
@@ -36798,6 +38674,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tree_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}

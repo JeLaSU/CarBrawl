@@ -14,7 +14,7 @@ public class TopDownCarController : MonoBehaviour
     float accelerationInput = 0;
     float steeringInput = 0;
 
-    float rotationAngle = 0;
+    float rotationAngle = -90;
 
     float velocityVsUp = 0;
 
