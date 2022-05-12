@@ -57,22 +57,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CarController.cs" />
+    <Compile Include="Assets\Scripts\Weapon\PickUpWeapon.cs" />
     <Compile Include="Assets\Scripts\CarInputHandler.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Weapon\GunShooting.cs" />
     <Compile Include="Assets\Scripts\CarSfxHandler.cs" />
+    <Compile Include="Assets\Scripts\Weapon\GunController.cs" />
     <Compile Include="Assets\Scripts\TimerManager.cs" />
     <Compile Include="Assets\Scripts\CheckPoint.cs" />
+    <Compile Include="Assets\Scripts\Weapon\Bullet.cs" />
     <Compile Include="Assets\Scripts\TopDownCarController.cs" />
     <Compile Include="Assets\Scripts\CarLapCounter.cs" />
+    <Compile Include="Assets\Scripts\Weapon\Weapon.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\WheelParticleHandler.cs" />
     <Compile Include="Assets\Scripts\WheelTrailRendererHandler.cs" />
-    <Compile Include="Assets\Scripts\Weapon\Weapon.cs" />
     <Compile Include="Assets\Scripts\Weapon\CurrentWeapon.cs" />
-    <Compile Include="Assets\Scripts\Weapon\GunController.cs" />
-    <Compile Include="Assets\Scripts\Weapon\Bullet.cs" />
-    <Compile Include="Assets\Scripts\Weapon\GunShooting.cs" />
-    <Compile Include="Assets\Scripts\Weapon\PickUpWeapon.cs" />
+    <Compile Include="Assets\Scripts\Weapon\Boomerang.cs" />
+    <Compile Include="Assets\Scripts\Weapon\BoomClone.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
