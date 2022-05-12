@@ -7,10 +7,6 @@ public class PositionHandler : MonoBehaviour
 {
 
     LeaderboardUIHandler leaderboardUIHandler;
-    //NotificationManager notificationManager;
-    float timeToLast = 1;
-    float timeElapsed;
-    bool timerStart = false;
 
     public List<CarLapCounter> carLapCounters = new List<CarLapCounter>();
 
@@ -32,8 +28,6 @@ public class PositionHandler : MonoBehaviour
         }
         //Get the leaderboard UI handler
         leaderboardUIHandler = FindObjectOfType<LeaderboardUIHandler>();
-        //GET the notification manager
-        //notificationManager = FindObjectOfType<NotificationManager>();
     }
 
     void Start()
@@ -59,8 +53,6 @@ public class PositionHandler : MonoBehaviour
         //Ask the leaderboard handler to update the list
         leaderboardUIHandler.UpdateList(carLapCounters);
 
-        //Notifying about the checkpoint in the notificationmanager
-        //notificationManager.NotifyCheckpoint(true);
 
     }
 

@@ -21,13 +21,7 @@ public class CarLapCounter : MonoBehaviour
 
     //c# event
     public event Action<CarLapCounter> onPassCheckpoint;
-    //NotificationManager notificationManager;
 
-    public void Awake()
-    {
-        //Calling the notificationManager.
-        //notificationManager = FindObjectOfType<NotificationManager>();
-    }
 
     //Sets the car position from positionHandler. If the car is first or second and so on.
     public void SetCarPosition(int position)
@@ -76,16 +70,6 @@ public class CarLapCounter : MonoBehaviour
                     //}
                 }
 
-                //Based on the laps completed, the following notifications will occur.
-                //if (lapsCompleted == 2)
-                //{
-                //    notificationManager.NotifySecondLap(true);
-                //}
-                //else if (lapsCompleted == 3)
-                //{
-                //    notificationManager.NotifyLastLap(true);
-                //}
-
                 //Invoke the checkpoint which the car passed
                 onPassCheckpoint?.Invoke(this);
 
@@ -94,7 +78,10 @@ public class CarLapCounter : MonoBehaviour
     }
     private void Update()
     {
-        //Change the label of laps, based by the lapscompleted. +1, because we want it to start as 1/3.
-        //carLapText.GetComponent<Text>().text = lapsCompleted + " / 3";
+        if (CompareTag("Player"))
+        {
+            //Change the label of laps, based by the lapscompleted. +1, because we want it to start as 1/3.
+            carLapText.GetComponent<Text>().text = lapsCompleted + " / 3";
+        }
     }
 }
