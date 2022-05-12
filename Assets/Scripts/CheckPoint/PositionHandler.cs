@@ -7,7 +7,7 @@ public class PositionHandler : MonoBehaviour
 {
 
     LeaderboardUIHandler leaderboardUIHandler;
-    NotificationManager notificationManager;
+    //NotificationManager notificationManager;
     float timeToLast = 1;
     float timeElapsed;
     bool timerStart = false;
@@ -33,7 +33,7 @@ public class PositionHandler : MonoBehaviour
         //Get the leaderboard UI handler
         leaderboardUIHandler = FindObjectOfType<LeaderboardUIHandler>();
         //GET the notification manager
-        notificationManager = FindObjectOfType<NotificationManager>();
+        //notificationManager = FindObjectOfType<NotificationManager>();
     }
 
     void Start()

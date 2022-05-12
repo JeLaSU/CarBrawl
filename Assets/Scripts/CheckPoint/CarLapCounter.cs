@@ -21,7 +21,7 @@ public class CarLapCounter : MonoBehaviour
 
     //c# event
     public event Action<CarLapCounter> onPassCheckpoint;
-    NotificationManager notificationManager;
+    //NotificationManager notificationManager;
 
     public void Awake()
     {
@@ -95,6 +95,6 @@ public class CarLapCounter : MonoBehaviour
     private void Update()
     {
         //Change the label of laps, based by the lapscompleted. +1, because we want it to start as 1/3.
-        carLapText.GetComponent<Text>().text = lapsCompleted + " / 3";
+        //carLapText.GetComponent<Text>().text = lapsCompleted + " / 3";
     }
 }
