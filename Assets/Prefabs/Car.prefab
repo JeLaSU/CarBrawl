@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1010127829}
   - component: {fileID: 1010127830}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1053552287}
   - component: {fileID: 1053552288}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CarScreechSFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1109870802}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1328829423}
   - component: {fileID: 1328829422}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CarHitSFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -391,7 +391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1620797342}
   - component: {fileID: 1620797343}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CarEngineSFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -521,7 +521,7 @@ GameObject:
   - component: {fileID: 6558350183437944271}
   - component: {fileID: 6558350183437944264}
   - component: {fileID: 6558350183437944265}
-  m_Layer: 14
+  m_Layer: 8
   m_Name: ParticleSystemSmokeLeftWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5425,7 +5425,7 @@ GameObject:
   - component: {fileID: 6558350183901354371}
   - component: {fileID: 6558350183901354370}
   - component: {fileID: 6558350183901354369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WheelTrailerRendererLeftWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5487,7 +5487,7 @@ TrailRenderer:
   m_SortingLayerID: 109791867
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Time: 15
+  m_Time: 60
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.2
@@ -5567,7 +5567,7 @@ GameObject:
   - component: {fileID: 6558350184171321421}
   - component: {fileID: 6558350184171321427}
   - component: {fileID: 6558350184171321420}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WheelTrailerRendererRightWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5629,7 +5629,7 @@ TrailRenderer:
   m_SortingLayerID: 109791867
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Time: 15
+  m_Time: 60
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.2
@@ -5708,7 +5708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6558350185083141113}
   - component: {fileID: 6558350185083141112}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5722,7 +5722,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6558350185083141114}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
@@ -5732,7 +5732,7 @@ Transform:
   - {fileID: 6558350185460239945}
   m_Father: {fileID: 6558350185343971732}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6558350185083141112
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5797,7 +5797,7 @@ GameObject:
   - component: {fileID: 6558350185343971738}
   - component: {fileID: 6558350185343971739}
   - component: {fileID: 1796671574}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5898,7 +5898,7 @@ GameObject:
   - component: {fileID: 6558350185460239950}
   - component: {fileID: 6558350185460239951}
   - component: {fileID: 6558350185460239944}
-  m_Layer: 14
+  m_Layer: 8
   m_Name: ParticleSystemSmokeRightWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
