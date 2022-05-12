@@ -58,11 +58,19 @@ C:/Users/lovis/OneDrive/Dokument/GitHub/CarBrawl
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 53567
 Successfully changed project path to: C:/Users/lovis/OneDrive/Dokument/GitHub/CarBrawl
 C:/Users/lovis/OneDrive/Dokument/GitHub/CarBrawl
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 53.78 ms, found 3 plugins.
+=======
+61180
+Successfully changed project path to: C:/Users/lovis/OneDrive/Dokument/GitHub/CarBrawl
+C:/Users/lovis/OneDrive/Dokument/GitHub/CarBrawl
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 64.70 ms, found 3 plugins.
+>>>>>>> origin/oscar3-mergetest1
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
@@ -78,6 +86,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -92,11 +101,27 @@ Domain Reload Profiling:
 	ReloadAssembly (700ms)
 		BeginReloadAssembly (84ms)
 >>>>>>> origin/Lovisa4-pickupweapon
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006032 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 65.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1032ms)
+		BeginReloadAssembly (90ms)
+>>>>>>> origin/oscar3-mergetest1
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 		EndReloadAssembly (416ms)
 			LoadAssemblies (47ms)
@@ -128,12 +153,29 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (87ms)
 				ProcessInitializeOnLoadMethodAttributes (30ms)
 >>>>>>> origin/Lovisa4-pickupweapon
+=======
+		EndReloadAssembly (807ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+>>>>>>> origin/oscar3-mergetest1
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.002171 seconds.
 Begin MonoManager ReloadAssembly
@@ -263,10 +305,24 @@ Domain Reload Profiling:
 	ReloadAssembly (1432ms)
 		BeginReloadAssembly (189ms)
 >>>>>>> origin/Lovisa4-pickupweapon
+=======
+Registered in 0.004971 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lovis\OneDrive\Dokument\GitHub\CarBrawl\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 134.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.348 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2350ms)
+		BeginReloadAssembly (195ms)
+>>>>>>> origin/oscar3-mergetest1
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CreateAndSetChildDomain (31ms)
 		EndReloadAssembly (851ms)
@@ -292,6 +348,23 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (98ms)
 				ProcessInitializeOnLoadAttributes (239ms)
 				ProcessInitializeOnLoadMethodAttributes (19ms)
+=======
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (2072ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (777ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (680ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (135ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (359ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+>>>>>>> origin/oscar3-mergetest1
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -299,6 +372,7 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< HEAD
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
 Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -308,6 +382,17 @@ System memory in use after: 193.0 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2834.
 Total: 3.764700 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.127300 ms MarkObjects: 3.260300 ms  DeleteObjects: 0.172000 ms)
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.8 MB.
+System memory in use after: 193.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2835.
+Total: 4.190800 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.136400 ms MarkObjects: 3.649500 ms  DeleteObjects: 0.177300 ms)
+>>>>>>> origin/oscar3-mergetest1
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -321,6 +406,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   path: Assets/Prefabs/Katanaboomerang.prefab
   artifactKey: Guid(2598a313cddc63a4bbf7c898c2108540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Katanaboomerang.prefab using Guid(2598a313cddc63a4bbf7c898c2108540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89760ba10ccdf657070ff10400ae59e5') in 0.129895 seconds 
@@ -3519,6 +3605,21 @@ System memory in use after: 195.6 MB.
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2844.
 Total: 4.338800 ms (FindLiveObjects: 0.203400 ms CreateObjectMapping: 0.122400 ms MarkObjects: 3.969700 ms  DeleteObjects: 0.042300 ms)
 >>>>>>> origin/Lovisa4-pickupweapon
+=======
+  path: Assets/Scripts/CarAIHandler.cs
+  artifactKey: Guid(632d01cf1888df14da0a5633b5c5ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarAIHandler.cs using Guid(632d01cf1888df14da0a5633b5c5ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65dd82f718621b95b47ed55dc24b154a') in 0.058575 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.5 MB.
+System memory in use after: 145.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2835.
+Total: 4.871600 ms (FindLiveObjects: 0.392500 ms CreateObjectMapping: 0.324300 ms MarkObjects: 4.112800 ms  DeleteObjects: 0.040500 ms)
+>>>>>>> origin/oscar3-mergetest1
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

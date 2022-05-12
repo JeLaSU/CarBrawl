@@ -128,6 +128,7 @@ C# parse time         : 545ms
 candidates check time : 23ms
 console write time    : 0ms
 
+<<<<<<< HEAD
 [api-updater (non-obsolete-error-filter)] 2022-05-10 18:04:12 : Starting G:/Unity/2020.3.32f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
 [api-updater (non-obsolete-error-filter)] 
 ----------------------------------
@@ -316,5 +317,15 @@ moved types parse time: 44ms
 candidates parse time : 1ms
 C# parse time         : 154ms
 candidates check time : 26ms
+=======
+[api-updater (non-obsolete-error-filter)] 11/05/2022 15:13:17 : Starting C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 1164.8805ms
+moved types parse time: 68ms
+candidates parse time : 1ms
+C# parse time         : 892ms
+candidates check time : 68ms
+>>>>>>> origin/oscar3-mergetest1
 console write time    : 0ms
 
