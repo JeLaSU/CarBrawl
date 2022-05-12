@@ -11,7 +11,7 @@ public class Boomerang : MonoBehaviour
 
     Transform itemToRotate;
 
-    Vector3 locationInFrontOfPlayer; // platsen framför spelaren som ska åka till
+    Vector2 locationInFrontOfPlayer; // platsen framför spelaren som ska åka till
 
     void Start()
     {
@@ -25,7 +25,7 @@ public class Boomerang : MonoBehaviour
         itemToRotate = gameObject.transform.GetChild(0); // hittar vapnet som är child av empty object
 
         // ljusterar platsen framför spelaren, den sista biten bestämmer hur långt vapnet ska gå
-        locationInFrontOfPlayer = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z) + player.transform.forward * 10f;
+        locationInFrontOfPlayer = new Vector2(player.transform.position.x, player.transform.position.y);
 
         StartCoroutine(Boom()); // nu börjar promenaden
     }
@@ -42,14 +42,14 @@ public class Boomerang : MonoBehaviour
 
         if (go)
         {
-            transform.position = Vector3.MoveTowards(transform.position, locationInFrontOfPlayer, Time.deltaTime * 40); // ändrar positionen av platsen framför spelaren
+            transform.position = Vector2.MoveTowards(transform.position, locationInFrontOfPlayer, Time.deltaTime * 40); // ändrar positionen av platsen framför spelaren
         }
         if (!go)
         {
             // kommer tillbaka till spelaren
-            transform.position = Vector3.MoveTowards(transform.position, new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z), Time.deltaTime * 40);
+            transform.position = Vector2.MoveTowards(transform.position, new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z), Time.deltaTime * 40);
         }
-        if(!go && Vector3.Distance(player.transform.position, transform.position) < 1.5)
+        if(!go && Vector2.Distance(player.transform.position, transform.position) < 1.5)
         {
             // när objektet är nära spelaren så blir det normala objectet synligt och klonen förstörs. 
             boomerang.GetComponent<MeshRenderer>().enabled = true;
