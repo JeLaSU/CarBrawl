@@ -19,12 +19,30 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1920
     height: 957
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 1200
+=======
+<<<<<<< HEAD
+    width: 1920
+    height: 947
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 5417
+=======
+    width: 1521.6
+    height: 716.4
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
+  vertical: 0
+  controlID: 1144
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,10 +64,24 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 323
     y: 19
     width: 1087
     height: 655
+=======
+<<<<<<< HEAD
+    x: 322
+    y: 73
+    width: 1087
+    height: 648
+=======
+    x: 314.4
+    y: 80.8
+    width: 936.39996
+    height: 423.8
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -93,16 +125,31 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 1087
       height: 634
     m_Scale: {x: 0.56614584, y: 0.56614584}
     m_Translation: {x: 543.5, y: 317}
+=======
+<<<<<<< HEAD
+      width: 1087
+      height: 627
+    m_Scale: {x: 0.56614584, y: 0.56614584}
+    m_Translation: {x: 543.5, y: 313.5}
+=======
+      width: 936.39996
+      height: 402.8
+    m_Scale: {x: 0.61259264, y: 0.61259264}
+    m_Translation: {x: 465.92883, y: 264.64}
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -960
       y: -559.9264
       width: 1920
@@ -110,6 +157,25 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.56614584
   m_LastWindowPixelSize: {x: 1087, y: 655}
+=======
+<<<<<<< HEAD
+      x: -960
+      y: -553.74426
+      width: 1920
+      height: 1107.4885
+    m_MinimalGUI: 1
+  m_defaultScale: 0.56614584
+  m_LastWindowPixelSize: {x: 1087, y: 648}
+=======
+      x: -760.5851
+      y: -432
+      width: 1528.5851
+      height: 657.5332
+    m_MinimalGUI: 1
+  m_defaultScale: 0.4662037
+  m_LastWindowPixelSize: {x: 1170.5, y: 529.75}
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -134,12 +200,30 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1411
     height: 957
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 1160
+=======
+<<<<<<< HEAD
+    width: 1411
+    height: 947
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 5314
+=======
+    width: 1245.6
+    height: 716.4
+  m_MinSize: {x: 402, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 1145
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,12 +243,30 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1411
     height: 676
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 1161
+=======
+<<<<<<< HEAD
+    width: 1411
+    height: 669
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 5315
+=======
+    width: 1245.6
+    height: 444.8
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
+  vertical: 0
+  controlID: 1124
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -182,10 +284,24 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 322
     height: 676
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+<<<<<<< HEAD
+    width: 322
+    height: 669
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+=======
+    width: 307.2
+    height: 444.8
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -212,17 +328,39 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 103
     width: 321
     height: 655
+=======
+<<<<<<< HEAD
+    x: 0
+    y: 73
+    width: 321
+    height: 648
+=======
+    x: 7.2000003
+    y: 80.8
+    width: 306.2
+    height: 423.8
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 781}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 62fbffff
+=======
+<<<<<<< HEAD
+      m_ExpandedIDs: 62fbffffa0440000484700006e470000aa4800003a490000ae4b0000
+=======
+      m_ExpandedIDs: b6ecffff
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -261,10 +399,24 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 322
     y: 0
     width: 1089
     height: 676
+=======
+<<<<<<< HEAD
+    x: 322
+    y: 0
+    width: 1089
+    height: 669
+=======
+    x: 307.2
+    y: 0
+    width: 938.39996
+    height: 444.8
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
@@ -294,25 +446,61 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 322
     y: 103
     width: 1087
     height: 655
+=======
+<<<<<<< HEAD
+    x: 322
+    y: 73
+    width: 1087
+    height: 648
+=======
+    x: 314.4
+    y: 80.8
+    width: 936.39996
+    height: 423.8
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
+<<<<<<< HEAD
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
+=======
+<<<<<<< HEAD
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+=======
+  m_OverrideSceneCullingMask: 0
+  m_SceneIsLit: 0
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
   m_SceneLighting: 1
   m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -6.023776, y: 2.198945, z: -693.5052}
     speed: 2
     m_Value: {x: -6.023776, y: 2.198945, z: -693.5052}
+=======
+<<<<<<< HEAD
+    m_Target: {x: -21.585217, y: -1.1583103, z: -137.58066}
+    speed: 2
+    m_Value: {x: -21.585217, y: -1.1583103, z: -137.58066}
+=======
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -363,9 +551,21 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 6.4693756
     speed: 2
     m_Value: 6.4693756
+=======
+<<<<<<< HEAD
+    m_Target: 22.318596
+    speed: 2
+    m_Value: 22.318596
+=======
+    m_Target: 1.0993634
+    speed: 2
+    m_Value: 1.0993634
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -406,18 +606,34 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 676
     width: 1411
     height: 281
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
+=======
+<<<<<<< HEAD
+    y: 669
+    width: 1411
+    height: 278
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+=======
+    y: 444.8
+    width: 1245.6
+    height: 271.60004
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
   - {fileID: 11}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -439,10 +655,24 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 779
     width: 1410
     height: 260
+=======
+<<<<<<< HEAD
+    x: 0
+    y: 742
+    width: 1410
+    height: 257
+=======
+    x: 7.2000003
+    y: 525.60004
+    width: 1244.6
+    height: 250.60004
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -457,12 +687,17 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets
+=======
+    - Assets/Prefabs
+>>>>>>> main_
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
   - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\oscar\Documents\GitHub\CarBrawl
@@ -473,6 +708,29 @@ MonoBehaviour:
     m_SelectedIDs: 68550000
     m_LastClickedID: 21864
     m_ExpandedIDs: 00000000685500006a5500006c5500006e55000070550000
+=======
+  - Assets/Prefabs
+  m_LastFoldersGridSize: -1
+<<<<<<< HEAD
+  m_LastProjectPath: C:\Users\Minduz\Documents\GitHub\CarBrawl
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 23}
+    m_SelectedIDs: 02560000
+    m_LastClickedID: 22018
+    m_ExpandedIDs: 00000000e8550000ea550000ec550000ee550000f055000000ca9a3b
+=======
+  m_LastProjectPath: C:\Users\lovis\OneDrive\Dokument\GitHub\CarBrawl
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 77.39996}
+    m_SelectedIDs: 9a4f0000
+    m_LastClickedID: 20378
+    m_ExpandedIDs: 00000000844f0000864f0000884f00008a4f0000a04f000000ca9a3b
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,7 +758,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000685500006a5500006c5500006e55000070550000
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 00000000e8550000ea550000ec550000ee550000f055000000ca9a3b
+=======
+    m_ExpandedIDs: 00000000844f0000864f0000884f00008a4f000000ca9a3b
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -525,10 +791,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 8e4c000088460000044a0000dc450000184a0000b849000054460000624800003a4b0000
     m_LastClickedInstanceID: 19598
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300000000000018500000
+=======
+<<<<<<< HEAD
+    m_SelectedInstanceIDs: fa440000a44b0000464500000c48000056470000e4450000c44a0000f04b0000244d000090470000b645000084480000ccceffff76cbffff2acbffffdccaffff86caffff32c9ffff78c8ffff7cc6ffff32c6ffffbcc4ffff4ac4ffff7ec0ffff22c0ffffc8bfffff3ebfffffe0beffff86beffff1abefffff6bcffffc8bbffff74bbffff2cbbffffc8b9ffff4eb9ffff7eb8ffff20b8ffffc2b6ffffe6b5ffff92b3ffff12b3ffff6cb2ffffe2b1ffff12b1ffff60b0ffffe6afffff54affffffcaeffff6eaefffffcadffffa6adffff
+    m_LastClickedInstanceID: 17658
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c62300000000000018500000
+=======
+    m_SelectedInstanceIDs: aa4f0000
+    m_LastClickedInstanceID: 20394
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300000000000018500000506b0000
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -577,10 +857,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 781
-    width: 1627
-    height: 250
+    x: 0
+    y: 742
+    width: 1410
+    height: 257
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &12
 MonoBehaviour:
@@ -604,9 +884,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 779
+    y: 742
     width: 1410
-    height: 260
+    height: 257
   m_ViewDataDictionary: {fileID: 0}
   m_MixersTreeState:
     scrollPos: {x: 0, y: 0}
@@ -727,7 +1007,7 @@ MonoBehaviour:
       oldMaxSizes: 
       oldSplitSize: 0
     m_HorizontalSplitter:
-      ID: 1854
+      ID: 33764
       splitterInitialOffset: 0
       currentActiveSplitter: -1
       realSizes:
@@ -771,6 +1051,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1411
     y: 0
     width: 509
@@ -778,6 +1059,25 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
+=======
+<<<<<<< HEAD
+    x: 1411
+    y: 0
+    width: 509
+    height: 947
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+=======
+    x: 1245.6
+    y: 0
+    width: 276
+    height: 716.4
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 13}
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
   m_Panes:
   - {fileID: 14}
   m_Selected: 0
@@ -803,19 +1103,43 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1411
     y: 103
     width: 508
     height: 936
+=======
+<<<<<<< HEAD
+    x: 1411
+    y: 73
+    width: 508
+    height: 926
+=======
+    x: 1252.8
+    y: 80.8
+    width: 275
+    height: 695.4
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 345
+    m_CachedPref: 151
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
+<<<<<<< HEAD
   m_LastInspectedObjectInstanceID: 17884
   m_LastVerticalScrollValue: 0
+=======
+<<<<<<< HEAD
+  m_LastInspectedObjectInstanceID: -21082
+  m_LastVerticalScrollValue: 0
+=======
+  m_LastInspectedObjectInstanceID: 20394
+  m_LastVerticalScrollValue: 48.799988
+>>>>>>> Lovisa4-pickupweapon
+>>>>>>> main_
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0

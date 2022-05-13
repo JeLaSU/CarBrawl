@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
-    Rigidbody2D rigidbody2D;
+    Rigidbody2D rigidbody2d;
     public float speed;
 
-   
     // Start is called before the first frame update
     void Awake()
     {
-         rigidbody2D = GetComponent<Rigidbody2D>();
+         rigidbody2d = GetComponent<Rigidbody2D>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        speed = rigidbody2D.velocity.sqrMagnitude;       
+        speed = rigidbody2d.velocity.sqrMagnitude;
     }
 }

@@ -21,13 +21,7 @@ public class CarLapCounter : MonoBehaviour
 
     //c# event
     public event Action<CarLapCounter> onPassCheckpoint;
-    NotificationManager notificationManager;
 
-    public void Awake()
-    {
-        //Calling the notificationManager.
-        notificationManager = FindObjectOfType<NotificationManager>();
-    }
 
     //Sets the car position from positionHandler. If the car is first or second and so on.
     public void SetCarPosition(int position)
@@ -35,12 +29,12 @@ public class CarLapCounter : MonoBehaviour
         carPosition = position;
     }
     //It returns on how many checkpoints every car has driven through.
-    public int GetNumberOfCheckPointsPassed() 
+    public int GetNumberOfCheckPointsPassed()
     {
         return numberOfPassedCheckpoints;
     }
     //It returns the time after the last checkpoint to the newest checkpoint.
-    public float GetTimeAtLastCheckPoint() 
+    public float GetTimeAtLastCheckPoint()
     {
         return timeAtLastCheckpoint;
     }
@@ -53,7 +47,7 @@ public class CarLapCounter : MonoBehaviour
         {
             CheckPoint checkPoint = collider2D.GetComponent<CheckPoint>();
             //status of checkpoints driven in the correct order. The next checkpoint must have 1 higher value than the passed one
-            if(passedCheckPointNumber + 1 == checkPoint.checkPointNumber)
+            if (passedCheckPointNumber + 1 == checkPoint.checkPointNumber)
             {
                 //increasing the number by one
                 passedCheckPointNumber = checkPoint.checkPointNumber;
@@ -65,36 +59,29 @@ public class CarLapCounter : MonoBehaviour
 
 
                 //If all checkpoints are driven through.
-                if (checkPoint.isFinishLine) 
+                if (checkPoint.isFinishLine)
                 {
                     passedCheckPointNumber = 0;
                     lapsCompleted++;
-                    
+
 
                     //if(lapsCompleted >= lapsToComplete) //Will use for the future
                     //{
                     //}
                 }
 
-                //Based on the laps completed, the following notifications will occur.
-                if(lapsCompleted == 2)
-                {
-                    notificationManager.NotifySecondLap(true);
-                }
-                else if(lapsCompleted == 3)
-                {
-                    notificationManager.NotifyLastLap(true);
-                }
-
                 //Invoke the checkpoint which the car passed
                 onPassCheckpoint?.Invoke(this);
-                
+
             }
         }
     }
     private void Update()
     {
-        //Change the label of laps, based by the lapscompleted. +1, because we want it to start as 1/3.
-        carLapText.GetComponent<Text>().text = lapsCompleted + " / 3";
+        if (CompareTag("Player"))
+        {
+            //Change the label of laps, based by the lapscompleted. +1, because we want it to start as 1/3.
+            carLapText.GetComponent<Text>().text = lapsCompleted + " / 3";
+        }
     }
 }
