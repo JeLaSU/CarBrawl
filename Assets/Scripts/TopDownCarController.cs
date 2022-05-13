@@ -19,9 +19,12 @@ public class TopDownCarController : MonoBehaviour
 
     Rigidbody2D carRigidbody2D;
 
+    public Weapon currentWeaponEquipped;
+
     void Awake()
     {
         carRigidbody2D = GetComponent<Rigidbody2D>();
+        
     }
 
     void Start()
@@ -36,6 +39,7 @@ public class TopDownCarController : MonoBehaviour
         KillOrthogonalVelocity();
 
         ApplySteering();
+        
     }
 
     void ApplyEngineForce()

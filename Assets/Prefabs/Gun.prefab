@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2566097897672650231}
   - component: {fileID: 2566097897672650228}
-  - component: {fileID: 2566097897672650229}
-  - component: {fileID: 2566097897672650234}
   - component: {fileID: 6472762985115897389}
+  - component: {fileID: 4576318826055738748}
+  - component: {fileID: 1322696892338637947}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -86,35 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2566097897672650229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2566097897672650230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99e4520f45f0a5441ab61b1d81d641da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2566097897672650234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2566097897672650230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f386db7e18009ba409e89b91582ba9b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firePoint: {fileID: 2566097898359141237}
-  bulletPrefab: {fileID: 6410438232379608606, guid: eb9fb046b96714149840e014139aa9aa,
-    type: 3}
-  bulletForce: 20
-  timer: 1
 --- !u!61 &6472762985115897389
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -141,6 +112,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.48, y: 0.7}
   m_EdgeRadius: 0
+--- !u!114 &4576318826055738748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2566097897672650230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918979d796353374fb78614739e3a2d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon: {fileID: 1322696892338637947}
+--- !u!114 &1322696892338637947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2566097897672650230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c1bceae441dfd48aed77aef7f2395b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWeaponSprite: {fileID: 21300000, guid: 25f8b93eb00f9574e999a2023932c7c6,
+    type: 3}
+  firePoint: {fileID: 2566097898359141237}
+  bulletPrefab: {fileID: 6410438232379608606, guid: eb9fb046b96714149840e014139aa9aa,
+    type: 3}
+  bulletForce: 20
+  timer: 1
 --- !u!1 &2566097898359141236
 GameObject:
   m_ObjectHideFlags: 0
