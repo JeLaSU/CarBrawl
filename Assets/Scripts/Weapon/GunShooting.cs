@@ -9,6 +9,8 @@ public class GunShooting : MonoBehaviour
     public float bulletForce = 20f; 
     public float timer = 1f;
 
+    
+
 
     void Start()
     {
@@ -18,6 +20,7 @@ public class GunShooting : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1") && timer < 0)
         {
+            
             Shoot();
             timer = 1f;
         }
@@ -33,4 +36,6 @@ public class GunShooting : MonoBehaviour
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
     }
+
+    
 }

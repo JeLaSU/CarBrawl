@@ -8539,6 +8539,7 @@ MonoBehaviour:
     type: 3}
   bulletForce: 20
   timer: 1
+  pickedUp: 0
 --- !u!114 &359479500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18456,6 +18457,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4576318826055738748, guid: 5c8ccf5f5a1b0d24d90f6ff79382e4da,
+        type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1371054044}
+    - target: {fileID: 6315091223648442899, guid: 5c8ccf5f5a1b0d24d90f6ff79382e4da,
         type: 3}
       propertyPath: weapon
       value: 
@@ -55501,7 +55507,7 @@ PrefabInstance:
         type: 3}
       propertyPath: currentWeaponEquipped
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 359479499}
     - target: {fileID: 6558350185343971739, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
       propertyPath: m_Enabled
