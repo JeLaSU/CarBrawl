@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using Unity;
 
 public class PickUpWeapon : MonoBehaviour
 {
@@ -9,7 +9,7 @@ public class PickUpWeapon : MonoBehaviour
     {
         if (target.tag == "Car")
         {
-            //target.GetComponent 
+
         }
     }
 }
