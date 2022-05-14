@@ -12,7 +12,7 @@ public class PickUpWeapon : MonoBehaviour
     {
         if (target.CompareTag("Player"))
         {
-            //target.GetComponent<TopDownCarController>().currentWeaponEquipped = weapon;
+            target.GetComponent<TopDownCarController>().currentWeaponEquipped = weapon;
 
             target.transform.GetChild(4).GetComponent<SpriteRenderer>().sprite = weapon.currentWeaponSprite;
 

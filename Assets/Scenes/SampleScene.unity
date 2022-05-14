@@ -8535,7 +8535,7 @@ MonoBehaviour:
   currentWeaponSprite: {fileID: 21300000, guid: 25f8b93eb00f9574e999a2023932c7c6,
     type: 3}
   firePoint: {fileID: 1374539304}
-  bulletPrefab: {fileID: 8518508726937825321, guid: c69f64c5ff61bad4796fdcdb13d7fa7c,
+  bulletPrefab: {fileID: 6410438232379608606, guid: eb9fb046b96714149840e014139aa9aa,
     type: 3}
   bulletForce: 20
   timer: 1
