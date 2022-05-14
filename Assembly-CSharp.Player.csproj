@@ -61,9 +61,9 @@
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\CarSfxHandler.cs" />
     <Compile Include="Assets\Scripts\TopDownCarController.cs" />
+    <Compile Include="Assets\Scripts\MenuController.cs" />
     <Compile Include="Assets\Scripts\WheelParticleHandler.cs" />
     <Compile Include="Assets\Scripts\WheelTrailRendererHandler.cs" />
-    <Compile Include="Assets\Scripts\MenuController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -343,6 +343,12 @@
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlayerPrefsEditor.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlayerPrefsEditor.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlayerPrefsEditor.EditorResources">
+      <HintPath>Library\ScriptAssemblies\Unity.PlayerPrefsEditor.EditorResources.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>E:\Unity\2020.3.30f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -730,6 +736,10 @@
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.Player.csproj">
       <Project>{CDE9279E-7804-09F0-28FE-01E6CEE06EC1}</Project>
       <Name>Unity.2D.SpriteShape.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlayerPrefsEditor.Samples.SampleScene.Player.csproj">
+      <Project>{B047B58E-5F9F-4FC2-4C14-D04685D31D94}</Project>
+      <Name>Unity.PlayerPrefsEditor.Samples.SampleScene.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
