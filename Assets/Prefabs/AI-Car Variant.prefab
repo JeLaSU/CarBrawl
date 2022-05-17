@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 122286824}
   - component: {fileID: 122286825}
-  m_Layer: 6
+  m_Layer: 1
   m_Name: MinimapObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1010127828, guid: d017faad03b9aa946ab12ed85bb3607f, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1010127830, guid: d017faad03b9aa946ab12ed85bb3607f, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.size
@@ -363,24 +363,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1053552286, guid: d017faad03b9aa946ab12ed85bb3607f, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1109870801, guid: d017faad03b9aa946ab12ed85bb3607f, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1328829421, guid: d017faad03b9aa946ab12ed85bb3607f, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1620797341, guid: d017faad03b9aa946ab12ed85bb3607f, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6558350183437944267, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6558350183437944271, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
@@ -400,12 +400,12 @@ PrefabInstance:
     - target: {fileID: 6558350183901354364, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6558350184171321422, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6558350185083141112, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
@@ -441,7 +441,7 @@ PrefabInstance:
     - target: {fileID: 6558350185083141114, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6558350185343971732, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
@@ -521,7 +521,7 @@ PrefabInstance:
     - target: {fileID: 6558350185343971735, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6558350185343971735, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
@@ -551,7 +551,7 @@ PrefabInstance:
     - target: {fileID: 6558350185460239946, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6558350185460239950, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
@@ -583,6 +583,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5474343983231372275}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &-8182374797437625476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223631543072127588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d5bdf0c23c100740897e45f9faa5155, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDebugActiveForCar: 1
 --- !u!114 &2053250612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -595,6 +608,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b80f085d4669e47aab29c117964182, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lapsCompleted: 0
+  lapsToComplete: 3
+  carLapText: {fileID: 0}
 --- !u!114 &2053250613
 MonoBehaviour:
   m_ObjectHideFlags: 0

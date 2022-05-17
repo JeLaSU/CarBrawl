@@ -9,6 +9,8 @@ TagManager:
   - CheckPoint
   - AI
   - Weapon
+  - InvisWall
+  - AICar
   layers:
   - Default
   - TransparentFX

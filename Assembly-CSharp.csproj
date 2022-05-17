@@ -57,33 +57,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Leaderboard\LeaderboardUIHandler.cs" />
-    <Compile Include="Assets\Scripts\DrawPathHandler.cs" />
-    <Compile Include="Assets\Scripts\CarController.cs" />
+    <Compile Include="Assets\Scripts\AI\DrawPathHandler.cs" />
+    <Compile Include="Assets\Scripts\Car\CarController.cs" />
     <Compile Include="Assets\Scripts\Weapon\PickUpWeapon.cs" />
-    <Compile Include="Assets\Scripts\CarInputHandler.cs" />
+    <Compile Include="Assets\Scripts\Car\CarInputHandler.cs" />
     <Compile Include="Assets\Scripts\CheckPoint\PositionHandler.cs" />
-    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\Scripts\Weapon\GunShooting.cs" />
     <Compile Include="Assets\Scripts\Leaderboard\LeaderboardInfo.cs" />
     <Compile Include="Assets\Scripts\Weapon\BoomClone.cs" />
-    <Compile Include="Assets\Scripts\CarSfxHandler.cs" />
+    <Compile Include="Assets\Scripts\Car\CarSfxHandler.cs" />
     <Compile Include="Assets\Scripts\Weapon\GunController.cs" />
-    <Compile Include="Assets\Scripts\TimerManager.cs" />
+    <Compile Include="Assets\Scripts\UI\TimerManager.cs" />
     <Compile Include="Assets\Scripts\CheckPoint\CheckPoint.cs" />
     <Compile Include="Assets\Scripts\Weapon\Bullet.cs" />
-    <Compile Include="Assets\Scripts\TopDownCarController.cs" />
+    <Compile Include="Assets\Scripts\Car\TopDownCarController.cs" />
     <Compile Include="Assets\Scripts\CheckPoint\CarLapCounter.cs" />
     <Compile Include="Assets\Scripts\Weapon\Boomerang.cs" />
-    <Compile Include="Assets\Scripts\WaypointNode.cs" />
+    <Compile Include="Assets\Scripts\AI\WaypointNode.cs" />
     <Compile Include="Assets\Scripts\Pickups\CoinBehaviour.cs" />
     <Compile Include="Assets\Scripts\Weapon\Weapon.cs" />
     <Compile Include="Assets\Scripts\Pickups\CoinController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\CarAIHandler.cs" />
-    <Compile Include="Assets\Scripts\WheelParticleHandler.cs" />
-    <Compile Include="Assets\Scripts\WheelTrailRendererHandler.cs" />
+    <Compile Include="Assets\Scripts\AI\CarAIHandler.cs" />
+    <Compile Include="Assets\Scripts\Car\WheelParticleHandler.cs" />
+    <Compile Include="Assets\Scripts\Car\WheelTrailRendererHandler.cs" />
     <Compile Include="Assets\Scripts\Weapon\CurrentWeapon.cs" />
     <Compile Include="Assets\Scripts\CheckPoint\NotificationManager.cs" />
+    <Compile Include="Assets\Scripts\AI\A-Star\AStarNode.cs" />
+    <Compile Include="Assets\Scripts\AI\A-Star\AStarLite.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
