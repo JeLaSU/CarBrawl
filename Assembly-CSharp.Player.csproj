@@ -326,6 +326,9 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.PlayerPrefsEditor.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlayerPrefsEditor.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll</HintPath>
     </Reference>
@@ -343,9 +346,6 @@
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlayerPrefsEditor.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlayerPrefsEditor.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlayerPrefsEditor.EditorResources">
       <HintPath>Library\ScriptAssemblies\Unity.PlayerPrefsEditor.EditorResources.dll</HintPath>
@@ -729,6 +729,10 @@
       <Project>{499777FB-E7CD-0625-EF8E-19D978C36CF3}</Project>
       <Name>Unity.2D.Animation.Runtime.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.PlayerPrefsEditor.Samples.SampleScene.Player.csproj">
+      <Project>{B047B58E-5F9F-4FC2-4C14-D04685D31D94}</Project>
+      <Name>Unity.PlayerPrefsEditor.Samples.SampleScene.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Runtime.Player.csproj">
       <Project>{BEDBB74D-536B-F7B5-CF46-8DE4CDAC2557}</Project>
       <Name>Unity.2D.Common.Runtime.Player</Name>
@@ -736,10 +740,6 @@
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.Player.csproj">
       <Project>{CDE9279E-7804-09F0-28FE-01E6CEE06EC1}</Project>
       <Name>Unity.2D.SpriteShape.Runtime.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlayerPrefsEditor.Samples.SampleScene.Player.csproj">
-      <Project>{B047B58E-5F9F-4FC2-4C14-D04685D31D94}</Project>
-      <Name>Unity.PlayerPrefsEditor.Samples.SampleScene.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -109,7 +109,9 @@ public class MenuController : MonoBehaviour
         }
     }
 
-    public IEnumerator ConfirmationBox()
+    public IEnumerator ConfirmationBox() 
+    //A box thats played for two seconds whenever
+    //a player confirms their application of any settings.
     {
         confirmationPrompt.SetActive(true);
         yield return new WaitForSeconds(2);
