@@ -58,13 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets\PlayerPrefsEditor\Editor\PreferencesEditor\PreferenceEntryHolder.cs" />
     <Compile Include="Assets\PlayerPrefsEditor\Editor\PreferencesEditor\RegistryMonitor.cs" />
-    <Compile Include="Assets\PlayerPrefsEditor\Editor\Styles.cs" />
-    <Compile Include="Assets\PlayerPrefsEditor\Editor\PreferencesEditor\PreferencesEditorWindow.cs" />
     <Compile Include="Assets\PlayerPrefsEditor\Editor\PreferencesEditor\PreferenceStorageAccessor.cs" />
     <Compile Include="Assets\PlayerPrefsEditor\Editor\Dialogs\TextValidator.cs" />
-    <Compile Include="Assets\PlayerPrefsEditor\Editor\Dialogs\TextFieldDialog.cs" />
     <Compile Include="Assets\PlayerPrefsEditor\Editor\PreferencesEditor\PreferenceEntry.cs" />
     <Compile Include="Assets\PlayerPrefsEditor\Editor\Extensions\CenterOnWindow.cs" />
+    <Compile Include="Assets\PlayerPrefsEditor\Editor\Styles.cs" />
+    <Compile Include="Assets\PlayerPrefsEditor\Editor\PreferencesEditor\PreferencesEditorWindow.cs" />
+    <Compile Include="Assets\PlayerPrefsEditor\Editor\Dialogs\TextFieldDialog.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PlayerPrefsEditor\Editor\Unity.PlayerPrefsEditor.Editor.asmdef" />
@@ -304,8 +304,17 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
@@ -313,8 +322,8 @@
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -681,13 +690,13 @@
       <Project>{BF2EBFB4-AC32-AB04-65D6-A2B4E870A490}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{A624CDD7-E6B0-B454-B8E9-768D41C7D521}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{B682627D-7BC2-DEF5-C1D8-9B00482699E9}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{A624CDD7-E6B0-B454-B8E9-768D41C7D521}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

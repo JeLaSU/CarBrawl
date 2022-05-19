@@ -82,3 +82,14 @@ The following packages were updated:
   com.unity.2d.psdimporter from version 4.2.0 to 4.3.0
   com.unity.2d.spriteshape from version 5.2.0 to 5.3.0
   com.unity.collab-proxy from version 1.15.13 to 1.15.15
+
+=== Thu May 19 17:03:00 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ads@3.7.5
+  com.unity.analytics@3.6.12
+  com.unity.purchasing@4.1.2
+  com.unity.xr.legacyinputhelpers@2.1.8
