@@ -29,11 +29,6 @@ public class HealthSystem
         if(health < 0)
         {
             health = 0;
-
-            if(OnHealthChanged != null)
-            {
-                OnHealthChanged(this, EventArgs.Empty);
-            }
         }
     }
     public void Heal(int healAmount)
@@ -43,11 +38,6 @@ public class HealthSystem
         if(health > maxHealth)
         {
             health = maxHealth;
-
-            if (OnHealthChanged != null)
-            {
-                OnHealthChanged(this, EventArgs.Empty);
-            }
         }
     }
 }

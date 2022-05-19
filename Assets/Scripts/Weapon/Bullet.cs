@@ -6,14 +6,14 @@ public class Bullet : MonoBehaviour
 {
     
     public float timer = 1f;
-    public GameObject hitEffect; //om man vill ha en explosion
+    //public GameObject hitEffect; //om man vill ha en explosion
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity); // när effektenspriten ska synas
-        Destroy(effect, 5f); //effektspriten ska försvinna från spelet
-        Destroy(gameObject); // bullet ska försvinna från spelet
-
+        if (collision.gameObject.CompareTag("AICar") || collision.gameObject.CompareTag("Scenery"))
+        {
+            Destroy(gameObject);
+        }
     }
     public void Update()
     {

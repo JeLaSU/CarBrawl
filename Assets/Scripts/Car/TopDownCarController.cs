@@ -24,7 +24,6 @@ public class TopDownCarController : MonoBehaviour
     void Awake()
     {
         carRigidbody2D = GetComponent<Rigidbody2D>();
-        
     }
 
     void Start()

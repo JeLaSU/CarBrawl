@@ -41,7 +41,10 @@ public class HealthController : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Weapon") && !isHit)
         {
-            healthSystem.Damage(10);
+            if (gameObject.CompareTag("AICar"))
+            {
+                healthSystem.Damage(20);
+            }
             isHit = true;
             
         }
