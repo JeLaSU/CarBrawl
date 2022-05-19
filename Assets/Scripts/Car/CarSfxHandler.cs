@@ -30,7 +30,6 @@ public class CarSfxHandler : MonoBehaviour
     void Start()
     {
         //Example for recording, move this part to any setting script that your game might use. 
-        //audioMixer.SetFloat("SFXVolume", 0.5f);
     }
 
     // Update is called once per frame

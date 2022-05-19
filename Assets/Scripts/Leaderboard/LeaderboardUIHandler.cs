@@ -9,7 +9,7 @@ public class LeaderboardUIHandler : MonoBehaviour
     public GameObject leaderboardItemPrefab;
 
     //Array for many rows
-    LeaderboardInfo[] leaderboardInfo;
+    private LeaderboardInfo[] leaderboardInfo;
 
     private void Awake()
     {
@@ -18,7 +18,6 @@ public class LeaderboardUIHandler : MonoBehaviour
 
         CarLapCounter[] carLapCounters = FindObjectsOfType<CarLapCounter>();
 
-        //leaderboard will have rows dependent on how many cars there is
         leaderboardInfo = new LeaderboardInfo[carLapCounters.Length];
 
         for (int i = 0; i < carLapCounters.Length; i++)
@@ -29,9 +28,11 @@ public class LeaderboardUIHandler : MonoBehaviour
             //Based on how many car there is in a list, set as many rows
             leaderboardInfo[i] = leaderBoardInfoGameObject.GetComponent<LeaderboardInfo>();
 
+            //Set the positions of each car.
             leaderboardInfo[i].SetPositionText($"{i + 1}.");
 
         }
+
     }
     public void UpdateList(List<CarLapCounter> lapCounters)
     {

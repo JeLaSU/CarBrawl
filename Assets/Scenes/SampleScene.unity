@@ -123,6 +123,87 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &2839711
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1694810737}
+    m_Modifications:
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 319421667243645026, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_Name
+      value: HealthBar9
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac7046539d7c3d241be7b23c0cce5fa0, type: 3}
+--- !u!114 &2839712 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3316080589101049001, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 2839711}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb57e1144a191143860fe809037f717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3191915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -209,6 +290,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -434,6 +520,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
       propertyPath: m_RootOrder
@@ -593,6 +684,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -732,6 +828,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &31784529 stripped
@@ -827,6 +928,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
 --- !u!4 &33097289 stripped
@@ -857,6 +963,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -1017,6 +1128,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1 &53797930
@@ -1072,6 +1188,87 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 560419083}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &56195355
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1284041757}
+    m_Modifications:
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 319421667243645026, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_Name
+      value: HealthBar6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac7046539d7c3d241be7b23c0cce5fa0, type: 3}
+--- !u!114 &56195356 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3316080589101049001, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 56195355}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb57e1144a191143860fe809037f717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &56570328
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1303,6 +1500,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
       propertyPath: m_RootOrder
@@ -1490,6 +1692,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &76995677
@@ -1583,6 +1790,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
@@ -1683,6 +1895,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
@@ -2021,6 +2238,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
       propertyPath: m_RootOrder
@@ -2157,6 +2379,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -2430,6 +2657,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1001 &121411765
@@ -2448,6 +2680,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -2538,6 +2775,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -2616,6 +2858,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -2934,6 +3181,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
@@ -3311,6 +3563,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &154767348 stripped
@@ -3641,6 +3898,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -3670,6 +3932,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -3905,6 +4172,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -4052,6 +4324,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &189159366
@@ -4070,6 +4347,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -4424,6 +4706,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1 &194425657
@@ -4635,6 +4922,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &198031762 stripped
@@ -4791,6 +5083,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -4987,6 +5284,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -5268,6 +5570,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!4 &227657307 stripped
@@ -5458,6 +5765,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &231047680 stripped
@@ -5621,6 +5933,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -5797,6 +6114,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &243671744 stripped
@@ -5821,6 +6143,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -6082,6 +6409,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!1001 &253376819
@@ -6100,6 +6432,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004962190363476024, guid: a1bf0cf0376afe845807c176fdd277cf,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6740909217293097729, guid: a1bf0cf0376afe845807c176fdd277cf,
         type: 3}
@@ -6212,6 +6549,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -6363,6 +6705,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -6468,6 +6815,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &276217085 stripped
@@ -6562,6 +6914,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -6663,6 +7020,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -6800,6 +7162,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -7097,6 +7464,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
       propertyPath: m_RootOrder
@@ -7261,6 +7633,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &322243274 stripped
@@ -7361,6 +7738,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &322841082 stripped
@@ -7456,6 +7838,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &333637882
@@ -7545,6 +7932,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
 --- !u!1001 &334434564
@@ -7563,6 +7955,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -7636,6 +8033,87 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e90f7548da9205441a59bac00cd1539a, type: 3}
+--- !u!1001 &336646136
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 965135787}
+    m_Modifications:
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 319421667243645026, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_Name
+      value: HealthBar8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac7046539d7c3d241be7b23c0cce5fa0, type: 3}
+--- !u!114 &336646137 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3316080589101049001, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 336646136}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb57e1144a191143860fe809037f717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &346474054
 GameObject:
   m_ObjectHideFlags: 0
@@ -7971,6 +8449,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -8075,6 +8558,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
@@ -8228,6 +8716,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8519547595272587713, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
 --- !u!1001 &355882435
@@ -8316,6 +8809,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
@@ -8579,6 +9077,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
       propertyPath: m_RootOrder
@@ -8727,6 +9230,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
       propertyPath: m_RootOrder
@@ -8815,6 +9323,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -9069,6 +9582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8519547595272587713, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
@@ -9373,6 +9891,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &392731855 stripped
@@ -9402,6 +9925,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -9701,6 +10229,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -9860,6 +10393,20 @@ MonoBehaviour:
   maxSpeed: 10
   isAvoidingCars: 1
   skillLevel: 1
+--- !u!114 &411456431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411456429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9158d9786f078445a782510d4a8633c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 858525896}
+  timeAtLastHit: 1
 --- !u!114 &411456432 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -9872,6 +10419,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b80f085d4669e47aab29c117964182, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &411456438 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 838284733}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &421308975
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9978,6 +10531,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
@@ -10327,6 +10885,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5738699738182993627, guid: aba8ac93984c1a84889ea9d71295d443,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aba8ac93984c1a84889ea9d71295d443, type: 3}
 --- !u!1001 &434346053
@@ -10345,6 +10908,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -10436,6 +11004,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -10520,6 +11093,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -10627,6 +11205,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -10851,6 +11434,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
@@ -11134,6 +11722,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
 --- !u!1001 &464436816
@@ -11313,6 +11906,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &467415581 stripped
@@ -11405,6 +12003,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -11501,6 +12104,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -11700,6 +12308,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &481489764 stripped
@@ -11730,6 +12343,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -12025,6 +12643,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414100354367333801, guid: cab89103384bb4e4cbbad8bf745578ee,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 5220725738152874498, guid: cab89103384bb4e4cbbad8bf745578ee,
         type: 3}
@@ -12372,6 +12995,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &517407882 stripped
@@ -12402,6 +13030,20 @@ MonoBehaviour:
   maxSpeed: 10
   isAvoidingCars: 1
   skillLevel: 1
+--- !u!114 &518236540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518236538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9158d9786f078445a782510d4a8633c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 1462666346}
+  timeAtLastHit: 1
 --- !u!114 &518236541 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -12414,6 +13056,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b80f085d4669e47aab29c117964182, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &518236547 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1131821156}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -12689,6 +13337,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8519547595272587713, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
 --- !u!1001 &523386407
@@ -12707,6 +13360,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -12868,6 +13526,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1001 &532657486
@@ -12956,6 +13619,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -13056,6 +13724,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -13315,6 +13988,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
       propertyPath: m_RootOrder
@@ -13532,6 +14210,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8519547595272587713, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
 --- !u!1001 &560419083
@@ -13673,6 +14356,20 @@ MonoBehaviour:
   maxSpeed: 10
   isAvoidingCars: 1
   skillLevel: 1
+--- !u!114 &577165983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577165981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9158d9786f078445a782510d4a8633c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 1916831269}
+  timeAtLastHit: 1
 --- !u!114 &577165984 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -13685,6 +14382,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b80f085d4669e47aab29c117964182, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &577165990 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 380691575}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &580885383
 GameObject:
   m_ObjectHideFlags: 0
@@ -13812,6 +14515,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!4 &581789981 stripped
@@ -13911,6 +14619,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
@@ -14205,6 +14918,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
       propertyPath: m_RootOrder
@@ -14346,6 +15064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -14490,6 +15213,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
@@ -14648,6 +15376,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
@@ -14860,6 +15593,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -15209,6 +15947,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &624192317 stripped
@@ -15233,6 +15976,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -15576,6 +16324,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &635870518
@@ -15599,6 +16352,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -15742,6 +16500,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
@@ -15998,6 +16761,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
       propertyPath: m_RootOrder
@@ -16163,6 +16931,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &653139907 stripped
@@ -16321,6 +17094,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &661606259 stripped
@@ -16408,6 +17186,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -16568,6 +17351,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -16687,6 +17475,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -16838,6 +17631,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -16866,6 +17664,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -16952,6 +17755,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
       propertyPath: m_RootOrder
@@ -17031,6 +17839,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 232128302}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &702425868 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3316080589101049001, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1543014126}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb57e1144a191143860fe809037f717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &703750328
 GameObject:
   m_ObjectHideFlags: 0
@@ -17134,6 +17954,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -17278,6 +18103,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -17495,6 +18325,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -17741,6 +18576,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -18025,6 +18865,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5738699738182993627, guid: aba8ac93984c1a84889ea9d71295d443,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aba8ac93984c1a84889ea9d71295d443, type: 3}
 --- !u!4 &740443890 stripped
@@ -18054,6 +18899,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -18246,6 +19096,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
       propertyPath: m_RootOrder
@@ -18405,6 +19260,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
@@ -18619,6 +19479,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1001 &764360422
@@ -18628,6 +19493,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1322696892338637947, guid: 5c8ccf5f5a1b0d24d90f6ff79382e4da,
+        type: 3}
+      propertyPath: pickedUp
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2566097897672650230, guid: 5c8ccf5f5a1b0d24d90f6ff79382e4da,
         type: 3}
       propertyPath: m_Name
@@ -18787,6 +19657,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!1 &769684309
@@ -18884,6 +19759,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
@@ -19172,6 +20052,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
@@ -19721,6 +20606,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6078415348594143001, guid: ad9beb536cdd44c44b3f646a35d176db,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9beb536cdd44c44b3f646a35d176db, type: 3}
 --- !u!4 &814024367 stripped
@@ -19890,6 +20780,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -20065,6 +20960,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -20099,6 +20999,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -20173,6 +21078,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -20324,6 +21234,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -20353,6 +21268,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
@@ -20613,6 +21533,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8519547595272587713, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
 --- !u!4 &839527019 stripped
@@ -20637,6 +21562,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -20740,6 +21670,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
       propertyPath: m_RootOrder
@@ -20840,6 +21775,87 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.28000003
+--- !u!1001 &858525895
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 411456438}
+    m_Modifications:
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 319421667243645026, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_Name
+      value: HealthBar4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac7046539d7c3d241be7b23c0cce5fa0, type: 3}
+--- !u!114 &858525896 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3316080589101049001, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 858525895}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb57e1144a191143860fe809037f717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &860719995
 GameObject:
   m_ObjectHideFlags: 0
@@ -21445,6 +22461,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -21785,6 +22806,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!1 &881283872 stripped
@@ -21907,6 +22933,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -22116,6 +23147,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &896613877 stripped
@@ -22204,6 +23240,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -22283,6 +23324,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -22373,6 +23419,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -22538,6 +23589,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!1001 &917797942
@@ -22627,6 +23683,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &920342120
@@ -22645,6 +23706,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -22839,6 +23905,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &931923931
@@ -22928,6 +23999,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8764957831767089866, guid: a8fb0a8972e39e84483aa72b1180248f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fb0a8972e39e84483aa72b1180248f, type: 3}
 --- !u!4 &931923932 stripped
@@ -22958,6 +24034,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414100354367333801, guid: cab89103384bb4e4cbbad8bf745578ee,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 5220725738152874498, guid: cab89103384bb4e4cbbad8bf745578ee,
         type: 3}
@@ -23063,9 +24144,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b80f085d4669e47aab29c117964182, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lapsCompleted: 1
-  lapsToComplete: 3
   carLapText: {fileID: 682469980}
+--- !u!114 &938922778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938922775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9158d9786f078445a782510d4a8633c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 702425868}
+  timeAtLastHit: 1
 --- !u!1001 &941400178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23153,6 +24246,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1001 &947296218
@@ -23176,6 +24274,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -23326,6 +24429,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -23544,6 +24652,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
       propertyPath: m_RootOrder
@@ -23704,6 +24817,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
 --- !u!1001 &957361801
@@ -23862,6 +24980,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -23967,6 +25090,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!1 &965135778 stripped
@@ -23991,6 +25119,20 @@ MonoBehaviour:
   maxSpeed: 10
   isAvoidingCars: 1
   skillLevel: 1
+--- !u!114 &965135780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965135778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9158d9786f078445a782510d4a8633c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 336646137}
+  timeAtLastHit: 1
 --- !u!114 &965135781 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -24003,6 +25145,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b80f085d4669e47aab29c117964182, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &965135787 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 521535008}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &967499259 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5804187337098576315, guid: e282987a65da41d41a625d3dd58fa293,
@@ -24095,6 +25243,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -24491,6 +25644,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
       propertyPath: m_RootOrder
@@ -24577,6 +25735,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -24655,6 +25818,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -24845,7 +26013,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992580484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -24867,6 +26035,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -26901,6 +28074,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -27073,6 +28251,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1019756929 stripped
@@ -27231,6 +28414,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -27323,6 +28511,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -27520,6 +28713,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1004962190363476024, guid: a1bf0cf0376afe845807c176fdd277cf,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 6740909217293097729, guid: a1bf0cf0376afe845807c176fdd277cf,
         type: 3}
       propertyPath: m_RootOrder
@@ -27703,6 +28901,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -27944,6 +29147,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!4 &1052122615 stripped
@@ -28163,6 +29371,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -28262,6 +29475,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -28363,6 +29581,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &1068264037
@@ -28451,6 +29674,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -28545,6 +29773,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -28646,6 +29879,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1071402575 stripped
@@ -28733,6 +29971,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -28899,6 +30142,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &1073690036 stripped
@@ -28993,6 +30241,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -29151,6 +30404,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -29400,6 +30658,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -29538,6 +30801,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -29703,6 +30971,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
@@ -30107,6 +31380,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &1110268123
@@ -30335,6 +31613,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!1 &1126245205
@@ -30555,6 +31838,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8519547595272587713, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
 --- !u!1001 &1132350632
@@ -30648,6 +31936,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
@@ -30906,6 +32199,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -31171,6 +32469,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
       propertyPath: m_RootOrder
@@ -31278,6 +32581,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
       propertyPath: m_RootOrder
@@ -31369,6 +32677,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -31705,6 +33018,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7874393024032031869, guid: c26a913a1a85e2e45afcb11ae3152837,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c26a913a1a85e2e45afcb11ae3152837, type: 3}
 --- !u!4 &1187828505 stripped
@@ -31735,6 +33053,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -31970,6 +33293,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &1202889420 stripped
@@ -32048,6 +33376,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -32139,6 +33472,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
@@ -32413,6 +33751,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1225078233 stripped
@@ -32565,6 +33908,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -32739,6 +34087,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
       propertyPath: m_RootOrder
@@ -32860,6 +34213,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004962190363476024, guid: a1bf0cf0376afe845807c176fdd277cf,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6740909217293097729, guid: a1bf0cf0376afe845807c176fdd277cf,
         type: 3}
@@ -33038,6 +34396,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1249182654 stripped
@@ -33046,6 +34409,87 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1330853611}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1250220557
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1382027621}
+    m_Modifications:
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 319421667243645026, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_Name
+      value: HealthBar5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac7046539d7c3d241be7b23c0cce5fa0, type: 3}
+--- !u!114 &1250220558 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3316080589101049001, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1250220557}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb57e1144a191143860fe809037f717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1254401061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33132,6 +34576,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
@@ -33221,6 +34670,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
@@ -33324,6 +34778,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -33468,6 +34927,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
@@ -33690,6 +35154,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -33844,6 +35313,20 @@ MonoBehaviour:
   maxSpeed: 10
   isAvoidingCars: 1
   skillLevel: 1
+--- !u!114 &1284041750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284041748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9158d9786f078445a782510d4a8633c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 56195356}
+  timeAtLastHit: 1
 --- !u!114 &1284041751 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -33856,6 +35339,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b80f085d4669e47aab29c117964182, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1284041757 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1499250349}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1294948211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33872,6 +35361,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -34005,6 +35499,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -34204,6 +35703,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &1311905173
@@ -34297,6 +35801,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
@@ -34534,6 +36043,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -34895,6 +36409,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1001 &1354226563
@@ -34983,6 +36502,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -35235,6 +36759,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &1360911775
@@ -35253,6 +36782,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -35417,6 +36951,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -35588,6 +37127,20 @@ MonoBehaviour:
   maxSpeed: 10
   isAvoidingCars: 1
   skillLevel: 1
+--- !u!114 &1371232221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371232219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9158d9786f078445a782510d4a8633c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 1714622784}
+  timeAtLastHit: 1
 --- !u!114 &1371232222 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -35600,6 +37153,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b80f085d4669e47aab29c117964182, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1371232228 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 355629397}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1374060903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35952,6 +37511,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6078415348594143001, guid: ad9beb536cdd44c44b3f646a35d176db,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9beb536cdd44c44b3f646a35d176db, type: 3}
 --- !u!4 &1379125916 stripped
@@ -36061,6 +37625,20 @@ MonoBehaviour:
   maxSpeed: 10
   isAvoidingCars: 1
   skillLevel: 1
+--- !u!114 &1382027614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382027612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9158d9786f078445a782510d4a8633c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 1250220558}
+  timeAtLastHit: 1
 --- !u!114 &1382027615 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -36073,6 +37651,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b80f085d4669e47aab29c117964182, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1382027621 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 554448032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1384839821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36094,6 +37678,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -36244,6 +37833,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
@@ -36424,6 +38018,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -36523,6 +38122,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -36624,6 +38228,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
 --- !u!4 &1400589204 stripped
@@ -36718,6 +38327,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -36876,6 +38490,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
@@ -37235,6 +38854,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1427470325 stripped
@@ -37364,6 +38988,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -37514,6 +39143,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -37679,6 +39313,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -37708,6 +39347,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -37788,6 +39432,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
       propertyPath: m_RootOrder
@@ -37861,6 +39510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -38074,6 +39728,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!1001 &1462088612
@@ -38092,6 +39751,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -38165,6 +39829,87 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adff0e9a3e915ab4aabcd8f721960f57, type: 3}
+--- !u!1001 &1462666345
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 518236547}
+    m_Modifications:
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 319421667243645026, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_Name
+      value: HealthBar7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac7046539d7c3d241be7b23c0cce5fa0, type: 3}
+--- !u!114 &1462666346 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3316080589101049001, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1462666345}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb57e1144a191143860fe809037f717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1467065586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38181,6 +39926,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -38261,6 +40011,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -38420,6 +40175,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
@@ -38764,6 +40524,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -38864,6 +40629,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7874393024032031869, guid: c26a913a1a85e2e45afcb11ae3152837,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c26a913a1a85e2e45afcb11ae3152837, type: 3}
 --- !u!1001 &1492589433
@@ -38882,6 +40652,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -39115,8 +40890,94 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8519547595272587713, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
+--- !u!1001 &1500257376
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2053250620}
+    m_Modifications:
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 319421667243645026, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_Name
+      value: HealthBar1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac7046539d7c3d241be7b23c0cce5fa0, type: 3}
+--- !u!114 &1500257377 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3316080589101049001, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1500257376}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb57e1144a191143860fe809037f717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1500474126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39133,6 +40994,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -39327,6 +41193,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1502217594 stripped
@@ -39484,6 +41355,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
@@ -39651,6 +41527,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
       propertyPath: m_RootOrder
@@ -39752,6 +41633,75 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.28000003
+--- !u!1001 &1543014126
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 480085458}
+    m_Modifications:
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 319421667243645026, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_Name
+      value: HealthBar
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac7046539d7c3d241be7b23c0cce5fa0, type: 3}
 --- !u!1001 &1546461542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40075,6 +42025,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1573038160 stripped
@@ -40233,6 +42188,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1575670383 stripped
@@ -40320,6 +42280,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -40508,6 +42473,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!4 &1588106635 stripped
@@ -40670,6 +42640,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8519547595272587713, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
 --- !u!4 &1598021992 stripped
@@ -40768,6 +42743,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -40993,6 +42973,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -41699,6 +43684,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6078415348594143001, guid: ad9beb536cdd44c44b3f646a35d176db,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9beb536cdd44c44b3f646a35d176db, type: 3}
 --- !u!4 &1640649500 stripped
@@ -41723,6 +43713,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -41908,6 +43903,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -42014,6 +44014,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -42048,6 +44053,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -42258,6 +44268,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
       propertyPath: m_RootOrder
@@ -42445,6 +44460,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1689928109 stripped
@@ -42608,6 +44628,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &1690273260 stripped
@@ -42637,6 +44662,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -42723,6 +44753,20 @@ MonoBehaviour:
   maxSpeed: 10
   isAvoidingCars: 1
   skillLevel: 1
+--- !u!114 &1694810730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694810728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9158d9786f078445a782510d4a8633c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 2839712}
+  timeAtLastHit: 1
 --- !u!114 &1694810731 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -42735,6 +44779,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b80f085d4669e47aab29c117964182, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1694810737 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1592231618}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1698939577
 GameObject:
   m_ObjectHideFlags: 0
@@ -43003,6 +45053,87 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+--- !u!1001 &1714622783
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1371232228}
+    m_Modifications:
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 319421667243645026, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_Name
+      value: HealthBar3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac7046539d7c3d241be7b23c0cce5fa0, type: 3}
+--- !u!114 &1714622784 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3316080589101049001, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1714622783}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb57e1144a191143860fe809037f717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1716582050
 GameObject:
   m_ObjectHideFlags: 0
@@ -43388,6 +45519,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &1729284194
@@ -43566,6 +45702,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
@@ -43786,6 +45927,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
       propertyPath: m_RootOrder
@@ -43946,6 +46092,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6078415348594143001, guid: ad9beb536cdd44c44b3f646a35d176db,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9beb536cdd44c44b3f646a35d176db, type: 3}
 --- !u!4 &1744060129 stripped
@@ -44017,6 +46168,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -44266,6 +46422,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
       propertyPath: m_RootOrder
@@ -44453,6 +46614,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6078415348594143001, guid: ad9beb536cdd44c44b3f646a35d176db,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9beb536cdd44c44b3f646a35d176db, type: 3}
 --- !u!4 &1785373325 stripped
@@ -44548,6 +46714,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -44577,6 +46748,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -44818,6 +46994,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -45181,6 +47362,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1811419776 stripped
@@ -45274,6 +47460,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
       propertyPath: m_RootOrder
@@ -45353,6 +47544,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004962190363476024, guid: a1bf0cf0376afe845807c176fdd277cf,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6740909217293097729, guid: a1bf0cf0376afe845807c176fdd277cf,
         type: 3}
@@ -45453,6 +47649,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -45690,6 +47891,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &1818062648 stripped
@@ -45714,6 +47920,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -45836,6 +48047,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -46214,6 +48430,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -46382,6 +48603,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
@@ -46655,6 +48881,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -46987,6 +49218,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!1001 &1869536744
@@ -47075,6 +49311,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
@@ -47225,6 +49466,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -47298,6 +49544,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -47435,6 +49686,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -47660,6 +49916,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
@@ -47932,6 +50193,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1894271244 stripped
@@ -48089,6 +50355,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -48376,6 +50647,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -48689,6 +50965,87 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+--- !u!1001 &1916831268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 577165990}
+    m_Modifications:
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 208985836719162859, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 319421667243645026, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+        type: 3}
+      propertyPath: m_Name
+      value: HealthBar2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac7046539d7c3d241be7b23c0cce5fa0, type: 3}
+--- !u!114 &1916831269 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3316080589101049001, guid: ac7046539d7c3d241be7b23c0cce5fa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1916831268}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb57e1144a191143860fe809037f717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1917136492 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
@@ -49130,6 +51487,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
       propertyPath: m_RootOrder
@@ -49289,6 +51651,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
 --- !u!1001 &1964599474
@@ -49378,6 +51745,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &1964599475 stripped
@@ -49465,6 +51837,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -49625,6 +52002,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
@@ -49789,6 +52171,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &1971619546 stripped
@@ -49884,6 +52271,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7874393024032031869, guid: c26a913a1a85e2e45afcb11ae3152837,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c26a913a1a85e2e45afcb11ae3152837, type: 3}
 --- !u!4 &1972525046 stripped
@@ -49914,6 +52306,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -50004,6 +52401,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
       propertyPath: m_RootOrder
@@ -50083,6 +52485,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -50207,6 +52614,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1004962190363476024, guid: a1bf0cf0376afe845807c176fdd277cf,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 6740909217293097729, guid: a1bf0cf0376afe845807c176fdd277cf,
         type: 3}
       propertyPath: m_RootOrder
@@ -50307,6 +52719,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
@@ -50800,6 +53217,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6078415348594143001, guid: ad9beb536cdd44c44b3f646a35d176db,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 8629167473652206431, guid: ad9beb536cdd44c44b3f646a35d176db,
         type: 3}
       propertyPath: m_SortingOrder
@@ -50900,6 +53322,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
 --- !u!4 &2032233954 stripped
@@ -50924,6 +53351,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -51221,6 +53653,20 @@ MonoBehaviour:
   maxSpeed: 10
   isAvoidingCars: 1
   skillLevel: 1
+--- !u!114 &2053250613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053250611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9158d9786f078445a782510d4a8633c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 1500257377}
+  timeAtLastHit: 1
 --- !u!114 &2053250614 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -51233,6 +53679,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b80f085d4669e47aab29c117964182, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &2053250620 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1223631543072127591, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5474343982610189931}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2054956528
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51774,6 +54226,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!4 &2069923177 stripped
@@ -51853,6 +54310,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5738699738182993627, guid: aba8ac93984c1a84889ea9d71295d443,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aba8ac93984c1a84889ea9d71295d443, type: 3}
@@ -52051,6 +54513,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &2080686197 stripped
@@ -52143,6 +54610,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -52304,6 +54776,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!4 &2086221437 stripped
@@ -52403,6 +54880,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
@@ -52657,6 +55139,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8764957831767089866, guid: a8fb0a8972e39e84483aa72b1180248f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fb0a8972e39e84483aa72b1180248f, type: 3}
 --- !u!1001 &2098015719
@@ -52675,6 +55162,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -52836,6 +55328,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -52865,6 +55362,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -53157,6 +55659,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &2117439445 stripped
@@ -53321,6 +55828,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!4 &2132090290 stripped
@@ -53350,6 +55862,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}
@@ -53500,6 +56017,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4430075389607172061, guid: bac7176bf6a46df4da5613d0fd9a0bdc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac7176bf6a46df4da5613d0fd9a0bdc, type: 3}
@@ -53677,6 +56199,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -53903,6 +56430,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     - target: {fileID: 4371790764890235710, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
         type: 3}
       propertyPath: m_SortingOrder
@@ -53937,6 +56469,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -54027,6 +56564,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5170658194114908035, guid: 86edf4ed564dc844bac5b541b6f4063f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 5996779906193645763, guid: 86edf4ed564dc844bac5b541b6f4063f,
         type: 3}
@@ -54215,6 +56757,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7874393024032031869, guid: c26a913a1a85e2e45afcb11ae3152837,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c26a913a1a85e2e45afcb11ae3152837, type: 3}
 --- !u!4 &638040057125682289 stripped
@@ -54295,6 +56842,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8743857418991226134, guid: ef972b6938be2e64d85c5527ceb021d9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef972b6938be2e64d85c5527ceb021d9, type: 3}
 --- !u!4 &1148360784163126663 stripped
@@ -54319,6 +56871,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414100354367333801, guid: cab89103384bb4e4cbbad8bf745578ee,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 5220725738152874498, guid: cab89103384bb4e4cbbad8bf745578ee,
         type: 3}
@@ -54465,6 +57022,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5738699738182993627, guid: aba8ac93984c1a84889ea9d71295d443,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aba8ac93984c1a84889ea9d71295d443, type: 3}
 --- !u!4 &1949398640605790553 stripped
@@ -54560,6 +57122,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8764957831767089866, guid: a8fb0a8972e39e84483aa72b1180248f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fb0a8972e39e84483aa72b1180248f, type: 3}
 --- !u!4 &2153662067885190680 stripped
@@ -54584,6 +57151,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290016690543847603, guid: 60e1646cf34849d44b1d51803bbf45c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2323013964038467334, guid: 60e1646cf34849d44b1d51803bbf45c9,
         type: 3}
@@ -54745,6 +57317,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 9098081810519659883, guid: 1373cc11518019f42bdc73e056a8067b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1373cc11518019f42bdc73e056a8067b, type: 3}
 --- !u!4 &2313885109968224459 stripped
@@ -54769,6 +57346,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221028774876953780, guid: adff0e9a3e915ab4aabcd8f721960f57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8913518097274298053, guid: adff0e9a3e915ab4aabcd8f721960f57,
         type: 3}
@@ -54886,6 +57468,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557804051277608365, guid: e90f7548da9205441a59bac00cd1539a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6257902221464873870, guid: e90f7548da9205441a59bac00cd1539a,
         type: 3}
@@ -55125,6 +57712,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6114163433970095464, guid: 0d2d4fedc0eaaa440812505844218978,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2d4fedc0eaaa440812505844218978, type: 3}
 --- !u!4 &4704694322628693413 stripped
@@ -55332,6 +57924,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8519547595272587713, guid: e46b43051b68b9b4ea8ab56d272c04c8,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e46b43051b68b9b4ea8ab56d272c04c8, type: 3}
 --- !u!1001 &5567554645681448066
@@ -55350,6 +57947,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1020162147547160174, guid: 5984969e52edb464f926bc1ed9f46b60,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2645534089492121846, guid: 5984969e52edb464f926bc1ed9f46b60,
         type: 3}
@@ -55434,6 +58036,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4067158832195803215, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6456515712592755431, guid: 91e74cc45c9b8cb44ad4d0bed06f704a,
         type: 3}
@@ -55529,6 +58136,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004962190363476024, guid: a1bf0cf0376afe845807c176fdd277cf,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6740909217293097729, guid: a1bf0cf0376afe845807c176fdd277cf,
         type: 3}
@@ -56213,6 +58825,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6078415348594143001, guid: ad9beb536cdd44c44b3f646a35d176db,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad9beb536cdd44c44b3f646a35d176db, type: 3}
 --- !u!1001 &7758746230069882883
@@ -56307,6 +58924,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 7082956783936398617, guid: 4699c0f1c67effb41ba9a34b66deafe0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4699c0f1c67effb41ba9a34b66deafe0, type: 3}
 --- !u!4 &7758746230069882884 stripped
@@ -56331,6 +58953,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6696404147228470449, guid: 04fcfeccc9776b544b9189be42865831,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 8732529244090939054, guid: 04fcfeccc9776b544b9189be42865831,
         type: 3}
@@ -56420,6 +59047,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680000283665771615, guid: 8d724773066a952479a008334ccf2bec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 2893448857758591319, guid: 8d724773066a952479a008334ccf2bec,
         type: 3}
@@ -56571,6 +59203,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4240848698913307409, guid: 6bc38483eebc68a4e80ea8a35d05bc45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc38483eebc68a4e80ea8a35d05bc45, type: 3}
 --- !u!1001 &8927744190021182796
@@ -56594,6 +59231,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3954424895462674439, guid: 685672480405a7842841a1179865ba30,
+        type: 3}
+      propertyPath: m_TagString
+      value: Scenery
       objectReference: {fileID: 0}
     - target: {fileID: 6881392653426683686, guid: 685672480405a7842841a1179865ba30,
         type: 3}

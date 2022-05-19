@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\CheckPoint\PositionHandler.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
     <Compile Include="Assets\Scripts\Weapon\GunShooting.cs" />
+    <Compile Include="Assets\Scripts\Healthbar\HealthSystem.cs" />
     <Compile Include="Assets\Scripts\Leaderboard\LeaderboardInfo.cs" />
     <Compile Include="Assets\Scripts\Weapon\BoomClone.cs" />
     <Compile Include="Assets\Scripts\Car\CarSfxHandler.cs" />
@@ -83,9 +84,10 @@
     <Compile Include="Assets\Scripts\AI\CarAIHandler.cs" />
     <Compile Include="Assets\Scripts\Car\WheelParticleHandler.cs" />
     <Compile Include="Assets\Scripts\Car\WheelTrailRendererHandler.cs" />
+    <Compile Include="Assets\Scripts\Healthbar\HealthController.cs" />
     <Compile Include="Assets\Scripts\AI\A-Star\AStarNode.cs" />
     <Compile Include="Assets\Scripts\Weapon\CurrentWeapon.cs" />
-    <Compile Include="Assets\Scripts\CheckPoint\NotificationManager.cs" />
+    <Compile Include="Assets\Scripts\Healthbar\HealthBar.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
