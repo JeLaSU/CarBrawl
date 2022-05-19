@@ -68,7 +68,11 @@ The following packages were updated:
   com.unity.textmeshpro from version 2.1.1 to 3.0.6
   com.unity.timeline from version 1.2.18 to 1.4.8
 
+<<<<<<< HEAD
 === Wed Apr 27 18:21:51 2022
+=======
+=== Wed Apr 20 14:43:55 2022
+>>>>>>> Minde
 
 Packages were changed.
 Update Mode: updateDependencies

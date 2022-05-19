@@ -6,6 +6,12 @@ TagManager:
   tags:
   - DontChangeLayer
   - Car
+  - CheckPoint
+  - AI
+  - Weapon
+  - InvisWall
+  - AICar
+  - Scenery
   layers:
   - Default
   - TransparentFX
@@ -13,10 +19,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - MinimapCar
+  - MinimapGrass
+  - Car
+  - BG
   - 
   - 
   - 

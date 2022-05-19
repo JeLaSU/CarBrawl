@@ -19,6 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.SpriteShape.Runtim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9C8252D1-4C0C-76E8-47D2-BF94439E5213}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect", "Unity.2D.PixelPerfect.csproj", "{27FD88FF-FC39-D032-42BA-663324F12C3B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Common.Runtime", "Unity.2D.Common.Runtime.csproj", "{01C631FB-B91A-F764-F0D7-69245998AD5E}"
@@ -102,6 +103,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InternalAPIEngineBridge.001", "Unity.InternalAPIEngineBridge.001.Player.csproj", "{92F9E35D-C768-A04E-3554-A815F6EA6F0E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PlayerPrefsEditor.Samples.SampleScene", "Unity.PlayerPrefsEditor.Samples.SampleScene.Player.csproj", "{B047B58E-5F9F-4FC2-4C14-D04685D31D94}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTiled2Unity", "SuperTiled2Unity.csproj", "{2E58A64A-50BA-B7BB-9BE8-62B733DF47BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTiled2UnityEditor", "SuperTiled2UnityEditor.csproj", "{5AEEC05E-D46C-5E13-622B-176227D8C489}"
+>>>>>>> main_
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,6 +151,7 @@ Global
 		{9C8252D1-4C0C-76E8-47D2-BF94439E5213}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C8252D1-4C0C-76E8-47D2-BF94439E5213}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C8252D1-4C0C-76E8-47D2-BF94439E5213}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{27FD88FF-FC39-D032-42BA-663324F12C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{27FD88FF-FC39-D032-42BA-663324F12C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27FD88FF-FC39-D032-42BA-663324F12C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -313,6 +320,16 @@ Global
 		{B047B58E-5F9F-4FC2-4C14-D04685D31D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B047B58E-5F9F-4FC2-4C14-D04685D31D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B047B58E-5F9F-4FC2-4C14-D04685D31D94}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{2E58A64A-50BA-B7BB-9BE8-62B733DF47BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E58A64A-50BA-B7BB-9BE8-62B733DF47BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E58A64A-50BA-B7BB-9BE8-62B733DF47BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E58A64A-50BA-B7BB-9BE8-62B733DF47BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AEEC05E-D46C-5E13-622B-176227D8C489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AEEC05E-D46C-5E13-622B-176227D8C489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AEEC05E-D46C-5E13-622B-176227D8C489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AEEC05E-D46C-5E13-622B-176227D8C489}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> main_
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

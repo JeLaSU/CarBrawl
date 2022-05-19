@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1010127829}
   - component: {fileID: 1010127830}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,27 +56,42 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.82, y: -0.59499997}
-      - {x: 0.6466255, y: -0.5994091}
-      - {x: 0.65452373, y: -0.09047765}
-      - {x: 0.68035126, y: 0.7963056}
-      - {x: 0.7419596, y: 0.85608596}
-      - {x: 0.74493027, y: 1.2522545}
-      - {x: 0.17647833, y: 1.2464886}
-      - {x: 0.00116539, y: 1.3857799}
-      - {x: -0.14282417, y: 1.2452302}
-      - {x: -0.7152281, y: 1.2485538}
-      - {x: -0.71949744, y: 0.80449647}
-      - {x: -0.66045, y: 0.7934923}
-      - {x: -0.6616081, y: 0.34358257}
-      - {x: -0.63131714, y: -0.5856557}
-      - {x: -0.8098507, y: -0.5996494}
-      - {x: -0.80610085, y: -1.0820012}
-      - {x: -0.5893931, y: -1.0770062}
-      - {x: -0.5839577, y: -1.244056}
-      - {x: 0.5915489, y: -1.2311814}
-      - {x: 0.61356556, y: -1.1002227}
-      - {x: 0.83839184, y: -1.0933917}
+    - - {x: 0.35613474, y: 0.65167767}
+      - {x: 0.63311934, y: 0.6487716}
+      - {x: 1.180942, y: 0.6576723}
+      - {x: 1.1648157, y: 1.0920584}
+      - {x: 1.176359, y: 1.4847887}
+      - {x: 0.9451604, y: 1.5232797}
+      - {x: 0.92873365, y: 1.9367796}
+      - {x: 0.1531007, y: 1.9589545}
+      - {x: 0.08036189, y: 2.006578}
+      - {x: 0.006060677, y: 2.0105429}
+      - {x: -0.080400206, y: 2.0002303}
+      - {x: -0.15028572, y: 1.9376066}
+      - {x: -0.91069543, y: 1.92656}
+      - {x: -0.9163249, y: 1.5255063}
+      - {x: -1.1569202, y: 1.478606}
+      - {x: -1.1556306, y: 1.0671898}
+      - {x: -1.1492318, y: 0.6608861}
+      - {x: -0.5974445, y: 0.65916234}
+      - {x: -0.34113204, y: 0.64633054}
+      - {x: -0.42831388, y: 0.16110271}
+      - {x: -0.7263524, y: 0.09662911}
+      - {x: -0.84452236, y: -0.03623647}
+      - {x: -0.8497821, y: -0.81781596}
+      - {x: -1.2429544, y: -0.83617985}
+      - {x: -1.2468861, y: -1.2794496}
+      - {x: -1.2286406, y: -1.6667842}
+      - {x: -0.94234645, y: -1.6790047}
+      - {x: -0.9090056, y: -2.0151095}
+      - {x: 0.9271883, y: -2.0090482}
+      - {x: 0.9388932, y: -1.6724951}
+      - {x: 1.2444707, y: -1.6670597}
+      - {x: 1.250351, y: -1.2661318}
+      - {x: 1.2561662, y: -0.84114164}
+      - {x: 0, y: 0}
+      - {x: 0, y: 0}
+      - {x: 0, y: 0}
 --- !u!1 &1053552286
 GameObject:
   m_ObjectHideFlags: 0
@@ -87,7 +102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1053552287}
   - component: {fileID: 1053552288}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CarScreechSFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1109870802}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +263,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1328829423}
   - component: {fileID: 1328829422}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CarHitSFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -376,7 +391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1620797342}
   - component: {fileID: 1620797343}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CarEngineSFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,7 +521,7 @@ GameObject:
   - component: {fileID: 6558350183437944271}
   - component: {fileID: 6558350183437944264}
   - component: {fileID: 6558350183437944265}
-  m_Layer: 14
+  m_Layer: 8
   m_Name: ParticleSystemSmokeLeftWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -521,7 +536,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6558350183437944267}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.64, y: -1.01, z: 0}
+  m_LocalPosition: {x: -2.5, y: 1.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6558350185083141113}
@@ -534,7 +549,7 @@ ParticleSystem:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6558350183437944267}
-  serializedVersion: 6
+  serializedVersion: 7
   lengthInSec: 5
   simulationSpeed: 1
   stopAction: 0
@@ -717,7 +732,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+      maxColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 0.7882353}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -2696,6 +2711,62 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+  LifetimeByEmitterSpeedModule:
+    enabled: 0
+    m_Curve:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: -0.8
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0.2
+          inSlope: -0.8
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    m_Range: {x: 0, y: 1}
   ForceModule:
     enabled: 0
     x:
@@ -4126,19 +4197,20 @@ ParticleSystem:
     range: {x: 0, y: 1}
   CollisionModule:
     enabled: 0
-    serializedVersion: 3
+    serializedVersion: 4
     type: 0
     collisionMode: 0
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
     multiplyColliderForceByParticleSpeed: 0
     multiplyColliderForceByCollisionAngle: 1
-    plane0: {fileID: 0}
-    plane1: {fileID: 0}
-    plane2: {fileID: 0}
-    plane3: {fileID: 0}
-    plane4: {fileID: 0}
-    plane5: {fileID: 0}
+    m_Planes:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     m_Dampen:
       serializedVersion: 2
       minMaxState: 0
@@ -4312,17 +4384,20 @@ ParticleSystem:
     interiorCollisions: 0
   TriggerModule:
     enabled: 0
-    collisionShape0: {fileID: 0}
-    collisionShape1: {fileID: 0}
-    collisionShape2: {fileID: 0}
-    collisionShape3: {fileID: 0}
-    collisionShape4: {fileID: 0}
-    collisionShape5: {fileID: 0}
+    serializedVersion: 2
     inside: 1
     outside: 0
     enter: 0
     exit: 0
+    colliderQueryMode: 0
     radiusScale: 1
+    primitives:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   SubModule:
     serializedVersion: 2
     enabled: 0
@@ -5277,6 +5352,7 @@ ParticleSystemRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5318,6 +5394,8 @@ ParticleSystemRenderer:
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
+  m_FreeformStretching: 0
+  m_RotateWithStretchDirection: 1
   m_VertexStreams: 000304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
@@ -5347,7 +5425,7 @@ GameObject:
   - component: {fileID: 6558350183901354371}
   - component: {fileID: 6558350183901354370}
   - component: {fileID: 6558350183901354369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WheelTrailerRendererLeftWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5362,7 +5440,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6558350183901354364}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.64299965, y: -0.8399999, z: 0}
+  m_LocalPosition: {x: -2.5, y: 1.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6558350185083141113}
@@ -5384,6 +5462,7 @@ TrailRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5408,7 +5487,7 @@ TrailRenderer:
   m_SortingLayerID: 109791867
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Time: 30
+  m_Time: 60
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.2
@@ -5416,7 +5495,7 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
+        time: 0.0027999878
         value: 1
         inSlope: 0
         outSlope: 0
@@ -5429,8 +5508,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0, g: 0, b: 0, a: 0.14509805}
-      key1: {r: 0.2627451, g: 0.2627451, b: 0.2627451, a: 0}
+      key0: {r: 0, g: 0, b: 0, a: 0.47058824}
+      key1: {r: 0.2627451, g: 0.2627451, b: 0.2627451, a: 0.47058824}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -5488,7 +5567,7 @@ GameObject:
   - component: {fileID: 6558350184171321421}
   - component: {fileID: 6558350184171321427}
   - component: {fileID: 6558350184171321420}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WheelTrailerRendererRightWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5525,6 +5604,7 @@ TrailRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5549,7 +5629,7 @@ TrailRenderer:
   m_SortingLayerID: 109791867
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Time: 30
+  m_Time: 60
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.2
@@ -5570,8 +5650,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0, g: 0, b: 0, a: 0.14509805}
-      key1: {r: 0.2627451, g: 0.2627451, b: 0.2627451, a: 0}
+      key0: {r: 0, g: 0, b: 0, a: 0.47058824}
+      key1: {r: 0.2627451, g: 0.2627451, b: 0.2627451, a: 0.47058824}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -5628,7 +5708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6558350185083141113}
   - component: {fileID: 6558350185083141112}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5644,7 +5724,7 @@ Transform:
   m_GameObject: {fileID: 6558350185083141114}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 6558350183901354371}
   - {fileID: 6558350184171321421}
@@ -5668,6 +5748,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5692,7 +5773,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6641cab282c87504dbb08673616a03bb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c529ac86d10019247973b24bad203385, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5716,7 +5797,8 @@ GameObject:
   - component: {fileID: 6558350185343971738}
   - component: {fileID: 6558350185343971739}
   - component: {fileID: 1796671574}
-  m_Layer: 0
+  - component: {fileID: 4450477543640531506}
+  m_Layer: 8
   m_Name: Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5777,6 +5859,7 @@ MonoBehaviour:
   accelerationFactor: 30
   turnFactor: 3.5
   maxSpeed: 20
+  currentWeaponEquipped: {fileID: 0}
 --- !u!114 &6558350185343971739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5805,6 +5888,32 @@ MonoBehaviour:
   tiresScreeachingAudioSource: {fileID: 1053552288}
   engineAudioSource: {fileID: 1620797343}
   carHitAudioSource: {fileID: 1328829422}
+--- !u!61 &4450477543640531506
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6558350185343971735}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &6558350185460239946
 GameObject:
   m_ObjectHideFlags: 0
@@ -5817,7 +5926,7 @@ GameObject:
   - component: {fileID: 6558350185460239950}
   - component: {fileID: 6558350185460239951}
   - component: {fileID: 6558350185460239944}
-  m_Layer: 14
+  m_Layer: 8
   m_Name: ParticleSystemSmokeRightWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5832,7 +5941,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6558350185460239946}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.64, y: -1.01, z: 0}
+  m_LocalPosition: {x: -2.5, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6558350185083141113}
@@ -5845,7 +5954,7 @@ ParticleSystem:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6558350185460239946}
-  serializedVersion: 6
+  serializedVersion: 7
   lengthInSec: 5
   simulationSpeed: 1
   stopAction: 0
@@ -6028,7 +6137,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+      maxColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 0.8156863}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -8007,6 +8116,62 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+  LifetimeByEmitterSpeedModule:
+    enabled: 0
+    m_Curve:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: -0.8
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0.2
+          inSlope: -0.8
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    m_Range: {x: 0, y: 1}
   ForceModule:
     enabled: 0
     x:
@@ -9437,19 +9602,20 @@ ParticleSystem:
     range: {x: 0, y: 1}
   CollisionModule:
     enabled: 0
-    serializedVersion: 3
+    serializedVersion: 4
     type: 0
     collisionMode: 0
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
     multiplyColliderForceByParticleSpeed: 0
     multiplyColliderForceByCollisionAngle: 1
-    plane0: {fileID: 0}
-    plane1: {fileID: 0}
-    plane2: {fileID: 0}
-    plane3: {fileID: 0}
-    plane4: {fileID: 0}
-    plane5: {fileID: 0}
+    m_Planes:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     m_Dampen:
       serializedVersion: 2
       minMaxState: 0
@@ -9623,17 +9789,20 @@ ParticleSystem:
     interiorCollisions: 0
   TriggerModule:
     enabled: 0
-    collisionShape0: {fileID: 0}
-    collisionShape1: {fileID: 0}
-    collisionShape2: {fileID: 0}
-    collisionShape3: {fileID: 0}
-    collisionShape4: {fileID: 0}
-    collisionShape5: {fileID: 0}
+    serializedVersion: 2
     inside: 1
     outside: 0
     enter: 0
     exit: 0
+    colliderQueryMode: 0
     radiusScale: 1
+    primitives:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   SubModule:
     serializedVersion: 2
     enabled: 0
@@ -10588,6 +10757,7 @@ ParticleSystemRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10629,6 +10799,8 @@ ParticleSystemRenderer:
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
+  m_FreeformStretching: 0
+  m_RotateWithStretchDirection: 1
   m_VertexStreams: 000304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
