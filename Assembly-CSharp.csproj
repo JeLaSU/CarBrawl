@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Weapon\PickUpWeapon.cs" />
      <Compile Include="Assets\Scripts\Weapon\GunShooting.cs" />
      <Compile Include="Assets\Scripts\Leaderboard\LeaderboardInfo.cs" />
+     <Compile Include="Assets\Scripts\Menu\ColorBlindFilters.cs" />
      <Compile Include="Assets\Scripts\Weapon\GunController.cs" />
      <Compile Include="Assets\Scripts\CheckPoint\CheckPoint.cs" />
      <Compile Include="Assets\Scripts\Weapon\Bullet.cs" />
@@ -80,6 +81,7 @@
      <Compile Include="Assets\Scripts\Weapon\Boomerang.cs" />
      <Compile Include="Assets\Scripts\Pickups\CoinBehaviour.cs" />
      <Compile Include="Assets\Scripts\Weapon\Weapon.cs" />
+     <Compile Include="Assets\CVDFilter\Scripts\CVDFilter.cs" />
      <Compile Include="Assets\Scripts\Weapon\CurrentWeapon.cs" />
      <Compile Include="Assets\Scripts\Healthbar\HealthBar.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
