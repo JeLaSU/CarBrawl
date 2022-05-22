@@ -1,370 +1,154 @@
-Unity Editor version:    2020.3.30f1 (1fb1bf06830e)
-Branch:                  2020.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 10.14.6 (Build 18G9323)
-Darwin version:          18.7.0
-Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        8192 MB
 Using pre-set license
-Pro License: NO
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'sv' Physical Memory: 16320 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MacOS/Unity
+E:\Unity\2020.3.30f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/JesperLarsson/Documents/GitHub/CarBrawl
+C:/Users/Jesper/Desktop/Sys-utv/CarBrawl
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61670
-Successfully changed project path to: /Users/JesperLarsson/Documents/GitHub/CarBrawl
-/Users/JesperLarsson/Documents/GitHub/CarBrawl
+55513
+Successfully changed project path to: C:/Users/Jesper/Desktop/Sys-utv/CarBrawl
+C:/Users/Jesper/Desktop/Sys-utv/CarBrawl
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 234.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/JesperLarsson/Documents/GitHub/CarBrawl/Assets
+[Subsystems] Discovering subsystems at path E:/Unity/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jesper/Desktop/Sys-utv/CarBrawl/Assets
 GfxDevice: creating device client; threaded=0
-2022-05-22 20:54:50.482 Unity[14547:4056198] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
-2022-05-22 20:54:50.482 Unity[14547:4056198] Metal devices available: 1
-2022-05-22 20:54:50.482 Unity[14547:4056198] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
-2022-05-22 20:54:50.484 Unity[14547:4056198] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.15.1165
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56547
+Mono path[0] = 'E:/Unity/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003307 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 97.83 ms, found 3 plugins.
+Register platform support module: E:/Unity/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001781 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 83.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.280 seconds
+- Completed reload, in  0.747 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1280ms)
-		BeginReloadAssembly (187ms)
+	ReloadAssembly (747ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (970ms)
-			LoadAssemblies (200ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (333ms)
+			SetupTypeCache (161ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (403ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (249ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (98ms)
-				BeforeProcessingInitializeOnLoad (24ms)
-				ProcessInitializeOnLoadAttributes (174ms)
-				ProcessInitializeOnLoadMethodAttributes (101ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012804 seconds.
+Registered in 0.007604 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/JesperLarsson/Documents/GitHub/CarBrawl/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 100.96 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jesper\Desktop\Sys-utv\CarBrawl\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 80.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.912 seconds
+- Completed reload, in  1.430 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2913ms)
-		BeginReloadAssembly (374ms)
+	ReloadAssembly (1431ms)
+		BeginReloadAssembly (221ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (80ms)
-		EndReloadAssembly (2341ms)
-			LoadAssemblies (424ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1135ms)
+			LoadAssemblies (162ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (687ms)
+			SetupTypeCache (340ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (130ms)
-			SetupLoadedEditorAssemblies (892ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (467ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (156ms)
-				ProcessInitializeOnLoadAttributes (524ms)
-				ProcessInitializeOnLoadMethodAttributes (91ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.010291 seconds.
-Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.082161 seconds.
-Application.AssetDatabase Initial Script Refresh Start
-RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
-RefreshProfiler: Total: 0.000ms
-Application.AssetDatabase Initial Script Refresh End
-Application.AssetDatabase.Refresh Start
-Application.AssetDatabase.Refresh End
-RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Initializing Unity extensions:
-[C# Project] Writing /Users/JesperLarsson/Documents/GitHub/CarBrawl/CarBrawl.sln because it has changed
-[C# Project] First difference on line 4
-
-[C# Project] Current /Users/JesperLarsson/Documents/GitHub/CarBrawl/CarBrawl.sln:
-[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9C8252D1-4C0C-76E8-47D2-BF94439E5213}"
-[C# Project]   005: EndProject
-[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTiled2Unity", "SuperTiled2Unity.csproj", "{2E58A64A-50BA-B7BB-9BE8-62B733DF47BB}"
-[C# Project]   007: EndProject
-[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PlayerPrefsEditor.Samples.SampleScene", "Unity.PlayerPrefsEditor.Samples.SampleScene.csproj", "{E8DCFCD0-C6C4-E20F-4750-669CD335033B}"
-
-[C# Project] New /Users/JesperLarsson/Documents/GitHub/CarBrawl/CarBrawl.sln:
-[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{BF2EBFB4-AC32-AB04-65D6-A2B4E870A490}"
-[C# Project]   005: EndProject
-[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect.Tests", "Unity.2D.PixelPerfect.Tests.csproj", "{EF9FB7E8-A00E-BF08-3F1D-B4B27F6EE5C7}"
-[C# Project]   007: EndProject
-[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{A624CDD7-E6B0-B454-B8E9-768D41C7D521}"
-[C# Project] Writing /Users/JesperLarsson/Documents/GitHub/CarBrawl/Assembly-CSharp.csproj because it has changed
-[C# Project] First difference on line 84
-
-[C# Project] Current /Users/JesperLarsson/Documents/GitHub/CarBrawl/Assembly-CSharp.csproj:
-[C# Project]   084:      <Compile Include="Assets\Scripts\Weapon\CurrentWeapon.cs" />
-[C# Project]   085:      <Compile Include="Assets\Scripts\Healthbar\HealthBar.cs" />
-[C# Project]   086:      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-[C# Project]   087:      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-[C# Project]   088:      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-
-[C# Project] New /Users/JesperLarsson/Documents/GitHub/CarBrawl/Assembly-CSharp.csproj:
-[C# Project]   084:      <Compile Include="Assets\CVDFilter\Scripts\CVDFilter.cs" />
-[C# Project]   085:      <Compile Include="Assets\Scripts\Weapon\CurrentWeapon.cs" />
-[C# Project]   086:      <Compile Include="Assets\Scripts\Healthbar\HealthBar.cs" />
-[C# Project]   087:      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-[C# Project]   088:      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-[C# Project] Writing /Users/JesperLarsson/Documents/GitHub/CarBrawl/SuperTiled2Unity.csproj because it has changed
-[C# Project] First difference on line 675
-
-[C# Project] Current /Users/JesperLarsson/Documents/GitHub/CarBrawl/SuperTiled2Unity.csproj:
-[C# Project]   675:  <Reference Include="UnityEditor.UI">
-[C# Project]   676:  <HintPath>/Users/JesperLarsson/Documents/GitHub/CarBrawl/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-[C# Project]   677:  </Reference>
-[C# Project]   678:  <Reference Include="UnityEngine.UI">
-[C# Project]   679:  <HintPath>/Users/JesperLarsson/Documents/GitHub/CarBrawl/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-
-[C# Project] New /Users/JesperLarsson/Documents/GitHub/CarBrawl/SuperTiled2Unity.csproj:
-[C# Project]   675:   </ItemGroup>
-[C# Project]   676:   <ItemGroup>
-[C# Project]   677:     <ProjectReference Include="UnityEditor.UI.csproj">
-[C# Project]   678:       <Project>{EDC4E191-0DD8-08BF-9128-5B3B0A6DF0FC}</Project>
-[C# Project]   679:       <Name>UnityEditor.UI</Name>
-[C# Project] Writing /Users/JesperLarsson/Documents/GitHub/CarBrawl/Unity.PlayerPrefsEditor.Samples.SampleScene.csproj because it has changed
-[C# Project] First difference on line 646
-
-[C# Project] Current /Users/JesperLarsson/Documents/GitHub/CarBrawl/Unity.PlayerPrefsEditor.Samples.SampleScene.csproj:
-[C# Project]   646:  <Reference Include="UnityEditor.UI">
-[C# Project]   647:  <HintPath>/Users/JesperLarsson/Documents/GitHub/CarBrawl/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-[C# Project]   648:  </Reference>
-[C# Project]   649:  <Reference Include="UnityEngine.UI">
-[C# Project]   650:  <HintPath>/Users/JesperLarsson/Documents/GitHub/CarBrawl/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-
-[C# Project] New /Users/JesperLarsson/Documents/GitHub/CarBrawl/Unity.PlayerPrefsEditor.Samples.SampleScene.csproj:
-[C# Project]   646:   </ItemGroup>
-[C# Project]   647:   <ItemGroup>
-[C# Project]   648:     <ProjectReference Include="UnityEditor.UI.csproj">
-[C# Project]   649:       <Project>{EDC4E191-0DD8-08BF-9128-5B3B0A6DF0FC}</Project>
-[C# Project]   650:       <Name>UnityEditor.UI</Name>
-[C# Project] Writing /Users/JesperLarsson/Documents/GitHub/CarBrawl/SuperTiled2UnityEditor.csproj because it has changed
-[C# Project] First difference on line 771
-
-[C# Project] Current /Users/JesperLarsson/Documents/GitHub/CarBrawl/SuperTiled2UnityEditor.csproj:
-[C# Project]   771:  <Reference Include="UnityEditor.UI">
-[C# Project]   772:  <HintPath>/Users/JesperLarsson/Documents/GitHub/CarBrawl/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-[C# Project]   773:  </Reference>
-[C# Project]   774:  <Reference Include="UnityEngine.UI">
-[C# Project]   775:  <HintPath>/Users/JesperLarsson/Documents/GitHub/CarBrawl/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-
-[C# Project] New /Users/JesperLarsson/Documents/GitHub/CarBrawl/SuperTiled2UnityEditor.csproj:
-[C# Project]   771:   </ItemGroup>
-[C# Project]   772:   <ItemGroup>
-[C# Project]   773:     <ProjectReference Include="SuperTiled2Unity.csproj">
-[C# Project]   774:       <Project>{2E58A64A-50BA-B7BB-9BE8-62B733DF47BB}</Project>
-[C# Project]   775:       <Name>SuperTiled2Unity</Name>
-[C# Project] Writing /Users/JesperLarsson/Documents/GitHub/CarBrawl/Unity.PlayerPrefsEditor.Editor.csproj because it has changed
-[C# Project] First difference on line 660
-
-[C# Project] Current /Users/JesperLarsson/Documents/GitHub/CarBrawl/Unity.PlayerPrefsEditor.Editor.csproj:
-[C# Project]   660:  <Reference Include="UnityEditor.UI">
-[C# Project]   661:  <HintPath>/Users/JesperLarsson/Documents/GitHub/CarBrawl/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-[C# Project]   662:  </Reference>
-[C# Project]   663:  <Reference Include="UnityEngine.UI">
-[C# Project]   664:  <HintPath>/Users/JesperLarsson/Documents/GitHub/CarBrawl/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-
-[C# Project] New /Users/JesperLarsson/Documents/GitHub/CarBrawl/Unity.PlayerPrefsEditor.Editor.csproj:
-[C# Project]   660:   </ItemGroup>
-[C# Project]   661:   <ItemGroup>
-[C# Project]   662:     <ProjectReference Include="Unity.PlayerPrefsEditor.EditorResources.csproj">
-[C# Project]   663:       <Project>{C05DD4EE-4E00-B779-7A2F-E23105716EE5}</Project>
-[C# Project]   664:       <Name>Unity.PlayerPrefsEditor.EditorResources</Name>
-[C# Project] Writing /Users/JesperLarsson/Documents/GitHub/CarBrawl/Unity.PlayerPrefsEditor.EditorResources.csproj because it has changed
-[C# Project] First difference on line 652
-
-[C# Project] Current /Users/JesperLarsson/Documents/GitHub/CarBrawl/Unity.PlayerPrefsEditor.EditorResources.csproj:
-[C# Project]   652:  <Reference Include="UnityEditor.UI">
-[C# Project]   653:  <HintPath>/Users/JesperLarsson/Documents/GitHub/CarBrawl/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-[C# Project]   654:  </Reference>
-[C# Project]   655:  <Reference Include="UnityEngine.UI">
-[C# Project]   656:  <HintPath>/Users/JesperLarsson/Documents/GitHub/CarBrawl/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-
-[C# Project] New /Users/JesperLarsson/Documents/GitHub/CarBrawl/Unity.PlayerPrefsEditor.EditorResources.csproj:
-[C# Project]   652:   </ItemGroup>
-[C# Project]   653:   <ItemGroup>
-[C# Project]   654:     <ProjectReference Include="UnityEditor.UI.csproj">
-[C# Project]   655:       <Project>{EDC4E191-0DD8-08BF-9128-5B3B0A6DF0FC}</Project>
-[C# Project]   656:       <Name>UnityEditor.UI</Name>
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2965 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 312.1 MB.
-System memory in use after: 311.3 MB.
+Unloading 2962 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.8 MB.
+System memory in use after: 192.1 MB.
 
-Unloading 197 unused Assets to reduce memory usage. Loaded Objects now: 3416.
-Total: 11.981534 ms (FindLiveObjects: 0.303997 ms CreateObjectMapping: 0.165001 ms MarkObjects: 10.823662 ms  DeleteObjects: 0.687445 ms)
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 3374.
+Total: 8.290200 ms (FindLiveObjects: 0.343900 ms CreateObjectMapping: 0.185500 ms MarkObjects: 7.710500 ms  DeleteObjects: 0.048800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/CVDFilter/CVDFilter.prefab
-  artifactKey: Guid(cbc9cc4306c5e354696618b95ff4388d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/CVDFilter.prefab using Guid(cbc9cc4306c5e354696618b95ff4388d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9025856b067f6a75d9c3ca44445508') in 0.743461 seconds 
+  path: Assets/SuperTiled2Unity/SuperTiled2Unity.asmdef
+  artifactKey: Guid(06e56dbbb8dec4d43a0b85b0fe0dd0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/SuperTiled2Unity.asmdef using Guid(06e56dbbb8dec4d43a0b85b0fe0dd0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4886cc4db180db8f56aecc62a4ecb27') in 0.047265 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/CVDFilter/Resources/4_CVD_Deuteranomaly.asset
-  artifactKey: Guid(8dccc7b1547d38049a9c6a5c2ccb36ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Resources/4_CVD_Deuteranomaly.asset using Guid(8dccc7b1547d38049a9c6a5c2ccb36ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cbdfa11042c953efc078a2f26c1a2e') in 0.564231 seconds 
+  Time since last request: 2.649505 seconds.
+  path: Assets/SuperTiled2Unity/Import/Road_Tiles_pal.tsx
+  artifactKey: Guid(a59125b8c8441a84c972f4bff549dbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/Road_Tiles_pal.tsx using Guid(a59125b8c8441a84c972f4bff549dbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993c96956603d7ca45039f602cc8a98e') in 0.147231 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/CVDFilter/Resources/3_CVD_Deuteranopia.asset
-  artifactKey: Guid(669e673adebf59941bae07e1bcd0a659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Resources/3_CVD_Deuteranopia.asset using Guid(669e673adebf59941bae07e1bcd0a659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f7a976743118e21e37e2edcd572323') in 0.015554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000521 seconds.
-  path: Assets/CVDFilter/Resources/2_CVD_Protanomaly.asset
-  artifactKey: Guid(fecd5e032f519d840aa3bb37aaa043dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Resources/2_CVD_Protanomaly.asset using Guid(fecd5e032f519d840aa3bb37aaa043dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7eafcd28e947be612b1f1e7b8678cdb') in 0.019865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000663 seconds.
-  path: Assets/CVDFilter/Resources/6_CVD_Tritanomaly.asset
-  artifactKey: Guid(da6204778461ce547a86468321592915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Resources/6_CVD_Tritanomaly.asset using Guid(da6204778461ce547a86468321592915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fc9dfdc183241db610d23b2722faf7') in 0.013552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001305 seconds.
-  path: Assets/CVDFilter/Resources/5_CVD_Tritanopia.asset
-  artifactKey: Guid(32c6a969f5cb3a749978c99df23ef260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Resources/5_CVD_Tritanopia.asset using Guid(32c6a969f5cb3a749978c99df23ef260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d41eef131831824d5d4de708264a8c4') in 0.015386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000477 seconds.
-  path: Assets/CVDFilter/Resources/1_CVD_Protanopia.asset
-  artifactKey: Guid(b1bfd721c78944e4296d4a9f9ced0290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Resources/1_CVD_Protanopia.asset using Guid(b1bfd721c78944e4296d4a9f9ced0290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347d0487c63a649d7318da082cb5a2aa') in 0.012332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000654 seconds.
-  path: Assets/CVDFilter/Resources/8_CVD_Achromatomaly.asset
-  artifactKey: Guid(11375a69016ed524ebc2f8a626d5a1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Resources/8_CVD_Achromatomaly.asset using Guid(11375a69016ed524ebc2f8a626d5a1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fb5079acaf727d9e658247e739d714') in 0.022508 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/CVDFilter/Examples/RGB_Colorcube_Corner_White.png
-  artifactKey: Guid(2ac64a5d9fdfcbb4ca20bc55615eb41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Examples/RGB_Colorcube_Corner_White.png using Guid(2ac64a5d9fdfcbb4ca20bc55615eb41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df633699285cf55f03268197116df697') in 0.697802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/CVDFilter/Resources/0_CVD_Normal.asset
-  artifactKey: Guid(f0e86020e5b65ea40a42db594b25b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Resources/0_CVD_Normal.asset using Guid(f0e86020e5b65ea40a42db594b25b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed6133e088b607a1f590be4880972b2') in 0.012331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000642 seconds.
-  path: Assets/CVDFilter/Scripts/CVDFilter.cs
-  artifactKey: Guid(40aa43ab28dc73d4c857f11fc818f474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Scripts/CVDFilter.cs using Guid(40aa43ab28dc73d4c857f11fc818f474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2adb1cc25a88ac4507de94d6b0c084') in 0.370052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/CVDFilter/Resources/7_CVD_Achromatopsia.asset
-  artifactKey: Guid(81c85556e860e8649a3ec002a291fed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Resources/7_CVD_Achromatopsia.asset using Guid(81c85556e860e8649a3ec002a291fed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2212b9b75429041430a854aa8a40aa8') in 0.020540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 86.224553 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed59dd39b34a61edbbdf0907d2e30538') in 0.006762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.206754 seconds.
-  path: Assets/CVDFilter/Documentation.pdf
-  artifactKey: Guid(eb0bb99f59ece8949ad6418cd3f9f5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Documentation.pdf using Guid(eb0bb99f59ece8949ad6418cd3f9f5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391419e662957627aa0b74bb1d3e4ed3') in 0.461235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 159.223417 seconds.
-  path: Assets/CVDFilter/Examples
-  artifactKey: Guid(bcfa208f688a0a642bf02544c73fddc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Examples using Guid(bcfa208f688a0a642bf02544c73fddc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5c14cbb03e306ad39be16801c564c5') in 0.009793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.639776 seconds.
-  path: Assets/CVDFilter/Examples/Example.unity
-  artifactKey: Guid(f2d249c069442d94b8988286298179dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Examples/Example.unity using Guid(f2d249c069442d94b8988286298179dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c699c2c0de7f175ae32dbaff7fb9d7') in 0.013588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 63.611630 seconds.
-  path: Assets/CVDFilter/Scripts
-  artifactKey: Guid(0552fa65d8c148142877ce7d7fd56e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Scripts using Guid(0552fa65d8c148142877ce7d7fd56e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0be912717d198ffe48ba960aae067a') in 0.003365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.635047 seconds.
-  path: Assets/CVDFilter/Resources
-  artifactKey: Guid(003b43d5d8ccedb4586b4809a67885f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CVDFilter/Resources using Guid(003b43d5d8ccedb4586b4809a67885f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c66eb1123668ad1b3fedef7236b2ef8') in 0.007267 seconds 
+  Time since last request: 0.000420 seconds.
+  path: Assets/SuperTiled2Unity/Import/Roads.tmx
+  artifactKey: Guid(51dea2f4f3b3db249bde391ef3ec852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/Import/Roads.tmx using Guid(51dea2f4f3b3db249bde391ef3ec852b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5663dbc7b83b889a4f42c1fe64b75565') in 0.552802 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
