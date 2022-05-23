@@ -10407,6 +10407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 858525896}
   timeAtLastHit: 1
+  timeUntilRes: 4
 --- !u!114 &411456432 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -13044,6 +13045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1462666346}
   timeAtLastHit: 1
+  timeUntilRes: 4
 --- !u!114 &518236541 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -14370,6 +14372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1916831269}
   timeAtLastHit: 1
+  timeUntilRes: 4
 --- !u!114 &577165984 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -24275,6 +24278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 702425868}
   timeAtLastHit: 1
+  timeUntilRes: 4
 --- !u!1001 &941400178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25249,6 +25253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 336646137}
   timeAtLastHit: 1
+  timeUntilRes: 4
 --- !u!114 &965135781 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -35443,6 +35448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 56195356}
   timeAtLastHit: 1
+  timeUntilRes: 4
 --- !u!114 &1284041751 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -37259,6 +37265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1714622784}
   timeAtLastHit: 1
+  timeUntilRes: 4
 --- !u!114 &1371232222 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -37757,6 +37764,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1250220558}
   timeAtLastHit: 1
+  timeUntilRes: 4
 --- !u!114 &1382027615 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -44885,6 +44893,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 2839712}
   timeAtLastHit: 1
+  timeUntilRes: 4
 --- !u!114 &1694810731 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,
@@ -53860,6 +53869,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1500257377}
   timeAtLastHit: 1
+  timeUntilRes: 4
 --- !u!114 &2053250614 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2053250612, guid: e46b43051b68b9b4ea8ab56d272c04c8,

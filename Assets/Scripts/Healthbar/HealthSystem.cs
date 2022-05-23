@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class HealthSystem 
 {
-    public event EventHandler OnHealthChanged;
     public int health;
     private int maxHealth;
+    private float timeToRes = 5;
     public HealthSystem(int maxHealth) 
     {
         this.maxHealth = maxHealth;
@@ -39,5 +39,20 @@ public class HealthSystem
         {
             health = maxHealth;
         }
+    }
+    public bool RespawnTimer(bool status)
+    {
+        if (!status)
+        {
+            timeToRes -= Time.deltaTime;
+
+            if (timeToRes <= 0)
+            {
+                status = true;
+                timeToRes = 5;
+            }
+
+        }
+        return status;
     }
 }
