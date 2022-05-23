@@ -11,6 +11,9 @@ public class MenuController : MonoBehaviour
     [SerializeField] private TMP_Text volumeTextValue = null;
     [SerializeField] private Slider volumeSlider = null;
     [SerializeField] private float defaultVolume = 1.0f;
+    [SerializeField] private TMP_Text SFXVolumeTextValue = null;
+    [SerializeField] private Slider SFXVolumeSlider = null;
+    [SerializeField] private float SFXDefaultVolume = 1.0f;
 
     [Header("Gameplay Settings")]
     [SerializeField] private TMP_Text ControllerSenTextValue = null;
@@ -107,12 +110,22 @@ public class MenuController : MonoBehaviour
     {
         AudioListener.volume = volume;
 
-        volumeTextValue.text = volume.ToString("0.0");
+        SFXVolumeTextValue.text = volume.ToString("0.0");
+    }
+
+    public void SetSFXVolume(float volume)
+    {
+        AudioListener.volume = volume;
+
+        SFXVolumeTextValue.text = volume.ToString("0.0");
     }
 
     public void VolumeApply()
     {
         PlayerPrefs.SetFloat("masterVolume", AudioListener.volume);
+
+        PlayerPrefs.SetFloat("SFXVolume", AudioListener.volume);
+        
         StartCoroutine(ConfirmationBox());
     }
 
@@ -183,6 +196,9 @@ public class MenuController : MonoBehaviour
             AudioListener.volume = defaultVolume;
             volumeSlider.value = defaultVolume;
             volumeTextValue.text = defaultVolume.ToString("0.0");
+
+            SFXVolumeSlider.value = SFXDefaultVolume;
+            SFXVolumeTextValue.text = SFXDefaultVolume.ToString("0.0");
             VolumeApply();
         }
 

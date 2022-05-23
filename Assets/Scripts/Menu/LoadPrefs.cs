@@ -21,6 +21,8 @@ public class LoadPrefs : MonoBehaviour
     [Header("Audio Setting")]
     [SerializeField] private Slider volumeSlider = null;
     [SerializeField] private TMP_Text volumeTextValue = null;
+    [SerializeField] private Slider SFXVolumeSlider = null;
+    [SerializeField] private TMP_Text SFXVolumeTextValue = null;
 
     [Header("Brightness Setting")]
     [SerializeField] private Slider brightnessSlider = null;
@@ -49,6 +51,19 @@ public class LoadPrefs : MonoBehaviour
 
                 volumeTextValue.text = localVolume.ToString("0.0");
                 volumeSlider.value = localVolume;
+                AudioListener.volume = localVolume;
+            }   
+            else //just in case something goes wrong when using the settings sets it to default
+            {
+                menuController.ResetButton("Audio");
+            }
+            
+            if (PlayerPrefs.HasKey("SFXVolume"))
+            {
+                float localVolume = PlayerPrefs.GetFloat("SFXVolume");
+
+                SFXVolumeTextValue.text = localVolume.ToString("0.0");
+                SFXVolumeSlider.value = localVolume;
                 AudioListener.volume = localVolume;
             }
             else //just in case something goes wrong when using the settings sets it to default
