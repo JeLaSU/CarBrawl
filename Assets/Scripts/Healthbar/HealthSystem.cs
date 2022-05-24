@@ -3,11 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthSystem 
+public class HealthSystem
 {
-    public event EventHandler OnHealthChanged;
     public int health;
     private int maxHealth;
+    private float timeToRes = 2;
+    private bool timerStart = false;
+    
     public HealthSystem(int maxHealth) 
     {
         this.maxHealth = maxHealth;
@@ -40,4 +42,27 @@ public class HealthSystem
             health = maxHealth;
         }
     }
+    public bool RespawnTimer(bool status)
+    {
+        if (!status)
+        {
+            timerStart = true;
+            timeToRes -= Time.deltaTime;
+
+            if (timeToRes <= 0)
+            {
+                status = true;
+                timeToRes = 5;
+                health = maxHealth;
+            }
+
+        }
+        return status;
+    }
+    public void Update(Time deltaTime)
+    {
+
+    }
+    
+
 }

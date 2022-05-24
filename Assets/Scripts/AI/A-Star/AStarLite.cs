@@ -28,9 +28,14 @@ public class AStarLite : MonoBehaviour
 
     public bool isDebugActiveForCar = false;
 
+    private void Awake()
+    {
+        gameObject.GetComponent<AStarLite>().enabled = false;
+    }
 
     void Start()
     {
+
         CreateGrid();
     }
 
@@ -149,7 +154,8 @@ public class AStarLite : MonoBehaviour
                 break;
             }
 
-            CalculateCostsForNodeAndNeighbours(currentNode, currentPositionGridPoint, destinationGridPoint);
+            //if(startGame)
+                CalculateCostsForNodeAndNeighbours(currentNode, currentPositionGridPoint, destinationGridPoint);
 
             foreach (AStarNode neighbourNode in currentNode.neighbours)
             {
@@ -171,11 +177,13 @@ public class AStarLite : MonoBehaviour
             }
             else
             {
-                currentNode = nodesToCheck[0];
+                 currentNode = nodesToCheck[0];
             }
         }
-
-        aiPath = CreatePathForAI(currentPositionGridPoint);
+        //if (startGame)
+        //{
+            aiPath = CreatePathForAI(currentPositionGridPoint);
+        //}
 
         return aiPath;
     }
@@ -347,6 +355,10 @@ public class AStarLite : MonoBehaviour
 
         Gizmos.color = Color.red;
         Gizmos.DrawSphere(destinationPositionDebug, 0.2f);
+    }
+    public void BeginGame()
+    {
+        gameObject.GetComponent<AStarLite>().enabled = true;
     }
 
 }

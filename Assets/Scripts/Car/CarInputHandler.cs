@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CarInputHandler : MonoBehaviour
 {
+    public static CarInputHandler instance;
     TopDownCarController topDownCarController;
 
     void Awake()
@@ -16,7 +17,7 @@ public class CarInputHandler : MonoBehaviour
         
     }
 
-    void Update()
+    public void Update()
     {
         Vector2 inputVector = Vector2.zero;
 

@@ -6,9 +6,9 @@ public class TopDownCarController : MonoBehaviour
 {
     [Header("Car settings")]
     public float driftFactor = 0.95f;
-    public float accelerationFactor = 30.0f;
+    float accelerationFactor;
     public float turnFactor = 3.5f;
-    public float maxSpeed = 20;
+    public float maxSpeed = 10;
 
     float accelerationInput = 0;
     float steeringInput = 0;
@@ -21,6 +21,9 @@ public class TopDownCarController : MonoBehaviour
 
     public Weapon currentWeaponEquipped;
 
+
+    bool startGame = false;
+
     void Awake()
     {
         carRigidbody2D = GetComponent<Rigidbody2D>();
@@ -28,17 +31,17 @@ public class TopDownCarController : MonoBehaviour
 
     void Start()
     {
+        accelerationFactor = 0;
         rotationAngle = transform.rotation.eulerAngles.z;
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         ApplyEngineForce();
 
         KillOrthogonalVelocity();
 
         ApplySteering();
-        
     }
 
     void ApplyEngineForce()
@@ -108,6 +111,7 @@ public class TopDownCarController : MonoBehaviour
         inputVector.x = Mathf.Clamp(inputVector.x, -1.0f, 1.0f);
         inputVector.y = Mathf.Clamp(inputVector.y, -1.0f, 1.0f);
 
+
         steeringInput = inputVector.x;
         accelerationInput = inputVector.y;
     }
@@ -121,4 +125,9 @@ public class TopDownCarController : MonoBehaviour
     {
         return velocityVsUp;
     }
+    public void BeginGame()
+    {
+        accelerationFactor = 8f;
+    }
+
 }

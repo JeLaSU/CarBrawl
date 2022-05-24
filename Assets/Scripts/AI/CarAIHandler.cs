@@ -38,6 +38,8 @@ public class CarAIHandler : MonoBehaviour
 
     void Awake()
     {
+        gameObject.GetComponent<CarAIHandler>().enabled = false;
+
         topDownCarController = GetComponent<TopDownCarController>();
         allWayPoints = FindObjectsOfType<WaypointNode>();
 
@@ -303,5 +305,9 @@ public class CarAIHandler : MonoBehaviour
         else stuckCheckCounter = 0;
 
         isRunningStuckCheck = false;
+    }
+    public void BeginGame()
+    {
+        gameObject.GetComponent<CarAIHandler>().enabled = true;
     }
 }

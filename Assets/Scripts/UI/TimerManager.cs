@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,21 +6,41 @@ using UnityEngine.UI;
 
 public class TimerManager : MonoBehaviour
 {
+    //Used for calling in other classes.
+    public static TimerManager instance;
+
+    public bool timerGoing;
+
     public static int minuteCount, secondCount;
     public static float milliCount;
     public static string milliDisplay;
-
+    public string finalTime;
     public GameObject minuteBox;
     public GameObject secondBox;
     public GameObject milliBox;
 
+    private void Awake()
+    {
+        instance = this;
+    }
+    private void Start()
+    {
+        timerGoing = false;
+    }
+
     // Update is called once per frame
-    void Update()
+    private void Update()
     { //VARJE GAMETIME ÄR MILLIMILLI, GÅNGER MAN MED 10, BLIR DEN MILLI.
-        milliCount += Time.deltaTime * 10;
+        if(timerGoing)
+        {
+            milliCount += Time.deltaTime * 10;
+        }
+
         //F0 är en format av hur tiden är representerat.
         milliDisplay = milliCount.ToString("F0");
         milliBox.GetComponent<Text>().text = "" + milliDisplay;
+
+
 
         if(milliCount >= 10)
         {
@@ -50,5 +71,12 @@ public class TimerManager : MonoBehaviour
         {
             minuteBox.GetComponent<Text>().text = "" + minuteCount + ":";
         }
+
+        finalTime = minuteBox.GetComponent<Text>().text + 
+            secondBox.GetComponent<Text>().text + milliBox.GetComponent<Text>().text;
+    }
+    public void BeginGame()
+    {
+        timerGoing = true;
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class HealthController : MonoBehaviour
@@ -7,11 +8,26 @@ public class HealthController : MonoBehaviour
     // Start is called before the first frame update
     public HealthSystem healthSystem;
     public HealthBar healthBar;
-    private bool isHit = false;
+
     public float timeAtLastHit = 1f;
+
+    private float timer = 2f;
+    
+    private bool isHit = false;
+    private bool isDead = false;
+
+    TopDownCarController[] topDownCarController;
+    List<TopDownCarController> carList;
+
+
 
     private void Awake()
     {
+        topDownCarController = FindObjectsOfType<TopDownCarController>();
+
+        carList = new List<TopDownCarController>();
+
+        carList = topDownCarController.ToList();
 
     }
 
@@ -30,10 +46,8 @@ public class HealthController : MonoBehaviour
             || collision.gameObject.CompareTag("Player") && !isHit)
             
         {
-
             healthSystem.Damage(10);
             isHit = true;
-
         }
 
     }
@@ -51,9 +65,11 @@ public class HealthController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         IsHitTimer();
+        IsDead();
+
     }
 
     private void IsHitTimer()
@@ -66,11 +82,29 @@ public class HealthController : MonoBehaviour
             {
                 isHit = false;
             }
+
         }
         else
         {
             timeAtLastHit = 1f;
         }
 
+    }
+
+
+    private void IsDead()
+    {
+        foreach (TopDownCarController car in carList)
+        {
+            if (car.gameObject.GetComponent<HealthController>().healthSystem.health == 0)
+            {
+                car.enabled = false;
+
+                if (car.gameObject.GetComponent<HealthController>().healthSystem.RespawnTimer(car.enabled))
+                {
+                    car.enabled = true;
+                }
+            }
+        }
     }
 }
