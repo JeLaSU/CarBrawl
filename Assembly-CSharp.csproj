@@ -83,7 +83,7 @@
     <Compile Include="Assets\Scripts\Menu\LoadPrefs.cs" />
     <Compile Include="Assets\Scripts\Weapon\BoomClone.cs" />
     <Compile Include="Assets\Scripts\Car\CarSfxHandler.cs" />
-    <Compile Include="Assets\Scripts\CountDownManager.cs" />
+    <Compile Include="Assets\Scripts\UI\CountDownManager.cs" />
     <Compile Include="Assets\Scripts\UI\TimerManager.cs" />
     <Compile Include="Assets\Scripts\Car\TopDownCarController.cs" />
     <Compile Include="Assets\Scripts\CheckPoint\CarLapCounter.cs" />

@@ -9,13 +9,25 @@ public class CarLapCounter : MonoBehaviour
     //c# event
     public event Action<CarLapCounter> onPassCheckpoint;
 
+    public static CarLapCounter instance;
+
     //Text objekt matas in ifrån unity.
     public Text carLapText;
+    public Text counterTex;
 
     private int passedCheckPointNumber = 0, numberOfPassedCheckpoints = 0, 
-        carPosition = 0, lapsCompleted, lapsToComplete = 3;
+        carPosition = 0, lapsCompleted = 1, lapsToComplete = 4;
 
     private float timeAtLastCheckpoint = 0;
+
+    public bool stopTimer = false;
+
+    
+
+    public void Awake()
+    {
+        instance = this;
+    }
 
     //Sets the car position from positionHandler. If the car is first or second and so on.
     public void SetCarPosition(int position)
@@ -58,6 +70,12 @@ public class CarLapCounter : MonoBehaviour
                 {
                     passedCheckPointNumber = 0;
                     lapsCompleted++;
+
+                    if (lapsCompleted == lapsToComplete)
+                    {
+                        CountDownManager.instance.OpenCountDisplay();
+                    }
+                    
                 }
 
                 //Invoke the checkpoint which the car passed
@@ -68,10 +86,15 @@ public class CarLapCounter : MonoBehaviour
     }
     private void Update()
     {
-        if (CompareTag("Player"))
+        LapUpdate();
+    }
+    private void LapUpdate()
+    {
+        if (CompareTag("Player") && lapsCompleted < lapsToComplete)
         {
             //Change the label of laps, based by the lapscompleted. +1, because we want it to start as 1/3.
             carLapText.GetComponent<Text>().text = lapsCompleted + " / 3";
+
         }
     }
 }

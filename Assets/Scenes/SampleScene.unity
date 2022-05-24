@@ -3951,7 +3951,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.0005340576, y: -0.000020980835}
-  m_SizeDelta: {x: 270, y: 270}
+  m_SizeDelta: {x: 1000, y: 270}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &164501644
 MonoBehaviour:
@@ -24549,6 +24549,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carLapText: {fileID: 682469980}
+  counterTex: {fileID: 164501644}
+  stopTimer: 0
 --- !u!114 &938922778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26490,6 +26492,7 @@ MonoBehaviour:
   - {fileID: 518236539}
   - {fileID: 965135779}
   - {fileID: 1694810729}
+  timeToLast: 2
 --- !u!114 &992580488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26502,6 +26505,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0bf47423f3c6114a9ecb89899a4fe58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timerGoing: 0
+  finalTime: 
   minuteBox: {fileID: 1135194221}
   secondBox: {fileID: 812346939}
   milliBox: {fileID: 769684309}

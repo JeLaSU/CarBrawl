@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
     {
         TimerManager.instance.BeginGame();
     }
-
+    
     
 
 }

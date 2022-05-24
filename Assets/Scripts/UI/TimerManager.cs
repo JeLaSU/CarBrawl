@@ -9,12 +9,12 @@ public class TimerManager : MonoBehaviour
     //Used for calling in other classes.
     public static TimerManager instance;
 
-    public static bool timerGoing;
+    public bool timerGoing;
 
     public static int minuteCount, secondCount;
     public static float milliCount;
     public static string milliDisplay;
-
+    public string finalTime;
     public GameObject minuteBox;
     public GameObject secondBox;
     public GameObject milliBox;
@@ -71,6 +71,9 @@ public class TimerManager : MonoBehaviour
         {
             minuteBox.GetComponent<Text>().text = "" + minuteCount + ":";
         }
+
+        finalTime = minuteBox.GetComponent<Text>().text + 
+            secondBox.GetComponent<Text>().text + milliBox.GetComponent<Text>().text;
     }
     public void BeginGame()
     {
