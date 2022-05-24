@@ -10,8 +10,11 @@ public class HealthController : MonoBehaviour
     public HealthBar healthBar;
 
     public float timeAtLastHit = 1f;
+
+    private float timer = 2f;
     
     private bool isHit = false;
+    private bool isDead = false;
 
     TopDownCarController[] topDownCarController;
     List<TopDownCarController> carList;
@@ -99,7 +102,6 @@ public class HealthController : MonoBehaviour
 
                 if (car.gameObject.GetComponent<HealthController>().healthSystem.RespawnTimer(car.enabled))
                 {
-                    car.gameObject.GetComponent<HealthController>().healthSystem.health = 100;
                     car.enabled = true;
                 }
             }
