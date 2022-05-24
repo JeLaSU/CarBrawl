@@ -10,6 +10,9 @@ public class CountDownManager : MonoBehaviour
     public int countDownTime;
     public Text countDownDisplay;
     public TopDownCarController[] cars;
+    public AStarLite[] carsAI;
+    public CarAIHandler[] carAIHandler;
+
 
     private void Start()
     {
@@ -34,6 +37,11 @@ public class CountDownManager : MonoBehaviour
         for (int i = 0; i < cars.Length; i++)
         {
             cars[i].BeginGame();
+        }
+        for (int i = 0; i < carsAI.Length; i++)
+        {
+            carsAI[i].BeginGame();
+            carAIHandler[i].BeginGame();
         }
 
         yield return new WaitForSeconds(1f);

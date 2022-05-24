@@ -37,7 +37,6 @@ public class GameManager : MonoBehaviour
     public void BeginGame()
     {
         TimerManager.instance.BeginGame();
-        AStarLite.instance.BeginGame();
     }
 
     
