@@ -766,6 +766,10 @@
       <Project>{35635E6E-6610-3776-31CA-34135F697CC5}</Project>
       <Name>UnityEngine.Advertisements.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.Player.csproj">
+      <Project>{37F316B3-4BF4-0A2E-1663-184569D642A9}</Project>
+      <Name>Unity.InputSystem.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{C776BC07-A6CB-4F3D-0D9F-5C19E566A1A7}</Project>
       <Name>UnityEngine.UI.Player</Name>
