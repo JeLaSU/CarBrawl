@@ -6,7 +6,7 @@ public class TopDownCarController : MonoBehaviour
 {
     [Header("Car settings")]
     public float driftFactor = 0.95f;
-    public float accelerationFactor = 0;
+    float accelerationFactor;
     public float turnFactor = 3.5f;
     public float maxSpeed = 10;
 
@@ -22,6 +22,7 @@ public class TopDownCarController : MonoBehaviour
     public Weapon currentWeaponEquipped;
 
 
+    bool startGame = false;
 
     void Awake()
     {
@@ -30,6 +31,7 @@ public class TopDownCarController : MonoBehaviour
 
     void Start()
     {
+        accelerationFactor = 0;
         rotationAngle = transform.rotation.eulerAngles.z;
     }
 
@@ -123,4 +125,9 @@ public class TopDownCarController : MonoBehaviour
     {
         return velocityVsUp;
     }
+    public void BeginGame()
+    {
+        accelerationFactor = 8f;
+    }
+
 }

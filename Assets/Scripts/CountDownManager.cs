@@ -10,13 +10,10 @@ public class CountDownManager : MonoBehaviour
     public int countDownTime;
     public Text countDownDisplay;
     public TopDownCarController[] cars;
-    bool startDriving = false;
-
 
     private void Start()
     {
         StartCoroutine(CountDownStart());
-
     }
 
     public IEnumerator CountDownStart()
@@ -32,29 +29,16 @@ public class CountDownManager : MonoBehaviour
 
         countDownDisplay.text = "G0";
 
-        TimerManager.instance.BeginGame();
+        GameManager.instance.BeginGame();
+
+        for (int i = 0; i < cars.Length; i++)
+        {
+            cars[i].BeginGame();
+        }
+
+        yield return new WaitForSeconds(1f);
 
         countDownDisplay.GetComponent<Text>().gameObject.SetActive(false);
 
-        startDriving = true;
-
-    }
-
-    public void FixedUpdate()
-    {
-        StartGame();
-    }
-    public void StartGame()
-    {
-        if(startDriving)
-        {
-            List<TopDownCarController> carList = new List<TopDownCarController>();
-            carList = cars.ToList();
-
-            foreach (TopDownCarController car in carList)
-            {
-                car.accelerationFactor = 8f;
-            }
-        }
     }
 }

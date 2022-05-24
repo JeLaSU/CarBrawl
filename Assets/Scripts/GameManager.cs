@@ -13,6 +13,13 @@ public class GameManager : MonoBehaviour
     public Text speedText;
     private float startPosition = 210f, endPosition = -20, desiredPoisiton;
     public float vechileSpeed;
+    
+
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     // Update is called once per frame
     private void FixedUpdate()
@@ -29,8 +36,10 @@ public class GameManager : MonoBehaviour
     }
     public void BeginGame()
     {
-        
+        TimerManager.instance.BeginGame();
+        AStarLite.instance.BeginGame();
     }
+
     
 
 }

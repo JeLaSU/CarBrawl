@@ -29,9 +29,22 @@ public class AStarLite : MonoBehaviour
     public bool isDebugActiveForCar = false;
 
 
+    public static AStarLite instance;
+    bool startGame = false;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     void Start()
     {
-        CreateGrid();
+        instance = this;
+
+        if (startGame)
+        {
+            CreateGrid();
+        }
     }
 
     void CreateGrid()
@@ -347,6 +360,10 @@ public class AStarLite : MonoBehaviour
 
         Gizmos.color = Color.red;
         Gizmos.DrawSphere(destinationPositionDebug, 0.2f);
+    }
+    public void BeginGame()
+    {
+        startGame = true;
     }
 
 }
