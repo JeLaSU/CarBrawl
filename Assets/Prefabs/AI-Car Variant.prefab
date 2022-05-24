@@ -525,6 +525,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6558350185343971735, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558350185343971735, guid: d017faad03b9aa946ab12ed85bb3607f,
+        type: 3}
       propertyPath: m_TagString
       value: AI
       objectReference: {fileID: 0}
@@ -532,6 +537,11 @@ PrefabInstance:
         type: 3}
       propertyPath: maxSpeed
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558350185343971738, guid: d017faad03b9aa946ab12ed85bb3607f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6558350185343971738, guid: d017faad03b9aa946ab12ed85bb3607f,
         type: 3}
@@ -608,8 +618,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b80f085d4669e47aab29c117964182, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lapsCompleted: 0
-  lapsToComplete: 3
   carLapText: {fileID: 0}
 --- !u!114 &2053250613
 MonoBehaviour:

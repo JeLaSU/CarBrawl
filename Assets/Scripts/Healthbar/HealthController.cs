@@ -62,7 +62,7 @@ public class HealthController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         IsHitTimer();
         IsDead();

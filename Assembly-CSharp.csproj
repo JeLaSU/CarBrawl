@@ -75,7 +75,7 @@
     <Compile Include="Assets\Scripts\Healthbar\HealthController.cs" />
     <Compile Include="Assets\Scripts\AI\A-Star\AStarNode.cs" />
     <Compile Include="Assets\Scripts\AI\DrawPathHandler.cs" />
-    <Compile Include="Assets\Scripts\ClickButton.cs" />
+    <Compile Include="Assets\Scripts\Menu\ClickButton.cs" />
     <Compile Include="Assets\Scripts\Car\CarInputHandler.cs" />
     <Compile Include="Assets\Scripts\CheckPoint\PositionHandler.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\Menu\LoadPrefs.cs" />
     <Compile Include="Assets\Scripts\Weapon\BoomClone.cs" />
     <Compile Include="Assets\Scripts\Car\CarSfxHandler.cs" />
+    <Compile Include="Assets\Scripts\CountDownManager.cs" />
     <Compile Include="Assets\Scripts\UI\TimerManager.cs" />
     <Compile Include="Assets\Scripts\Car\TopDownCarController.cs" />
     <Compile Include="Assets\Scripts\CheckPoint\CarLapCounter.cs" />

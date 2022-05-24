@@ -5856,9 +5856,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   driftFactor: 0.93
-  accelerationFactor: 30
+  accelerationFactor: 8
   turnFactor: 3.5
-  maxSpeed: 20
+  maxSpeed: 10
   currentWeaponEquipped: {fileID: 0}
 --- !u!114 &6558350185343971739
 MonoBehaviour:

@@ -18,5 +18,6 @@ public class CarController : MonoBehaviour
     void Update()
     {
         speed = rigidbody2d.velocity.sqrMagnitude;
+        
     }
 }

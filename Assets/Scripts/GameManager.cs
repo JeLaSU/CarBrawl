@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +7,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-
+    public static GameManager instance;
     public GameObject needle;
     public CarController carController;
     public Text speedText;
@@ -14,12 +15,10 @@ public class GameManager : MonoBehaviour
     public float vechileSpeed;
 
     // Update is called once per frame
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         vechileSpeed = carController.speed*1.4f;
         UpdateNeedle();
-
-        
     }
     private void UpdateNeedle()
     {
@@ -27,6 +26,10 @@ public class GameManager : MonoBehaviour
         float temp = vechileSpeed / 180;
         needle.transform.eulerAngles = new Vector3(0, 0, (startPosition - temp * desiredPoisiton));
 
+    }
+    public void BeginGame()
+    {
+        
     }
     
 
