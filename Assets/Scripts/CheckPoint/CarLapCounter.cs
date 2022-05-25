@@ -71,7 +71,7 @@ public class CarLapCounter : MonoBehaviour
                     passedCheckPointNumber = 0;
                     lapsCompleted++;
 
-                    if (lapsCompleted == lapsToComplete)
+                    if (lapsCompleted == lapsToComplete && CompareTag("Player"))
                     {
                         CountDownManager.instance.OpenCountDisplay();
                     }
