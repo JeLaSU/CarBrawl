@@ -79,4 +79,10 @@ public class TimerManager : MonoBehaviour
     {
         timerGoing = true;
     }
+    public void RestartGame()
+    {
+        milliCount = 0f;
+        secondCount = 0;
+        minuteCount = 0;
+    }
 }

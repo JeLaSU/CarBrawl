@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -26,6 +27,11 @@ public class GameManager : MonoBehaviour
     {
         vechileSpeed = carController.speed*1.4f;
         UpdateNeedle();
+        
+    }
+    private void Update()
+    {
+        GoBackToMenuOnInput();
     }
     private void UpdateNeedle()
     {
@@ -38,7 +44,14 @@ public class GameManager : MonoBehaviour
     {
         TimerManager.instance.BeginGame();
     }
-    
-    
+    public void GoBackToMenuOnInput()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            TimerManager.instance.RestartGame();
+        }
+    }
+
 
 }
